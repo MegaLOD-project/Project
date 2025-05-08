@@ -13,6 +13,7 @@
 | edm        | http://www.europeana.eu/schemas/edm                   |
 | geo        | http://www.w3.org/2003/01/geo/wgs84_pos#              |
 | time       | http://www.w3.org/2006/time#                          |
+| qudt       |  http://qudt.org/3.1.0/schema/qudt                     | 
 | ah         | https://purl.org/megalod/ms/ah/                       |
 | excav      | https://purl.org/megalod/ms/excavation/               |
 | axe        | https://purl.org/megalod/ms/axe/                      |
@@ -56,27 +57,28 @@
 | __An instant (year BC or AC) in time__                              |                                          |                                          | excav:Instant                            | 0-1         |                        |
 | Before (True) or After (False) christ                               | excav:Instant                            | xsd:boolean                              | excav:bc                                 | 0-1         |                        |
 | Year                                                                | excav:Instant                            | xsd:gYear                                | time:inXSDgYear                          | 0-1         |                        |
-| The Item was found in the Square                                    | excav:Item                               | excav:Square                             | excav:foundOnSquare                      | 0-1         |                        |
+| The Item was found in the Square                                    | excav:Item                               | excav:Square                             | excav:foundInSquare                      | 0-1         |                        |
 | __Square__                                                          | excav:Square                             |                                          |                                          |             |                        |
+| ID                                                                  | excav:Square                             | xsd:Literal                              | dcterms:identifier                       | 1-1         |                        |         
 | North-South quota                                                   | excav:Square                             | xsd:decimal                              | excav:NS                                 | 0-1         |                        |
 | East-West quota                                                     | excav:Square                             | xsd:decimal                              | excav:EW                                 | 0-1         |                        |
 | __The encounter event__                                             |                                          |                                          | excav:EncounterEvent                     |             |                        |
 | Date                                                                | excav:EncounterEvent                     | xsd:Literal                              | dcterms:date                             | 0-1         |                        |
-| Finding                                                             | excav:EncounterEvent                     | excav:Item                               | crmsci:O19_encountered_object            | 0-M         |                        |
-| Item found In a StratigraphicVolumeUnit                             | excav:EncounterEvent                     | excav:StratigraphicVolumeUnit            | excav:foundInSVU                         | 0-1         |                        |
-| Item found In a Context                                             | excav:EncounterEvent                     | excav:Context                            | excav:foundInAContext                    | 0-1         |                        |
-| Item found In a Excavation                                          | excav:EncounterEvent                     | excav:Excavation                         | excav:foundInAExcavation                 | 0-1         |                        |
+| The finding                                                         | excav:EncounterEvent                     | excav:Item                               | crmsci:O19_encountered_object            | 0-M         |                        |
+| Item found in a StratigraphicVolumeUnit                             | excav:EncounterEvent                     | excav:StratigraphicVolumeUnit            | excav:foundInSVU                         | 0-1         |                        |
+| Item found in a Context                                             | excav:EncounterEvent                     | excav:Context                            | excav:foundInAContext                    | 0-1         |                        |
+| Item found in a Excavation                                          | excav:EncounterEvent                     | excav:Excavation                         | excav:foundInAExcavation                 | 0-1         |                        |
 | __Item__                                                            |                                          |                                          | excav:Item                               |             |                        |
-| InventoryID                                                         | excav:Item                               | xsd:xsd:Literal                          | dcterms:identifier                       | 1-1         |                        |
+| InventoryID                                                         | excav:Item                               | xsd:iteral                               | dcterms:identifier                       | 1-1         |                        |
 | Images or 3d Models of the Item                                     | excav:Item                               | xsd:anyURI                               | edm:Webresource                          | 0-M         |                        |
 | Observation details of the Item                                     | excav:Item                               | xsd:Literal                              | dbo:Annotation                           | 0-M         |                        |
 | The Condition State of the Item      (Complete=True; Broken=False)  | excav:Item                               | xsd:boolean                              | crm:E3_Condition_State                   | 0-1         |                        |
 | Material (made with)                                                | excav:Item                               | xsd:anyURI                               | crm:E57_Material                         | 0-M         | Getty Vocab AAT        |
-| The Item was find in the Coordinates   
-| __Coordinates__                                                     | excav:Coordinates            
-| X coordinate
-| Y Coordinate
-| Depth (in meters)                                                    | excav:EncounterEvent                      | xsd:decimal                               | dbo:depth                                | 0-1         |                        |
+| The Item was found in the Coordinates (within the square)           | excav:Item                               | excav:Coordinates                        | excav:hasCoordinatesInSquare             | 0-1         |                        |  
+| __Coordinates__                                                     |                                          |                                          | excav:Coordinates                        |             |                        |          
+| X coordinate                                                        | excav:Coordinates                        | xsd:decimal                              | qudt:X                                   | 0-1         |                        |  
+| Y Coordinate                                                        | excav:Coordinates                        | xsd:decimal                              | qudt:Y             AQUI                      | 0-1         |                        |  
+| Depth (in meters)                                                   | excav:Coordinates                        | xsd:decimal                              | qudt:depth                               | 0-1         |                        |
 | __Typometry__                                                       |                                          |                                          | excav:Typometry                          | 0-1         |                        |
 | Height of the arrowhead (in mm)                                     | excav:Item                               | xsd:decimal                              | crm:E54_Dimension                        | 0-1         |                        |
 | Width  of the arrowhead (in mm)                                     | excav:Item                               | xsd:decimal                              | crm:E54_Dimension                        | 0-1         |                        |
