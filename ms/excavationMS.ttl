@@ -1,0 +1,174 @@
+@prefix excav: <https://purl.org/megalod/ms/excavationMS#> .
+@prefix ah: <http://www.purl.com/megalod/ms/ahMS#> .
+@prefix ah-vocab:<http://www.purl.com/megalod/kos/ah#>.
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dbo:<http://dbpedia.org/ontology/> .
+@prefix time:<http://www.w3.org/2006/time#> .
+@prefix crm:<http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmsci:<http://cidoc-crm.org/extensions/crmsci/> .
+@prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
+@prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+
+
+<https://purl.org/ah/ms/excavationMS> 
+  a voaf:metadataVoc, owl:Ontology;
+  voaf:specializes excav:;
+  dct:title "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
+  rdfs:label "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
+  dct:abstract "Excavation metdata scheme is vocabulary to be used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for the descrition of the activities of arqueological excavations"@en;
+  dct:creator [
+    schema:affiliation <http://www.w3.org/data#W3C>;
+    rdfs:seeAlso <http://www.w3.org/> ;
+    foaf:homepage <http://www.w3.org/> ;
+    foaf:name "W3C"
+  ] ,
+  [
+    rdfs:seeAlso <http://fe.up.pt/> ;  
+    foaf:homepage <https://www.up.pt/portal/en/> ;        
+    foaf:name "Mariana Curado Malta" ;
+    foaf:maker [
+      foaf:name "Mariana Curado Malta";
+      foaf:homepage <http://fe.up.pt/>;
+    ], [
+    schema:affiliation [
+      foaf:homepage <https://sigarra.up.pt/feup/pt/fest_geral.cursos_list?pv_num_unico=201906680> ;  
+      foaf:name "Domingos Santos"
+    ] ;
+    rdfs:seeAlso <http://fe.up.pt/> ; 
+    foaf:homepage <https://www.up.pt/portal/en/> ;       
+    foaf:name "Universidade do Porto"
+  ]
+  ] ;
+  dct:description """This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .""";
+  dct:modified "2024-"^^xsd:date;
+  vann:preferredNamespacePrefix "excav";
+  vann:preferredNamespaceUri "https://purl.org/megalod/ms/excavationMS";
+  rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWhead MAP"@en;
+  wdrs:describedby <https://purl.org/megalod/map> .
+
+  #===========  #------<>-------------------------------<>-----#  ===========#
+  #===========  #------<>       CLASSES                 <>-----#  ===========#
+  #===========  #------<>-------------------------------<>-----#	===========#
+                #======<>===============================<>=====#
+
+excav:Archaeologist
+	a rdfs:Class;
+	rdfs:comment "This Class represents the Archaeologist in charge of the excavation."@en;
+	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
+	rdfs:label "Location - has GPS Coordinates"@en;
+  owl:equivalentClass crm:E21_Person;
+  rdfs:SubClassOf foaf:Person;
+	vann:usageNote "Non-mandatory Property - 0..1"@en .
+
+
+              #======<>===============================<>=====#
+#===========  #------<>-------------------------------<>-----#  ===========#
+#===========  #------<>          Properties           <>-----#  ===========#
+#===========  #------<>-------------------------------<>-----#	===========#
+              #======<>===============================<>=====#
+
+     
+#>-----------------------------------------<#
+#>           Data Properties             <#
+#>-----------------------------------------<#
+excav:bc
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (true) or After christ (false)."@en;
+	  rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes (true) ou depois  (false) de cristo (false)."@en;
+	rdfs:isDefinedBy <https://purl.org/ah>;
+	rdfs:label "Definition of the period in time (BC=True or AC)."@en;
+        rdfs:label "Definição do periodo no tempo (BC=True or AC)."@en;
+        rdfs:domain time:Instant;
+	rdfs:range xsd:boolean;
+	vann:usageNote "Non-mandatory Property - 0..1"@en.
+     
+#>-----------------------------------------<#
+#>           Object Properties             <#
+#>-----------------------------------------<#
+
+
+excav:hasGPSCoordinates
+	a rdf:Property,	owl:ObjectProperty;
+	rdfs:comment "This property points to an instance of the GPS coordinates of the central point of the excavation's location (in degrees)."@en;
+	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
+	rdfs:label "Location - has GPS Coordinates"@en;
+  rdfs:domain dbo:Place;
+	rdfs:range geo:SpatialThing;
+	vann:usageNote "Non-mandatory Property - 0..1"@en .
+
+excav:hasPersonInCharge
+  a rdf:Property,	owl:ObjectProperty;
+  rdfs:comment "This property points to the person in charge of the excavation (an Archaeologist)."@en;
+  rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
+  rdfs:label "Excavation - has a person in charge -> Archaeologist"@en;
+  rdfs:domain crmarchaeo:A9_Archaeological_Excavation;
+  rdfs:range excav:Archaeologist;
+  vann:usageNote "non-mandatory Property - 0..1"@en .
+
+excav:hasContext
+  	a rdf:Property,	owl:ObjectProperty;
+  	rdfs:comment "This property points to the context of an excavation."@en;
+  	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
+  	rdfs:label "Excavation - hasContext"@en;
+    rdfs:domain crmarchaeo:A9_Archaeological_Excavation;
+  	rdfs:range crmarchaeo:A1_Excavation_Processing_Unit;
+  	vann:usageNote "non-mandatory Property - 0..M"@en .
+
+excav:hasSVU
+  	a rdf:Property,	owl:ObjectProperty;
+  	rdfs:comment "This property points to the StratigraphicVolumeUNit (CIDOC CRM A1)."@en;
+  	rdfs:label "This property points to the to the  StratigraphicVolumeUNit"@en;
+    rdfs:domain crmarchaeo:A1_Excavation_Processing_Unit;
+  	rdfs:range crmarchaeo:A2_Stratigraphic_Volume_Unit;
+  	vann:usageNote "non-mandatory Property - 0..M"@en.
+
+excav:hasTimeline
+  	a rdfs:Class;
+  	rdfs:comment "This property points to the specific timeline of the the layer ."@en;
+  	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
+  	rdfs:label "StratigraphicVolumeUnit - has a timeline"@en;
+    rdfs:domain crmarchaeo:A2_Stratigraphic_Volume_Unit;
+  	rdfs:range time:TemporalEntity;
+  	vann:usageNote "non-mandatory Property - o..1"@en .
+
+excav:foundInSVU
+  a rdf:Property, owl:ObjectProperty;
+  rdfs:comment "Points to the StratigraphicVolumeUnitwhere the item was found finding."@en;
+  rdfs:label "Encounter Event - an item found in a specific StratigraphicVolumeUnit"@en;
+  rdfs:domain crmsci:S19_Encounter_Event;
+  rdfs:range crmarchaeo:A2_Stratigraphic_Volume_Unit;
+  vann:usageNote "non-mandatory Property - 0..M"@en .
+
+excav:foundInAContext
+  a rdf:Property, owl:ObjectProperty;
+  rdfs:comment "Points to the Context where the item was found."@en;
+  rdfs:label "The Encounter Event - an item found in a specific Context"@en;
+  rdfs:domain crmsci:S19_Encounter_Event;
+  rdfs:range crmarchaeo:A1_Excavation_Processing_Unit;
+  vann:usageNote "Mandatory Property - 0..1"@en .
+     
+excav:foundInAExcavation
+  a rdf:Property, owl:ObjectProperty;
+  rdfs:comment "Points to the Excavation where the item was found."@en;
+  rdfs:label "The Encounter Event - an item found in a specific Excavation"@en;
+  rdfs:domain crmsci:S19_Encounter_Event;
+  rdfs:range crmarchaeo:A9_Archaeological_Excavation;
+  vann:usageNote "Mandatory Property - 0..1"@en .
+
+
+     
+#>---------------------------------------------------------<#
+#>      THE END END END END END END END END END            <#
+#>---------------------------------------------------------<#
