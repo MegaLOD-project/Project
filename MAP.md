@@ -10,14 +10,14 @@
 | crm        | http://www.cidoc-crm.org/cidoc-crm/                   |
 | crmsci     | https://cidoc-crm.org/extensions/crmsci/              |
 | crmarchaeo | http://www.cidoc-crm.org/extensions/crmarchaeo/       |
-| edm        | http://www.europeana.eu/schemas/edm                   |
+| edm        | http://www.europeana.eu/schemas/edm/                  |
 | geo        | http://www.w3.org/2003/01/geo/wgs84_pos#              |
 | time       | http://www.w3.org/2006/time#                          |
-| qudt       |  http://qudt.org/3.1.0/schema/qudt                     | 
+| schema     |  http://schema.org/                                   | 
 | ah         | https://purl.org/megalod/ms/ah/                       |
 | excav      | https://purl.org/megalod/ms/excavation/               |
 | axe        | https://purl.org/megalod/ms/axe/                      |
-| lw         | https://purl.org/megalod/ms/loomWeight/              |
+| lw         | https://purl.org/megalod/ms/loomWeight/               |
 
 
 # MegaLOD Metadata Application Profile
@@ -61,7 +61,7 @@
 | The Item was found in the Square                                    | excav:Item                               | excav:Square                             | excav:foundInSquare                      | 0-1         |                        |
 | __Square__                                                          | excav:Square                             |                                          |                                          |             |                        |
 | ID                                                                  | excav:Square                             | xsd:Literal                              | dcterms:identifier                       | 1-1         |                        |         
-| North-South quota         VER                                          | excav:Square                             | xsd:decimal                              | excav:NS                                 | 0-1         |                        |
+| North-South quota                                                   | excav:Square                             | xsd:decimal                              | excav:NS                                 | 0-1         |                        |
 | East-West quota                                                     | excav:Square                             | xsd:decimal                              | excav:EW                                 | 0-1         |                        |
 | __The encounter event__                                             |                                          |                                          | excav:EncounterEvent                     |             |                        |
 | Date                                                                | excav:EncounterEvent                     | xsd:Literal                              | dcterms:date                             | 0-1         |                        |
@@ -87,12 +87,12 @@
 | Width  of the arrowhead                                             | excav:Item                               | excav:TypometryValue                     | schema:width                               | 0-1         |                     |
 | Thickness  of the arrowhead                                         | excav:Item                               | xsd:decimal                              | schema:depth                               | 0-1         |                     |
 | __TypometryValue__                                                  |                                          |                                          | excav:TypometryValue                       | | |
-| Value                                                               | excav:Depth                              | xsd:decimal                              | schema:value                               | 0-1      | |
-| Unit                                                                | excav:Depth                              | xsd:anyURI                               | schema:UnitCode                            | 0-1      | A code: MTR, CMNT, or MMT.|
+| Value                                                               | excav:TypometryValue                              | xsd:decimal                              | schema:value                               | 0-1      | |
+| Unit                                                                | excav:TypometryValue                              | xsd:anyURI                               | schema:UnitCode                            | 0-1      | A code: MTR, CMNT, or MMT.|
 | Weight                                                              | excav:Item                               | excav:Weight                              | schema:wheight                            | | |
 | __Weight__                                                          |                                          |                                           | excav:Weight                              | | |
-| Value                                                               | excav:Depth                              | xsd:decimal                               | schema:value                              | 0-1      | |
-| Unit                                                                | excav:Depth                              | xsd:anyURI                                | schema:UnitCode                           | 0-1      | A code: KGM or GRM.|
+| Value                                                               | excav:Weight                              | xsd:decimal                               | schema:value                              | 0-1      | |
+| Unit                                                                | excav:Weight                              | xsd:anyURI                                | schema:UnitCode                           | 0-1      | A code: KGM or GRM.|
 | Elongation  Index                                                   | excav:Item                               | xsd:decimal                               | excav:elongation                          | 0-1 | MegaLOD-IndexElongation|
 | Thickness    Index                                                  | excav:Item                               | xsd:decimal                               | excav:thickness                           | 0-1 | MegaLOD-IndexThickness|
 | __ArrowHead__                                                       |                                          |                                           | excav:ArrowHead                            |          |                       |
