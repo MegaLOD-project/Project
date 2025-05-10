@@ -11,17 +11,22 @@ URI: https//purl.org/megalod/ms/excav/
 | Excavation                              | Excavation              | rdfs:subClassOf crmarchaeo:A9_Archaeological_Excavation|                                 
 | Archaeologist                           | Archaeologist           | rdfs:subClassOf foaf:Person; owl:equivalentClass crm:E21_Person; |                               
 | Location                                | Location                | rdfs:subClassOf dbo:Place|                           
-| GPS Coordinates                         | GPSCoordinates          | rdfs:subClassOfgeo:SpatialThing |                     
+| GPS Coordinates                         | GPSCoordinates          | rdfs:subClassOf geo:SpatialThing |                     
 | Encounter Event                         | EncounterEvent          | rdfs:subClassOf crmsci:S19_Encounter_Event    |                                   
 | Stratigraphic Volume Unit               | StratigraphicVolumeUnit | rdfs:subClassOf crmarchaeo:A2_Stratigraphic_Volume_Unit|                                       
 | Context                                 | Context                 | rdfs:subClassOf crmarchaeo:A1_Excavation_Processing_Unit|
 | TimeLine                                | TimeLine                | rdfs:subClassOf time:TemporalEntity|
 | Instant                                 | Instant                 | rdfs:subClassOf time:Instant|
+| Square                                  | Square                  | rddfs:subClassOf schema: Place |
+| Coordinates                             | Coordinates             | rddfs:subClassOf schema:GeoCoordinates |
+| Weight                                  | Weight                  | rddfs:subClassOf schema:QuantitativeValue |
+| Depth                                   | Depth                   | rddfs:subClassOf schema:QuantitativeValue |
+| TypometryValue                          | TypometryValue          | rddfs:subClassOf schema:QuantitativeValue |
 | Item                                    | Item                    | rdfs:subClassOf crm:E24_Physical_Man-Made_Thing|   
 
 
 
-## Terms
+## Terms FIQUEI AQUI
 | Label                                   | Vocabulary Term         | Domain                             |Range |
 |-----------------------------------------|-------------------------|------------------------------------|------|
 | has GPS Coordinates                     | hasGPSCoordinates       | excav:Location                     | excav:GPSCoordinates                       |
