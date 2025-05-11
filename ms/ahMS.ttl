@@ -25,13 +25,13 @@
   voaf:specializes ah:;
   dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
-	dct:abstract "ArowHeads is a profile of Arrowheads Vocabulary, used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for ..............."@en;
+	dct:abstract "Arrowhead V1.1 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
 	
 	dct:creator [
-    schema:affiliation <http://www.w3.org/data#W3C>;
-    rdfs:seeAlso <http://www.w3.org/> ;
-    foaf:homepage <http://www.w3.org/> ;
-    foaf:name "W3C"
+        schema:affiliation <http://inesctec.pt>;
+		           schema:affiliation <http://fe.up.pt>;
+		           schema:affiliation <http://https://cham.fcsh.unl.pt>;
+		        schema:affiliation <http://https://www.fcsh.unl.pt>;
   ] ,
   [
     rdfs:seeAlso <http://fe.up.pt/> ;  
@@ -50,12 +50,12 @@
     foaf:name "Universidade do Porto"
   ]
   ] ;
-	dct:description """This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .""";
-	dct:modified "2024-"^^xsd:date;
+	dct:description "This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .";
+	dct:modified "2025-05-11"^^xsd:date;
 	vann:preferredNamespacePrefix "ah";
-	vann:preferredNamespaceUri "http://www.purl.com/ah";
-	rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWheads MAP"@en;
-	wdrs:describedby <http://www.yourdomain.com/arrowheads/documentation> .
+	vann:preferredNamespaceUri "http://www.purl.org/megaLOD/ms/ah";
+	rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWheads metadata scheme"@en;
+	wdrs:describedby <http://purl.org/megalod/ms/ah> .
 
 
 
@@ -67,10 +67,10 @@
 
 ah:Morphology
 	a rdfs:Class;
-	rdfs:comment "Morphology of the arrowhead.."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/kos>;
-	rdfs:label "Morphology"@en.
-
+	rdfs:comment "Morphology of the arrowhead."@en;
+rdfs:comment "Morphologia da Ponta de Seta."@pt;
+	rdfs:isDefinedBy <http://www.purl.org/megalod/ah/Morphology>
+        rdfs:label "Morfologia"@pt.
 
 
 ah:Typometry
