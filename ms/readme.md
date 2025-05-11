@@ -43,7 +43,7 @@ URI: https//purl.org/megalod/ms/excav/
 | Before or After Christ                  | bcac                             | excav:Instant                        | xsd:anyURI                                  | MegaLOD-BCAC |
 | Elongation Index of the Item            | elongation                       | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexElongation|
 | Thickness  Index of the Item            | thickness                        | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexThickness|
-|-----------------------------------------|----------------------------------|-------------------------------------|---------------------------------------------|------|
+
 
      
 # Arrowhead Metadata Scheme
@@ -54,8 +54,7 @@ URI: https//purl.org/megalod/ms/ah/
 |-----------------------------------------|-------------------------|------|
 | Arrowhead                               | Arrowhead               | rdfs:subClassOf excav:Item |
 | Morphology                              | Morphology              |     |  
-| Specific Typometry                      | SpecificTypometry       |     |    
-| Typometry                               | Typometry               |     |    
+| Specific Typometry                      | SpecificTypometry       |  rdfs:subClassOf excav:Typometry   |    
 | Chipping                                | Chipping                |     |  
 
 
