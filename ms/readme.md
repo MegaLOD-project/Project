@@ -29,20 +29,20 @@ URI: https//purl.org/megalod/ms/excav/
 ## Terms
 | Label                                   | Vocabulary Term                  | Domain                              |Range                                        | VES|
 |-----------------------------------------|----------------------------------|-------------------------------------|---------------------------------------------|----|
-| Has GPS Coordinates                     | hasGPSCoordinates                | excav:Location                      | excav:GPSCoordinates                        | |
-| Has person in charge                    | hasPersonInCharge                | excav:Excavation                    | excav:Archaeologist                         | |
-| Has context                             | hasContext                       | excav:Excavation                    | excav:Context                               | |
-| has Stratigraphic Unit                  | hasSVU                           | excav:Context                       | excav:StratigraphicVolumeUnit               | |
-| Has Square                              | hasSquare                        | excav:Square                        | excav:Excavation                            | |
-| hasTimeLine                             | hasTimeLine                      | excav:StratigraphicVolumeUnit       | excav:TimeLine                              | |
-| Item found in the GPSCoordinates        | excav:foundInCoordinates         | excav:Item                          | excav:GPSCoordinates                        |   |                             
-| Item found In a StratigraphicVolumeUnit | foundInSVU                       | excav:EncounterEvent                | excav:StratigraphicVolumeUnit               | |
-| Item found In a Context                 | foundInContext                   | excav:EncounterEvent                | excav:Context                               | |
-| Item found In a Excavation              | foundInExcavation                | excav:EncounterEvent                | excav:Excavation                            | |
-| Item found in the Coordinates (within the square) | hasCoordinatesInSquare | excav:Item                          | excav:Coordinates                           |   |        
-| Before or After Christ                  | bcac                             | excav:Instant                       | xsd:anyURI                                  | MegaLOD-BCAC |
-| Elongation Index of the Item            | elongation                       | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexElongation|
-| Thickness  Index of the Item            | thickness                        | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexThickness|
+| Has GPS Coordinates                     | hasGPSCoordinates                | Location                      | GPSCoordinates                        | |
+| Has person in charge                    | hasPersonInCharge                | Excavation                    | Archaeologist                         | |
+| Has context                             | hasContext                       | Excavation                    | Context                               | |
+| has Stratigraphic Unit                  | hasSVU                           | Context                       | StratigraphicVolumeUnit               | |
+| Has Square                              | hasSquare                        | Square                        | Excavation                            | |
+| hasTimeLine                             | hasTimeLine                      | StratigraphicVolumeUnit       | TimeLine                              | |
+| Item found in the GPSCoordinates        | excav:foundInCoordinates         | Item                          | GPSCoordinates                        |   |                             
+| Item found In a StratigraphicVolumeUnit | foundInSVU                       | EncounterEvent                | StratigraphicVolumeUnit               | |
+| Item found In a Context                 | foundInContext                   | EncounterEvent                | Context                               | |
+| Item found In a Excavation              | foundInExcavation                | EncounterEvent                | Excavation                            | |
+| Item found in the Coordinates (within the square) | hasCoordinatesInSquare | Item                          | Coordinates                           |   |        
+| Before or After Christ                  | bcac                             | Instant                       | xsd:anyURI                                  | MegaLOD-BCAC |
+| Elongation Index of the Item            | elongation                       | Item                          | xsd:anyURI                                  |  MegaLOD-IndexElongation|
+| Thickness  Index of the Item            | thickness                        | Item                          | xsd:anyURI                                  |  MegaLOD-IndexThickness|
 
 
      
