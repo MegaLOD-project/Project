@@ -1,30 +1,34 @@
-@prefix excav: <https://purl.org/megalod/ms/excavationMS#> .
-@prefix ah: <http://www.purl.com/megalod/ms/ahMS#> .
-@prefix ah-vocab:<http://www.purl.com/megalod/kos/ah#>.
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
-@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix dbo:<http://dbpedia.org/ontology/> .
-@prefix time:<http://www.w3.org/2006/time#> .
+@prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
 @prefix crm:<http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmsci:<http://cidoc-crm.org/extensions/crmsci/> .
 @prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
-@prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo:<http://dbpedia.org/ontology/> .
+
+
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+
+@prefix time:<http://www.w3.org/2006/time#> .
 
 
 
 
-<https://purl.org/ah/ms/excavationMS> 
+
+@prefix excav: <https://purl.org/megalod/ms/excav> .
+@prefix ah: <http://www.purl.com/megalod/ms/ah> .
+
+
+<https://purl.org/megalod/ms/excavation> 
   a voaf:metadataVoc, owl:Ontology;
-  voaf:specializes excav:;
   dct:title "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
   dct:abstract "Excavation metdata scheme is vocabulary to be used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for the descrition of the activities of arqueological excavations"@en;
@@ -52,9 +56,9 @@
   ]
   ] ;
   dct:description """This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .""";
-  dct:modified "2024-"^^xsd:date;
+  dct:modified "2025-05-10"^^xsd:date;
   vann:preferredNamespacePrefix "excav";
-  vann:preferredNamespaceUri "https://purl.org/megalod/ms/excavationMS";
+  vann:preferredNamespaceUri "https://purl.org/megalod/ms/excavation";
   rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWhead MAP"@en;
   wdrs:describedby <https://purl.org/megalod/map> .
 
@@ -66,12 +70,69 @@
 excav:Archaeologist
 	a rdfs:Class;
 	rdfs:comment "This Class represents the Archaeologist in charge of the excavation."@en;
-	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
-	rdfs:label "Location - has GPS Coordinates"@en;
-  owl:equivalentClass crm:E21_Person;
-  rdfs:SubClassOf foaf:Person;
-	vann:usageNote "Non-mandatory Property - 0..1"@en .
+	rdfs:label "Arqueologist"@en;
+ 	owl:equivalentClass crm:E21_Person;
+	rdfs:SubClassOf foaf:Person .
 
+excav:TypometryValue
+	a rdfs:Class;
+	rdfs:comment "Defines a value and unit associated with the value ."@en;
+	rdfs:label "TypometryValue"@en;
+ 	rdfs:SubClassOf schema:QuantitativeValue .
+
+excav:Weight
+	a rdfs:Class;
+	rdfs:comment "Defines a value and unit associated with weight of the item."@en;
+	rdfs:label "Weight"@en;
+ 	rdfs:SubClassOf schema:QuantitativeValue .
+
+excav:Depth
+	a rdfs:Class;
+	rdfs:comment "Defines a value and unit associated with depth of the item when it was excavated."@en;
+	rdfs:label "Depth"@en;
+ 	rdfs:SubClassOf schema:QuantitativeValue .
+
+excav:TypometryValue
+	a rdfs:Class;
+	rdfs:comment "Defines a value and unit associated with values thickness, height and width. To be used in meter, cm or mm."@en;
+	rdfs:label "TypometryValue"@en;
+ 	rdfs:SubClassOf schema:QuantitativeValue .
+
+excav:Item
+	a rdfs:Class;
+	rdfs:comment "An Item found in the excavation."@en;
+	rdfs:label "Item found in the Excavation"@en;
+ 	rdfs:SubClassOf crm:E24_Physical_Man-Made_Thing .
+
+excav:Location
+	a rdfs:Class;
+	rdfs:comment "The Location of the Exacavation."@en;
+	rdfs:label "he Location of the Exacavation."@en;
+ 	rdfs:SubClassOf dbo:Place .
+
+excav:GPSCoordinates
+	a rdfs:Class;
+	rdfs:comment "The GPS coordinates."@en;
+	rdfs:label "The GPS coordinates."@en;
+ 	rdfs:SubClassOf geo:SpatialThing .
+
+excav:EncounterEvent
+	a rdfs:Class;
+	rdfs:comment "An Encounter Event on the Exacavation."@en;
+	rdfs:label "An Encounter Event on the Exacavation."@en;
+ 	rdfs:SubClassOf crmsci:S19_Encounter_Event .
+
+excav:StratigraphicVolumeUnit
+	a rdfs:Class;
+	rdfs:comment "A stratigraphic unit."@en;
+	rdfs:label "A stratigraphic unit."@en;
+ 	rdfs:SubClassOf crmarchaeo:A2_Stratigraphic_Volume_Unit .
+
+excav:Context
+	a rdfs:Class;
+	rdfs:comment "A stratigraphic unit."@en;
+	rdfs:label "A stratigraphic unit."@en;
+ 	rdfs:SubClassOf crmarchaeo:A1_Excavation_Processing_Unit .
 
               #======<>===============================<>=====#
 #===========  #------<>-------------------------------<>-----#  ===========#
@@ -80,20 +141,7 @@ excav:Archaeologist
               #======<>===============================<>=====#
 
      
-#>-----------------------------------------<#
-#>           Data Properties             <#
-#>-----------------------------------------<#
-excav:bc
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (true) or After christ (false)."@en;
-	  rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes (true) ou depois  (false) de cristo (false)."@en;
-	rdfs:isDefinedBy <https://purl.org/ah>;
-	rdfs:label "Definition of the period in time (BC=True or AC)."@en;
-        rdfs:label "Definição do periodo no tempo (BC=True or AC)."@en;
-        rdfs:domain time:Instant;
-	rdfs:range xsd:boolean;
-	vann:usageNote "Non-mandatory Property - 0..1"@en.
-     
+   
 #>-----------------------------------------<#
 #>           Object Properties             <#
 #>-----------------------------------------<#
@@ -167,7 +215,26 @@ excav:foundInAExcavation
   rdfs:range crmarchaeo:A9_Archaeological_Excavation;
   vann:usageNote "Mandatory Property - 0..1"@en .
 
+ah:foundInCoordinates
+	a rdf:Property,	owl:ObjectProperty;
+	rdfs:comment "This property points to the GPS coordinates of the location of the arrowhead found."@en;
+	rdfs:label "Item - GPS Location"@en;
+	rdfs:domain excav:Item;
+	rdfs:range geo:SpatialThing.
 
+#>-----------------------------------------<#
+#>           Data Properties             <#
+#>-----------------------------------------<#
+excav:bc
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (true) or After christ (false)."@en;
+	  rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes (true) ou depois  (false) de cristo (false)."@en;
+	rdfs:isDefinedBy <https://purl.org/ah>;
+	rdfs:label "Definition of the period in time (BC=True or AC)."@en;
+        rdfs:label "Definição do periodo no tempo (BC=True or AC)."@en;
+        rdfs:domain time:Instant;
+	rdfs:range xsd:boolean;
+	vann:usageNote "Non-mandatory Property - 0..1"@en.
      
 #>---------------------------------------------------------<#
 #>      THE END END END END END END END END END            <#
