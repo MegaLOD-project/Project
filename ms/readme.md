@@ -34,6 +34,7 @@ URI: https//purl.org/megalod/ms/excav/
 | has context                             | hasContext              | excav:Excavation                   | excav:Context |
 | has Stratigraphic Unit                  | hasSVU                  | excav:Context                      | excav:StratigraphicVolumeUnit  |
 | hasTimeLine                             | hasTimeLine             | excav:StratigraphicVolumeUnit      | excav:TimeLine                      |
+| Item found in the GPSCoordinates        | excav:foundInCoordinates | excav:Item               | excav:GPSCoordinates |                        |
 | Item found In a StratigraphicVolumeUnit | foundInSVU              | excav:EncounterEvent               | excav:StratigraphicVolumeUnit  |
 | Item found In a Context                 | foundInAContext         | excav:EncounterEvent               | excav:Context|
 | Item found In a Excavation              | foundInAExcavation      | excav:EncounterEvent               | excav:Excavation  |
@@ -48,8 +49,9 @@ URI: https//purl.org/megalod/ms/ah/
 |-----------------------------------------|-------------------------|------|
 | Arrowhead                               | Arrowhead               | rdfs:subClassOf excav:Item |
 | Morphology                              | Morphology              |     |  
-| Typometry                               | Typometry                   |  |    
-| Chipping                                | Chipping                    |   |  
+| Specific Typometry                      | SpecificTypometry       |     |    
+| Typometry                               | Typometry               |     |    
+| Chipping                                | Chipping                |     |  
 
 
 ## Terms
@@ -68,9 +70,8 @@ URI: https//purl.org/megalod/ms/ah/
 | Chipping-location-Side                               | ah:chippinglocation-Side       | ah:Chipping                      | xsd:anyURI       | ah-chippingLocation    |
 | Chipping-Location-Transversal                        | ah:chippingLocation-Transveral | ah:Chipping                      | xsd:anyURI       | ah-chippingLocation    |
 | Chipping-Shape                                       | ah:chippingShape               | ah:Chipping                      | xsd:anyURI       | ah-chippingShape       |
-| The arrowhead was found in the GPSCoordinates        | ah:foundInCoordinates          | excav:Arrowhead                  | excav:GPSCoordinates |                        |
 | The arrowhead has a Morphology                       | ah:hasMorphology               | excav:Arrowhead                  | ah:Morphology    |                        |
-| The arrowhead has a typometry                        | ah:hasTypometry                | excav:Arrowhead                  | ah:Typometry     |                        |
+| The arrowhead has a typometry                        | ah:hasTypometry                | excav:Arrowhead                  | ah:SpecificTypometry     |                        |
 | The arrowhead has a Chipping                         | ah:hasChipping                 | excav:Arrowhead                  | ah:Chipping      | |
 
 
