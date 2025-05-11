@@ -8,13 +8,6 @@
 @prefix schema: <http://schema.org/> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
-@prefix dbo:<http://dbpedia.org/ontology/> .
-@prefix time:<http://www.w3.org/2006/time#> .
-@prefix edm:<http://www.europeana.eu/schemas/edm#> .
-@prefix crm:<http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix crmsci:<http://cidoc-crm.org/extensions/crmsci/> .
-@prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
-@prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
 @prefix ah: <http://purl.org/megalod/ms/ah#> .
 @prefix excav: <http://purl.org/megalod/ms/excav#> .
@@ -22,7 +15,7 @@
 
 
 
-<http://www.purl.com/ah/ms/ahMS> a voaf:metadataVoc, owl:Ontology;
+<http://purl.org/megalod/ms/ah> a voaf:metadataVoc, owl:Ontology;
   voaf:specializes ah:;
   dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
@@ -65,29 +58,26 @@
 #===========  #------<>       CLASSES                 <>-----#  ===========#
 #===========  #------<>-------------------------------<>-----#	===========#
               #======<>===============================<>=====#
+ah:Arrowhead
+	a rdfs:Class;
+	rdfs:comment "A Arrowhead."@en;
+	rdfs:subClassOf excav:Item;
+        rdfs:label "ArrowHead"@en;
+	rdfs:label "Ponta de Seta"@pt.
 
 ah:Morphology
 	a rdfs:Class;
 	rdfs:comment "Morphology of the arrowhead."@en;
-rdfs:comment "Morphologia da Ponta de Seta."@pt;
-	rdfs:isDefinedBy <http://www.purl.org/megalod/ms/ah/Morphology>
-        rdfs:label "Morfologia"@pt.
-
+	rdfs:comment "Morphologia da Ponta de Seta."@pt;
+	rdfs:label "Morfologia"@pt.
 
 ah:Chipping
 	a rdfs:Class;
 	rdfs:comment "Chipping of the arrowhead."@en;
-	rdfs:isDefinedBy <http://www.purl.org/megalod/ms/ah/Chipping>;
-  rdfs:label "ArrowHead - Chipping."@en;
+ 	rdfs:label "ArrowHead - Chipping"@en;
 	rdfs:label "Chipping"@en.
 
-ah:Arrowhead
-	a rdfs:Class;
-	rdfs:comment "A Arrowhead."@en;
-	rdfs:isDefinedBy <http://www.purl.org/megalod/ms/ah/Arrowhead>;
-	rdfs:subClassOf excav:Item;
-        rdfs:label "ArrowHead"@en;
-	rdfs:label "Ponta de Seta"@pt.
+
 
               #======<>===============================<>=====#
 #===========  #------<>-------------------------------<>-----#  ===========#
