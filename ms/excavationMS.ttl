@@ -94,8 +94,8 @@ excav:Depth
 
 excav:TypometryValue
 	a rdfs:Class;
-	rdfs:comment "Defines a value and unit associated with values thickness, height and width. To be used in meter, cm or mm."@en;
-	rdfs:label "TypometryValue"@en;
+	rdfs:comment "Defines a value and unit associated with values of thickness, height and width of the Item"@en;
+	rdfs:label "Typometry Value"@en;
  	rdfs:SubClassOf schema:QuantitativeValue .
 
 excav:Item
@@ -130,9 +130,33 @@ excav:StratigraphicVolumeUnit
 
 excav:Context
 	a rdfs:Class;
-	rdfs:comment "A stratigraphic unit."@en;
-	rdfs:label "A stratigraphic unit."@en;
+	rdfs:comment "A Context inside the stratigraphic unit."@en;
+	rdfs:label "A Context inside the stratigraphic unit."@en;
  	rdfs:SubClassOf crmarchaeo:A1_Excavation_Processing_Unit .
+
+excav:Square
+	a rdfs:Class;
+	rdfs:comment "A Square defined in the Excavation"@en;
+	rdfs:label "A Square defined in the Excavation."@en.
+
+excav:TimeLine
+	a rdfs:Class;
+	rdfs:comment "A TimeLine"@en;
+	rdfs:label "A TimeLine."@en.
+	rdfs:subClassOf time:TemporalEntity
+
+excav:Instant
+	a rdfs:Class;
+	rdfs:comment "An instant in Time"@en;
+	rdfs:label "An instant in Time."@en;
+	rdfs:subClassOf time:Instant .
+
+excav:Coordinates
+	a rdfs:Class;
+	rdfs:comment "The Coordinates of the Item in a Square"@en;
+	rdfs:label "The Coordinates of the Item in a Square."@en;
+	rdfs:subClassOf schema:GeoCoordinates  .
+
 
               #======<>===============================<>=====#
 #===========  #------<>-------------------------------<>-----#  ===========#
