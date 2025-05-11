@@ -13,19 +13,14 @@
 @prefix crmsci:<http://cidoc-crm.org/extensions/crmsci/> .
 @prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
 @prefix dbo:<http://dbpedia.org/ontology/> .
+@prefix time:<http://www.w3.org/2006/time#> .
+@prefix excav: <https://purl.org/megalod/ms/excav> .
+@prefix ah: <http://www.purl.com/megalod/ms/ah> .
 
 
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 
-@prefix time:<http://www.w3.org/2006/time#> .
-
-
-
-
-
-@prefix excav: <https://purl.org/megalod/ms/excav> .
-@prefix ah: <http://www.purl.com/megalod/ms/ah> .
-
+#Metadata#
 
 <https://purl.org/megalod/ms/excavation> 
   a voaf:metadataVoc, owl:Ontology;
@@ -64,7 +59,7 @@
 
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#
-  #===========  #------<>-------------------------------<>-----#	===========#
+  #===========  #------<>-------------------------------<>-----#  ===========#
                 #======<>===============================<>=====#
 
 excav:Archaeologist
@@ -173,92 +168,107 @@ excav:Coordinates
 
 excav:hasGPSCoordinates
 	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "This property points to an instance of the GPS coordinates of the central point of the excavation's location (in degrees)."@en;
-	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
+	rdfs:comment "The GPS coordinates of the central point of the excavation's location (in degrees)."@en;
 	rdfs:label "Location - has GPS Coordinates"@en;
-  rdfs:domain dbo:Place;
-	rdfs:range geo:SpatialThing;
-	vann:usageNote "Non-mandatory Property - 0..1"@en .
+  	rdfs:domain excav:Excavation;
+	rdfs:range excav:GPSLocation.
 
 excav:hasPersonInCharge
   a rdf:Property,	owl:ObjectProperty;
-  rdfs:comment "This property points to the person in charge of the excavation (an Archaeologist)."@en;
-  rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
-  rdfs:label "Excavation - has a person in charge -> Archaeologist"@en;
-  rdfs:domain crmarchaeo:A9_Archaeological_Excavation;
-  rdfs:range excav:Archaeologist;
-  vann:usageNote "non-mandatory Property - 0..1"@en .
+  rdfs:comment "The person in charge of the excavation (an Archaeologist)."@en;
+  rdfs:label "The Excavation has a person in charge -> Archaeologist"@en;
+  rdfs:domain excav:Excavation;
+  rdfs:range excav:Archaeologist .
 
 excav:hasContext
   	a rdf:Property,	owl:ObjectProperty;
-  	rdfs:comment "This property points to the context of an excavation."@en;
-  	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
+  	rdfs:comment "The contexts of the excavation."@en;
   	rdfs:label "Excavation - hasContext"@en;
-    rdfs:domain crmarchaeo:A9_Archaeological_Excavation;
-  	rdfs:range crmarchaeo:A1_Excavation_Processing_Unit;
-  	vann:usageNote "non-mandatory Property - 0..M"@en .
+        rdfs:domain excav:Excavation;
+  	rdfs:range excav:Context.
 
 excav:hasSVU
   	a rdf:Property,	owl:ObjectProperty;
-  	rdfs:comment "This property points to the StratigraphicVolumeUNit (CIDOC CRM A1)."@en;
-  	rdfs:label "This property points to the to the  StratigraphicVolumeUNit"@en;
-    rdfs:domain crmarchaeo:A1_Excavation_Processing_Unit;
-  	rdfs:range crmarchaeo:A2_Stratigraphic_Volume_Unit;
-  	vann:usageNote "non-mandatory Property - 0..M"@en.
+  	rdfs:comment "The StratigraphicVolumeUnit (CIDOC CRM A2)."@en;
+  	rdfs:label "The  StratigraphicVolumeUnit"@en;
+  	rdfs:domain excav:Contect;
+  	rdfs:range excav:SratigraficVolumeUnit.
 
 excav:hasTimeline
   	a rdfs:Class;
-  	rdfs:comment "This property points to the specific timeline of the the layer ."@en;
-  	rdfs:isDefinedBy <https://purl.org/ah/ms/excavationMS>;
-  	rdfs:label "StratigraphicVolumeUnit - has a timeline"@en;
-    rdfs:domain crmarchaeo:A2_Stratigraphic_Volume_Unit;
-  	rdfs:range time:TemporalEntity;
-  	vann:usageNote "non-mandatory Property - o..1"@en .
+  	rdfs:comment "The specific timeline of the the layer ."@en;
+  	rdfs:label "The Stratigraphic unit has a timeline"@en;
+    	rdfs:domain excav:StratigraphicVolumeUnit;
+  	rdfs:range excav:TimeLine .
+
+excav:foundInCoordinates
+  a rdf:Property, owl:ObjectProperty;
+  rdfs:comment "Points to the Coordinates where the item was found."@en;
+  rdfs:label "Coordinates of the Item found"@en;
+  rdfs:domain excav:Item ;
+  rdfs:range excav:GPSCoordinates .
+
 
 excav:foundInSVU
   a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "Points to the StratigraphicVolumeUnitwhere the item was found finding."@en;
-  rdfs:label "Encounter Event - an item found in a specific StratigraphicVolumeUnit"@en;
-  rdfs:domain crmsci:S19_Encounter_Event;
-  rdfs:range crmarchaeo:A2_Stratigraphic_Volume_Unit;
-  vann:usageNote "non-mandatory Property - 0..M"@en .
+  rdfs:comment "Points to the Stratigraphic Unit where the item was found."@en;
+  rdfs:label "Encounter Event - an item found in a specific Stratigraphic Unit"@en;
+  rdfs:domain excav:EncouterEvent;
+  rdfs:range excav:StratigraphicVolumeUnit .
 
-excav:foundInAContext
+
+excav:foundInContext
   a rdf:Property, owl:ObjectProperty;
   rdfs:comment "Points to the Context where the item was found."@en;
   rdfs:label "The Encounter Event - an item found in a specific Context"@en;
-  rdfs:domain crmsci:S19_Encounter_Event;
-  rdfs:range crmarchaeo:A1_Excavation_Processing_Unit;
-  vann:usageNote "Mandatory Property - 0..1"@en .
+  rdfs:domain excav:EncouterEvent;
+  rdfs:range excav:Context.
      
-excav:foundInAExcavation
+excav:foundInExcavation
   a rdf:Property, owl:ObjectProperty;
   rdfs:comment "Points to the Excavation where the item was found."@en;
-  rdfs:label "The Encounter Event - an item found in a specific Excavation"@en;
-  rdfs:domain crmsci:S19_Encounter_Event;
-  rdfs:range crmarchaeo:A9_Archaeological_Excavation;
-  vann:usageNote "Mandatory Property - 0..1"@en .
+  rdfs:label "The Encounter Event - an item found in an Excavation"@en;
+  rdfs:domain excav:EncouterEvent;
+  rdfs:range excav:Excavation .
 
-ah:foundInCoordinates
+ah:hasCoordinatesInSquare
 	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "This property points to the GPS coordinates of the location of the arrowhead found."@en;
-	rdfs:label "Item - GPS Location"@en;
+	rdfs:comment "Item found in the Coordinates (within the square)."@en;
+	rdfs:label "Item found in the Coordinates (within the square)"@en;
 	rdfs:domain excav:Item;
-	rdfs:range geo:SpatialThing.
+	rdfs:range excav:Coordinates.
+
 
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
-excav:bc
+excav:bcac
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (true) or After christ (false)."@en;
-	  rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes (true) ou depois  (false) de cristo (false)."@en;
-	rdfs:isDefinedBy <https://purl.org/ah>;
-	rdfs:label "Definition of the period in time (BC=True or AC)."@en;
-        rdfs:label "Definição do periodo no tempo (BC=True or AC)."@en;
-        rdfs:domain time:Instant;
-	rdfs:range xsd:boolean;
-	vann:usageNote "Non-mandatory Property - 0..1"@en.
+	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (bc) or After christ (ac). Use an URI of the term in the controlled vocabulary MegaLOD-BCAC"@en;
+	rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes ou depois de cristo. Usar o URI do termno correspondente (no vocabulário controlado MegaLOD-BCAC"@en;
+	rdfs:label "Definition of the period in time ."@en;
+        rdfs:label "Definição do periodo no tempo ."@en;
+        rdfs:domain excav:Instant;
+	rdfs:range xsd:anyURI.
+
+excav:elongation
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "The index of the elongation of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexElongation"@en;
+	rdfs:comment "O índice the alongamento do Item. Usar o URI do termno correspondente no vocabulário controlado MegaLOD-IndexElongation"@en;
+	rdfs:label "Elongation Item."@en;
+        rdfs:label "Índice de alongamento ."@en;
+        rdfs:domain excav:Item;
+	rdfs:range xsd:anyURI.
+
+excav:elongation
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "The index of the thickness of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexThicknessn"@en;
+	rdfs:comment "O índice the Espessura do Item. Usar o URI do termno correspondente no vocabulário controlado MegaLOD-IndexThickness"@en;
+	rdfs:label "Thickness Index."@en;
+        rdfs:label "Índice de Espessura ."@en;
+        rdfs:domain excav:Item;
+	rdfs:range xsd:anyURI.
+
      
 #>---------------------------------------------------------<#
 #>      THE END END END END END END END END END            <#
