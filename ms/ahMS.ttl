@@ -9,33 +9,31 @@
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
-@prefix ah: <http://purl.org/megalod/ms/ah#> .
-@prefix excav: <http://purl.org/megalod/ms/excav#> .
+@prefix ah: <http://purl.org/megalod/ms/ah> .
+@prefix excav: <http://purl.org/megalod/ms/excav> .
 
 
-
+# Metadata #
 
 <http://purl.org/megalod/ms/ah> a voaf:metadataVoc, owl:Ontology;
-  voaf:specializes ah:;
   dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
-	dct:abstract "Arrowhead V1.1 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
-	
-	dct:creator [
-        schema:affiliation <http://inesctec.pt>;
+  dct:abstract "Arrowhead V1.1 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
+  dct:creator [
+        		   schema:affiliation <http://inesctec.pt>;
 		           schema:affiliation <http://fe.up.pt>;
 		           schema:affiliation <http://https://cham.fcsh.unl.pt>;
-		        schema:affiliation <http://https://www.fcsh.unl.pt>;
+		           schema:affiliation <http://https://www.fcsh.unl.pt>;
   ] ,
   [
     rdfs:seeAlso <http://fe.up.pt/> ;  
     foaf:homepage <https://www.up.pt/portal/en/> ;        
     foaf:name "Mariana Curado Malta" ;
     foaf:maker [
-      foaf:name "Mariana Curado Malta";
-      foaf:homepage <http://fe.up.pt/>;
+    foaf:name "Mariana Curado Malta";
+    foaf:homepage <http://fe.up.pt/>;
     ], [
-    schema:affiliation [
+      schema:affiliation [
       foaf:homepage <https://sigarra.up.pt/feup/pt/fest_geral.cursos_list?pv_num_unico=201906680> ;  
       foaf:name "Domingos Santos"
     ] ;
@@ -126,7 +124,6 @@ ah:baseLength
 ah:shape
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "This property records the shape of the arrowhead. A good practice is to use the controlled vocabulary  AH-Shape."@en;
-	
 	rdfs:label "ArrowHead - shape"@en;
         rdfs:domain ah:Arrowhead;
 	rdfs:range xsd:anyURI.
@@ -134,7 +131,6 @@ ah:shape
 ah:variant
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "This property records the variant of the arrowhead. A good practice is to use the controlled vocabulary  AH-Variant."@en;
-  	
   	rdfs:label "ArrowHead - Variant"@en;
         rdfs:domain ah:Arrowhead;
   	rdfs:range xsd:anyURI.
@@ -142,7 +138,7 @@ ah:variant
 ah:point
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "Definition of the tip of the arrowhead. Sharp=True;Fractured=False."@en;
-	 rdfs:comment "Definição da ponta da ponta de seta. Piquant=True;Não Piquant=False."@pt;
+	rdfs:comment "Definição da ponta da ponta de seta. Piquant=True;Não Piquant=False."@pt;
 	rdfs:label "Arrowhead-point - point. Sharp=True;Fractured=False"@en;
   	rdfs:label "Arrowhead-point - point. Piquant=True;Não Piquant=False"@pt;
 	rdfs:domain ah:Morphology;
@@ -188,7 +184,7 @@ ah:direction
         rdfs:comment "Resulta da posição em que é colocada a lasca ou lamina para ser retocada. Usar o vocabulário controlado AH-ChippingDirection."@pt;
 	rdfs:label "Arrowhead-Chipping-direction"@en;
         rdfs:domain ah:Chipping;
-	rdfs:range ah:xsd:anyURI.
+	rdfs:range xsd:anyURI.
 
 ah:orientation
   	a rdf:Property,	owl:DataProperty;
