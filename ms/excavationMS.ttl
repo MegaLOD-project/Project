@@ -17,9 +17,6 @@
 @prefix excav: <https://purl.org/megalod/ms/excav> .
 @prefix ah: <http://www.purl.com/megalod/ms/ah> .
 
-
-@prefix voaf: <http://purl.org/vocommons/voaf#> .
-
 #Metadata#
 
 <https://purl.org/megalod/ms/excavation> 
