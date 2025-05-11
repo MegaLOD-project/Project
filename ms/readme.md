@@ -40,7 +40,7 @@ URI: https//purl.org/megalod/ms/excav/
 | Item found In a Context                 | foundInContext                   | excav:EncounterEvent                | excav:Context                               | |
 | Item found In a Excavation              | foundInExcavation                | excav:EncounterEvent                | excav:Excavation                            | |
 | Item found in the Coordinates (within the square) | hasCoordinatesInSquare | excav:Item                          | excav:Coordinates                           |   |        
-| Before or After Christ                  | bcac                             | excav:Instant                        | xsd:anyURI                                  | MegaLOD-BCAC |
+| Before or After Christ                  | bcac                             | excav:Instant                       | xsd:anyURI                                  | MegaLOD-BCAC |
 | Elongation Index of the Item            | elongation                       | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexElongation|
 | Thickness  Index of the Item            | thickness                        | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexThickness|
 
@@ -49,34 +49,37 @@ URI: https//purl.org/megalod/ms/excav/
 # Arrowhead Metadata Scheme
 URI: https//purl.org/megalod/ms/ah/
 
+namespaces--> excav:https//purl.org/megalod/ms/excav/
+
 ## Classes
 | Label                                   | Vocabulary Term         | Note |
 |-----------------------------------------|-------------------------|------|
 | Arrowhead                               | Arrowhead               | rdfs:subClassOf excav:Item |
-| Morphology                              | Morphology              |     |  
-| Specific Typometry                      | SpecificTypometry       |  rdfs:subClassOf excav:Typometry   |    
+| Morphology                              | Morphology              |     |   
 | Chipping                                | Chipping                |     |  
 
 
 ## Terms
-| Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
-|------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
-| Shape                                                | ah:shape                       | excav:Arrowhead                  | xsd:anyURI       | ah-shape               |
-| Variant                                              | ah:variant                     | excav:Arrowhead                  | xsd:anyURI       | ah-variant             |
-| Point (Sharp=True;Fractured=False)                   | ah:point                       | ah:Morphology                    | xsd:boolean      |                        |
-| Body (Symmetrical=True; Non-symmetrical=False)       | ah:body                        | ah:Morphology                    | xsd:boolean      |                        |
-| Base                                                 | ah:base                        | ah:Morphology                    | xsd:anyURI       | ah-base                |
-| Chipping-mode                                        | ah:mode                        | ah:Chipping                      | xsd:anyURI       | ah-chippingMode        |
-| Chipping-amplitude (Marginal=True;Deep=False)        | ah:amplitude                   | ah:Chipping                      | xsd:boolean      |                        |
-| Chipping-direction                                   | ah:direction                   | ah:Chipping                      | xsd:anyURI       | ah-chippingDirection   |
-| Chipping-orientation (Lateral=True;Transverse=False) | ah:orientation                 | ah:Chipping                      | xsd:boolean      |                       |
-| Chipping-delineation                                 | ah:dileneation                 | ah:Chipping                      | xsd:anyURI       | ah-chippingDelineation |
-| Chipping-location-Side                               | ah:chippinglocation-Side       | ah:Chipping                      | xsd:anyURI       | ah-chippingLocation    |
-| Chipping-Location-Transversal                        | ah:chippingLocation-Transveral | ah:Chipping                      | xsd:anyURI       | ah-chippingLocation    |
-| Chipping-Shape                                       | ah:chippingShape               | ah:Chipping                      | xsd:anyURI       | ah-chippingShape       |
-| The arrowhead has a Morphology                       | ah:hasMorphology               | excav:Arrowhead                  | ah:Morphology    |                        |
-| The arrowhead has a typometry                        | ah:hasTypometry                | excav:Arrowhead                  | ah:SpecificTypometry     |                        |
-| The arrowhead has a Chipping                         | ah:hasChipping                 | excav:Arrowhead                  | ah:Chipping      | |
+| Label                                                | Vocabulary Term             | Domain                        | Range            | VES                    | Notes |
+|------------------------------------------------------|-----------------------------|-------------------------------|------------------|------------------------|------|
+| Shape                                                | shape                       | Arrowhead                     | xsd:anyURI       | ah-shape               | |
+| Variant                                              | variant                     | Arrowhead                     | xsd:anyURI       | ah-variant             | |
+| Point (Sharp=True;Fractured=False)                   | point                       | Morphology                    | xsd:boolean      |                        | |
+| Body (Symmetrical=True; Non-symmetrical=False)       | body                        | Morphology                    | xsd:boolean      |                        | |
+| Base                                                 | base                        | Morphology                    | xsd:anyURI       | ah-base                | |
+| Chipping-mode                                        | mode                        | Chipping                      | xsd:anyURI       | ah-chippingMode        | |
+| Chipping-amplitude (Marginal=True;Deep=False)        | amplitude                   | Chipping                      | xsd:boolean      |                        | |
+| Chipping-direction                                   | direction                   | Chipping                      | xsd:anyURI       | ah-chippingDirection   | |
+| Chipping-orientation (Lateral=True;Transverse=False) | orientation                 | Chipping                      | xsd:boolean      |                       | |
+| Chipping-delineation                                 | dileneation                 | Chipping                      | xsd:anyURI       | ah-chippingDelineation | |
+| Chipping-location-Side                               | chippinglocation-Side       | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
+| Chipping-Location-Transversal                        | chippingLocation-Transveral | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
+| Chipping-Shape                                       | chippingShape               | Chipping                      | xsd:anyURI       | ah-chippingShape       | |
+| The arrowhead has a Morphology                       | hasMorphology               | Arrowhead                     | Morphology       |                        | |
+| The arrowhead has a Chipping                         | hasChipping                 | Arrowhead                     | Chipping         | |  |
+| Body length of the Arrowhead                         | bodyLength                  | Arrowhead                     | excav:TypometryValue | | rdfs:subPropertyOf crm:E54_Dimension |
+| Base length of the Arrowhead                         | baseLength                  | Arrowhead                     | excav:TypometryValue | | rdfs:subPropertyOf crm:E54_Dimension |
+
 
 
 
