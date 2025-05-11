@@ -6,18 +6,18 @@ URI: https//purl.org/megalod/ms/excav/
 
 ## Classes
 
-| Label                                   | Vocabulary Term         | Note                                                   |
-|-----------------------------------------|-------------------------|--------------------------------------------------------|
-| Excavation                              | Excavation              | rdfs:subClassOf crmarchaeo:A9_Archaeological_Excavation|                                 
+| Label                                   | Vocabulary Term         | Note                                                             |
+|-----------------------------------------|-------------------------|------------------------------------------------------------------|
+| Excavation                              | Excavation              | rdfs:subClassOf crmarchaeo:A9_Archaeological_Excavation          |                                 
 | Archaeologist                           | Archaeologist           | rdfs:subClassOf foaf:Person; owl:equivalentClass crm:E21_Person; |                               
-| Location                                | Location                | rdfs:subClassOf dbo:Place|                           
-| GPS Coordinates                         | GPSCoordinates          | rdfs:subClassOf geo:SpatialThing |                     
-| Encounter Event                         | EncounterEvent          | rdfs:subClassOf crmsci:S19_Encounter_Event    |                                   
-| Stratigraphic Volume Unit               | StratigraphicVolumeUnit | rdfs:subClassOf crmarchaeo:A2_Stratigraphic_Volume_Unit|                                       
-| Context                                 | Context                 | rdfs:subClassOf crmarchaeo:A1_Excavation_Processing_Unit|
+| Location                                | Location                | rdfs:subClassOf dbo:Place                                        |                           
+| GPS Coordinates                         | GPSCoordinates          | rdfs:subClassOf geo:SpatialThing                                 |                     
+| Encounter Event                         | EncounterEvent          | rdfs:subClassOf crmsci:S19_Encounter_Event                       |                                   
+| Stratigraphic Volume Unit               | StratigraphicVolumeUnit | rdfs:subClassOf crmarchaeo:A2_Stratigraphic_Volume_Unit          |                                       
+| Context                                 | Context                 | rdfs:subClassOf crmarchaeo:A1_Excavation_Processing_Unit         |
 | TimeLine                                | TimeLine                | rdfs:subClassOf time:TemporalEntity|
 | Instant                                 | Instant                 | rdfs:subClassOf time:Instant|
-| Square                                  | Square                  | rddfs:subClassOf schema: Place |
+| Square                                  | Square                  | rddfs:subClassOf schema:Place |
 | Coordinates                             | Coordinates             | rddfs:subClassOf schema:GeoCoordinates |
 | Weight                                  | Weight                  | rddfs:subClassOf schema:QuantitativeValue |
 | Depth                                   | Depth                   | rddfs:subClassOf schema:QuantitativeValue |
@@ -26,21 +26,26 @@ URI: https//purl.org/megalod/ms/excav/
 
 
 
-## Terms FIQUEI AQUI
-| Label                                   | Vocabulary Term         | Domain                             |Range |
-|-----------------------------------------|-------------------------|------------------------------------|------|
-| has GPS Coordinates                     | hasGPSCoordinates       | excav:Location                     | excav:GPSCoordinates                       |
-| has a person in charge                  | hasPersonInCharge       | excav:Excavation                   | excav:Archaeologist                      |
-| has context                             | hasContext              | excav:Excavation                   | excav:Context |
-| has Stratigraphic Unit                  | hasSVU                  | excav:Context                      | excav:StratigraphicVolumeUnit  |
-| hasTimeLine                             | hasTimeLine             | excav:StratigraphicVolumeUnit      | excav:TimeLine                      |
-| Item found in the GPSCoordinates        | excav:foundInCoordinates | excav:Item               | excav:GPSCoordinates |                        |
-| Item found In a StratigraphicVolumeUnit | foundInSVU              | excav:EncounterEvent               | excav:StratigraphicVolumeUnit  |
-| Item found In a Context                 | foundInAContext         | excav:EncounterEvent               | excav:Context|
-| Item found In a Excavation              | foundInAExcavation      | excav:EncounterEvent               | excav:Excavation  |
-| Before (True) or After (False) christ   | bc                      | excav:bc                           | xsd:boolean                              |
+## Terms
+| Label                                   | Vocabulary Term                  | Domain                              |Range                                        | VES|
+|-----------------------------------------|----------------------------------|-------------------------------------|---------------------------------------------|----|
+| Has GPS Coordinates                     | hasGPSCoordinates                | excav:Location                      | excav:GPSCoordinates                        | |
+| Has person in charge                    | hasPersonInCharge                | excav:Excavation                    | excav:Archaeologist                         | |
+| Has context                             | hasContext                       | excav:Excavation                    | excav:Context                               | |
+| has Stratigraphic Unit                  | hasSVU                           | excav:Context                       | excav:StratigraphicVolumeUnit               | |
+| Has Square                              | hasSquare                        | excav:Square                        | excav:Excavation                            | |
+| hasTimeLine                             | hasTimeLine                      | excav:StratigraphicVolumeUnit       | excav:TimeLine                              | |
+| Item found in the GPSCoordinates        | excav:foundInCoordinates         | excav:Item                          | excav:GPSCoordinates                        |   |                             
+| Item found In a StratigraphicVolumeUnit | foundInSVU                       | excav:EncounterEvent                | excav:StratigraphicVolumeUnit               | |
+| Item found In a Context                 | foundInContext                   | excav:EncounterEvent                | excav:Context                               | |
+| Item found In a Excavation              | foundInExcavation                | excav:EncounterEvent                | excav:Excavation                            | |
+| Item found in the Coordinates (within the square) | hasCoordinatesInSquare | excav:Item                          | excav:Coordinates                           |   |        
+| Before or After Christ                  | bcac                             | excav:Instant                        | xsd:anyURI                                  | MegaLOD-BCAC |
+| Elongation Index of the Item            | elongation                       | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexElongation|
+| Thickness  Index of the Item            | thickness                        | excav:Item                          | xsd:anyURI                                  |  MegaLOD-IndexThickness|
+|-----------------------------------------|----------------------------------|-------------------------------------|---------------------------------------------|------|
 
-
+     
 # Arrowhead Metadata Scheme
 URI: https//purl.org/megalod/ms/ah/
 
