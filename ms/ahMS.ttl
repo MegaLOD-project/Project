@@ -1,13 +1,12 @@
-@prefix ah: <http://www.purl.com/ah/ms/ahMS#> .
-@prefix ah-vocab:<http://www.purl.com/ah/kos#>.
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
-@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix dbo:<http://dbpedia.org/ontology/> .
 @prefix time:<http://www.w3.org/2006/time#> .
@@ -17,7 +16,9 @@
 @prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
 @prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ah: <http://purl.org/megalod/ms/ah#> .
+@prefix excav: <http://purl.org/megalod/ms/excav#> .
+
 
 
 
@@ -69,22 +70,24 @@ ah:Morphology
 	a rdfs:Class;
 	rdfs:comment "Morphology of the arrowhead."@en;
 rdfs:comment "Morphologia da Ponta de Seta."@pt;
-	rdfs:isDefinedBy <http://www.purl.org/megalod/ah/Morphology>
+	rdfs:isDefinedBy <http://www.purl.org/megalod/ms/ah/Morphology>
         rdfs:label "Morfologia"@pt.
 
-
-ah:Typometry
-  a rdfs:Class;
-  rdfs:comment "Topometry of the arrowhead."@en;
-  rdfs:isDefinedBy <http://www.purl.com/ah/kos>;
-  rdfs:label "Typometry"@en.
 
 ah:Chipping
 	a rdfs:Class;
 	rdfs:comment "Chipping of the arrowhead."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/kos>;
+	rdfs:isDefinedBy <http://www.purl.org/megalod/ms/ah/Chipping>;
   rdfs:label "ArrowHead - Chipping."@en;
-	rdfs:label "Shipping"@en.
+	rdfs:label "Chipping"@en.
+
+ah:Arrowhead
+	a rdfs:Class;
+	rdfs:comment "A Arrowhead."@en;
+	rdfs:isDefinedBy <http://www.purl.org/megalod/ms/ah/Arrowhead>;
+	rdfs:subClassOf excav:Item;
+        rdfs:label "ArrowHead"@en;
+	rdfs:label "Ponta de Seta"@pt.
 
               #======<>===============================<>=====#
 #===========  #------<>-------------------------------<>-----#  ===========#
@@ -96,179 +99,146 @@ ah:Chipping
 #>           Object Properties             <#
 #>-----------------------------------------<#
 
-ah:foundInCoordinates
-	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "This property points to the GPS coordinates of the location of the arrowhead found."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
-	rdfs:label "ArrowHead - gpslocation"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing;
-	rdfs:range geo:SpatialThing;
-	vann:usageNote "Non-mandatory Property - 0..1"@en.
-
 ah:hasMorphology
 	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "This property points to an instance of the definition of the morphology of the arrowhead.."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
+	rdfs:comment "This property points to an instance of the definition of the morphology of the arrowhead."@en;
 	rdfs:label "ArrowHead - morphology"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing;
-	rdfs:range ah:Morphology;
-	vann:usageNote "Non-mandatory Property - 0..1"@en.
-
-ah:hasTypometry
-	a rdf:Property,	owl:ObjectProperty;
-	dct:identifier "ah:typometry"@en;
-	rdfs:comment "This property points to an instance of the definition of the typometry of the Arrowhead."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
-	rdfs:label "ArrowHead - typometry"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing;
-	rdfs:range ah:Typometry;
-	vann:usageNote "Non-mandatory Property - 0..1"@en.
+	rdfs:domain ah:Arrowhead;
+	rdfs:range ah:Morphology.
 
 ah:hasChipping
-  a rdf:Property,	owl:ObjectProperty;
-  rdfs:comment "This Property points to an instance of the definition of the chipping of the arrowhead.."@en;
-  rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
+  a rdf:Property, owl:ObjectProperty;
+  rdfs:comment "This Property points to an instance of the definition of the chipping of the arrowhead."@en;
   rdfs:label "ArrowHead - has chipping"@en;
-  rdfs:domain crm:E24_Physical_Man-Made_Thing;
-  rdfs:range ah:Chipping;
-  vann:usageNote "Non mandatory Property - 0..1"@en.
+  rdfs:domain ah:Arrowhead;
+  rdfs:range ah:Chipping.
+
 
 
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
 
+ah:bodyLength
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "This property points to an instance that presents the length of the body of the arrowhead."@en;
+	rdfs:label "ArrowHead - bodyLength"@en;
+        rdfs:domain ah:Arrowhead;
+	rdfs:range excav:TypometryValue.
+
+ah:baseLength
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "This property points to an instance that presents the length of the base of the arrowhead."@en;
+	rdfs:label "ArrowHead - baseLength"@en;
+        rdfs:domain ah:Arrowhead;
+	rdfs:range excav:TypometryValue.
+
 ah:shape
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "This property records the shape of the arrowhead. A good practice is to use the controlled vocabulary for AH-Shape."@en;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
+	rdfs:comment "This property records the shape of the arrowhead. A good practice is to use the controlled vocabulary  AH-Shape."@en;
+	
 	rdfs:label "ArrowHead - shape"@en;
-        rdfs:domain crm:E24_Physical_Man-Made_Thing;
-	rdfs:range ah-vocab:ah-shape;
-	vann:usageNote "Non-mandatory Property - 0..1"@en.
+        rdfs:domain ah:Arrowhead;
+	rdfs:range xsd:anyURI.
 
 ah:variant
   	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "Thickness Index. This is calculated by dividing the maximum width by the maximum thickness. The arrowhead is characterised as 'Blunt' when the index is equal to or greater than 8; 'Raised' when less than 8 and greater than  A good practice is to use the Controlled Vocabulary AH-Variant."@en;
-        rdfs:comment "Indice de Espessura. Calcula-se o valor da divisão largura máxima e espessura máxima. A ponta de seta é  caracterizada como 'Abatida' quando o índice é igual ou superior a 8; 'Alteada' quando inferior a 8 e superior a 4, e 'Espessa' quando inferior a 4. Usar o vocabulário controlado Ah-Variant"@pt;
-  	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
-  	rdfs:label "ArrowHead - arrowHeadVariant"@en;
-        rdfs:domain crm:E24_Physical_Man-Made_Thing;
-  	rdfs:range ah-vocab:ah-variant;
-  	vann:usageNote "Optional Property - 0..1"@en.
+  	rdfs:comment "This property records the variant of the arrowhead. A good practice is to use the controlled vocabulary  AH-Variant."@en;
+  	
+  	rdfs:label "ArrowHead - Variant"@en;
+        rdfs:domain ah:Arrowhead;
+  	rdfs:range xsd:anyURI.
 
 ah:point
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "Definition of the tip of the arrowhead. Sharp=True;Fractured=False."@en;
-	 rdfs:comment "Definição da ponta da ponta de seta. Sharp=True;Fractured=False."@pt;
-	rdfs:isDefinedBy <http://purl.org/dc/terms/>;
-	rdfs:label "Arrowhead-Morphology - point. Sharp=True;Fractured=False"@en;
-  rdfs:label "Arrowhead-Morphology - point. Piquant=True;Não Piquant=False"@pt;
- rdfs:domain ah:Morphology;
-	rdfs:range xsd:boolean;
-	vann:usageNote "Non-mandatory Property - 0..1"@en .
+	 rdfs:comment "Definição da ponta da ponta de seta. Piquant=True;Não Piquant=False."@pt;
+	rdfs:label "Arrowhead-point - point. Sharp=True;Fractured=False"@en;
+  	rdfs:label "Arrowhead-point - point. Piquant=True;Não Piquant=False"@pt;
+	rdfs:domain ah:Morphology;
+	rdfs:range xsd:boolean.
 
 ah:body
 	a rdf:Property,	owl:DataProperty;
-        rdfs:comment "THis property is used to define the simmetry of the body of the arrowhead presents. Symmetrical=True; Non-symmetrical=False"@en;
-	  rdfs:comment "Esta propriedade define a simetria da base da ponta de seta. Symmetrical=True; Non-symmetrical=False";
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
+        rdfs:comment "THis property is used to define the simmetry of the body of the arrowhead. Symmetrical=True; Non-symmetrical=False"@en;
+	rdfs:comment "Esta propriedade define a simetria da base da ponta de seta. Simétrica=True; Não simétrica=False";
 	rdfs:label "Arrowhead-Morphology - body. Symmetrical=True; Non-symmetrical=False. "@en;
-	rdfs:label "Arrowhead-Morphology - body. Symmetrical=True; Non-symmetrical=False. "@pt;
+	rdfs:label "Arrowhead-Morphology - body. Simétrica=True; Não Simétrica=False. "@pt;
         rdfs:domain ah:Morphology;
-	rdfs:range xsd:boolean;
-	vann:usageNote "Non-mandatory Property - 0..1"@en.
+	rdfs:range xsd:boolean.
 
 ah:base
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "This properties defines the base of the arrowhead. A good pratice is to use the controlled vocabulary AH-Base."@en;
-	  rdfs:comment "Esta propriedade é usada para categorizar a base da ponta de seta. Usar o vocabulário controlado AH-Base."@pt;
-	rdfs:isDefinedBy <http://www.purl.com/ah/kos/ah-base>;
+	rdfs:comment "Esta propriedade é usada para categorizar a base da ponta de seta. Usar o vocabulário controlado AH-Base."@pt;	
 	rdfs:label "ArrowHead - Morphology - Base. A good pratice is to use the Controlled Vocabulary AH-Base. "@en;
 	rdfs:label "ArrowHead - Morphology - Base. Uma boa prática é usar o vocabulário controlado AH-Base. "@pt;
 	rdfs:domain ah:Morphology;
-	rdfs:range ah-vocab:AH-Base;
-	vann:usageNote "Optional Property - 0..1"@en.
+	rdfs:range xsd:anyURI.
 
   ah:mode
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "Type of retouching incidence, defines the angle formed by the retouching line and the chipping surface. A good pratice is to use the Controlled Vocabulary AH-ChippingMode."@en;
-        rdfs:comment "Tipo de incidência do retoque, define o ângulo formado pela linha de retoque e a superfície de lascagem. Usar o vocabulário controlado AH-chippingMode."@pt;
-  	rdfs:isDefinedBy <http://www.purl.com/ah/kos/ah-chippingMode>;
+        rdfs:comment "Tipo de incidência do retoque, define o ângulo formado pela linha de retoque e a superfície de lascagem. Usar o vocabulário controlado AH-chippingMode."@pt;  	
   	rdfs:label "Arrowhead-Chipping-mode"@en;
         rdfs:domain ah:Chipping;
-  	rdfs:range ah-vocab:AH-ChippingMode;
-  	vann:usageNote "Non-mandatory Property - 0..1"@en.
+  	rdfs:range xsd:anyURI.
 
 ah:amplitude
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "Retouching extension, Marginal=True;Deep=False."@en;
         rdfs:comment "Extensão do retoque, Marginal=True;Profundo=False."@pt;
-	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
 	rdfs:label "Arrowhead-Chipping-amplitude"@en;
         rdfs:domain ah:Chipping;
-	rdfs:range xsd:boolean;
-        vann:usageNote "Non-mandatory Property - 0..1"@en.
+	rdfs:range xsd:boolean.
 
 ah:direction
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "It results from the position in which the chip or blade is placed to be retouched. A good pratice is to use the Controlled Vocabulary AH-ChippingDirection."@en;
         rdfs:comment "Resulta da posição em que é colocada a lasca ou lamina para ser retocada. Usar o vocabulário controlado AH-ChippingDirection."@pt;
-        rdfs:isDefinedBy <http://www.purl.com/ah/kos/ah-chippingDirection>;
 	rdfs:label "Arrowhead-Chipping-direction"@en;
         rdfs:domain ah:Chipping;
-	rdfs:range ah-vocab:AH-ChippingDirection;
-        vann:usageNote "Non-mandatory Property - 0..1"@en.
+	rdfs:range ah:xsd:anyURI.
 
 ah:orientation
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "Angle between the original axis of the part and the line formed by the retouching, Lateral=True;Transverse=False."@en;
     	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque, Lateral=True;Transversal=False."@pt;
-  	rdfs:isDefinedBy <http://www.purl.com/ah/ms/ahMS#>;
   	rdfs:label "Arrowhead-Chipping-Orientation"@en;
  	rdfs:domain ah:Chipping;
-  	rdfs:range xsd:boolean;
-    	vann:usageNote "Non-mandatory Property - 0..1"@en.
+  	rdfs:range xsd:boolean.
 
 ah:delineation
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "The retouching gives the margins a shape.. A good pratice is to use the Controlled Vocabulary AH-ChippingDelineation."@en;
  	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingDelineation."@pt;
-	rdfs:isDefinedBy <http://www.purl.com/ah/kos/ah-chippingDelineation>;
 	rdfs:label "Arrowhead-Chipping-delineation"@en;
   	rdfs:domain ah:Chipping;
-	rdfs:range ah-vocab:AH-ChippingDelineation;
-  	vann:usageNote "Non-mandatory Property - 0..1"@en.
+	rdfs:range ah:anyURI.
 
 ah:chippinglocation-Side
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "The retouching can occupy a position to the left or right of the axis of symmetry and, depending on the axis perpendicular to it, the retouching can be distal, medial or proximal. . A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
   	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingLocation."@pt;
-	rdfs:isDefinedBy <http://www.purl.com/ah/kos/ah-chippingLocation>;
 	rdfs:label "Arrowhead-Chipping Location-lateral"@en;
 	rdfs:domain ah:Chipping;
-	rdfs:range ah-vocab:AH-ChippingLocation;
-	vann:usageNote "Non-mandatory Property - 0..3"@en.
+	rdfs:range ah:anyURI.
 
 ah:chippinglocation-Transversal
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "The retouching can be distal or proximal and, depending on the edge where it is located, it can occupy a left, right or median position. A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
 	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
-  	rdfs:isDefinedBy <http://www.purl.com/ah/kos/ah-chippingLocation>;
   	rdfs:label "Arrowhead-Chipping Location-Transversal"@en;
 	rdfs:domain ah:Chipping;
-  	rdfs:range ah-vocab:AH-ChippingLocation;
-  	vann:usageNote "Non-mandatory Property - 0..3"@en.
+  	rdfs:range ah:anyURI
 
 ah:chippingShape
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "Line defined by the edge. A good pratice is to use the Controlled Vocabulary AH-ChippingShape."@en;
 	rdfs:comment "Linha definida pelo bordo. Usar o vocabulário controlado AH-ChippingShape."@pt;
-	rdfs:isDefinedBy <http://www.purl.com/ah/kos/ah-chippingShape>;
 	rdfs:label "Arrowhead-Chipping-shape"@en;
   	rdfs:domain ah:Chipping;
-	rdfs:range ah-vocab:AH-ChippingShape;
-  	vann:usageNote "Non-mandatory Property - 0..1"@en.
+	rdfs:range ah:anyURI.
 
 #>---------------------------------------------------------<#
 #>      THE END END END END END END END END END            <#
