@@ -224,7 +224,7 @@ ah:chippingLocationSide
 	rdfs:domain ah:Chipping;
 	rdfs:range xsd:anyURI.
 
-ah:chippinglocationTransversal
+ah:chippingLocationTransversal
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "The retouching can be distal or proximal and, depending on the edge where it is located, it can occupy a left, right or median position. A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
 	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
