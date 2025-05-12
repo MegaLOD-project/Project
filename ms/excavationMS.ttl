@@ -24,6 +24,12 @@
   #===========  #------<>-------------------------------<>-----#  ===========#
                 #======<>===============================<>=====#
 
+excav:Excavation
+	a rdfs:Class;
+	rdfs:comment "The excavation."@en;
+	rdfs:label "Excavation"@en;
+ 	owl:equivalentClass crmarchaeo:A9_Archaeological_Excavation .
+
 excav:Archaeologist
 	a rdfs:Class;
 	rdfs:comment "This Class represents the Archaeologist in charge of the excavation."@en;
@@ -122,8 +128,8 @@ excav:hasGPSCoordinates
   a rdf:Property, owl:ObjectProperty;
   rdfs:comment "The GPS coordinates of the central point of the excavation's location (in degrees)."@en;
   rdfs:label "Location - has GPS Coordinates"@en;
-  rdfs:domain excav:Excavation;
-  rdfs:range excav:GPSLocation.
+  rdfs:domain excav:Location;
+  rdfs:range excav:GPSCoordinates.
 
 excav:hasPersonInCharge
   a rdf:Property, owl:ObjectProperty;
@@ -145,6 +151,14 @@ excav:hasSVU
     rdfs:label "The  StratigraphicVolumeUnit"@en;
     rdfs:domain excav:Context;
     rdfs:range excav:StratigraphicVolumeUnit.
+
+excav:hasSquare
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "A Square within an excavation."@en;
+    rdfs:label "The Square "@en;
+    rdfs:domain excav:Excavation;
+    rdfs:range excav:Square.
+
 
 excav:hasTimeline
     a rdfs:Class;
