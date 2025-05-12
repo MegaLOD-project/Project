@@ -250,18 +250,18 @@ excav:bcac
         rdfs:domain excav:Instant;
 	rdfs:range xsd:anyURI.
 
-excav:elongation
+excav:elongationIndex
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The index of the elongation of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexElongation"@en;
+	rdfs:comment "The elongation index of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexElongation"@en;
 	rdfs:comment "O índice the alongamento do Item. Usar o URI do termno correspondente no vocabulário controlado MegaLOD-IndexElongation"@en;
-	rdfs:label "Elongation Item."@en;
+	rdfs:label "Elongation Index."@en;
         rdfs:label "Índice de alongamento ."@en;
         rdfs:domain excav:Item;
 	rdfs:range xsd:anyURI.
 
-excav:elongation
+excav:thicknessIndex
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The index of the thickness of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexThicknessn"@en;
+	rdfs:comment "The thickness index of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexThicknessn"@en;
 	rdfs:comment "O índice the Espessura do Item. Usar o URI do termno correspondente no vocabulário controlado MegaLOD-IndexThickness"@en;
 	rdfs:label "Thickness Index."@en;
         rdfs:label "Índice de Espessura ."@en;
