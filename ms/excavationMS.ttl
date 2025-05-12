@@ -15,8 +15,8 @@
 @prefix crmarchaeo:<http://www.cidoc-crm.org/extensions/crmarchaeo/> .
 @prefix dbo:<http://dbpedia.org/ontology/> .
 @prefix time:<http://www.w3.org/2006/time#> .
-@prefix excav: <https://purl.org/megalod/ms/excav> .
-@prefix ah: <http://www.purl.com/megalod/ms/ah> .
+@prefix excav: <https://purl.org/megalod/ms/excav/> .
+@prefix ah: <http://www.purl.com/megalod/ms/ah/> .
 
 
 
