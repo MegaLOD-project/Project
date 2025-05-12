@@ -161,7 +161,7 @@ excav:hasSquare
 
 
 excav:hasTimeline
-    a rdfs:Class;
+    a rdf:Property; owl:ObjectProperty;
     rdfs:comment "The specific timeline of the the layer ."@en;
     rdfs:label "The Stratigraphic unit has a timeline"@en;
     rdfs:domain excav:StratigraphicVolumeUnit;
@@ -195,7 +195,7 @@ excav:foundInExcavation
     rdfs:domain excav:EncouterEvent;
     rdfs:range excav:Excavation .
 
-ah:hasCoordinatesInSquare
+excav:hasCoordinatesInSquare
     a rdf:Property, owl:ObjectProperty;
     rdfs:comment "Item found in the Coordinates (within the square)."@en;
     rdfs:label "Item found in the Coordinates (within the square)"@en;
