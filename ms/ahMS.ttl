@@ -14,23 +14,7 @@
 @prefix excav: <http://purl.org/megalod/ms/excav/> .
 
 
-# Metadata #
 
-<http://purl.org/megalod/ms/ah/> a voaf:Vocabulary, owl:Ontology;
-
-  voaf:classNumber 3 ;
-  voaf:propertyNumber  17 ;
-  dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
-  rdfs:label "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
-  dct:abstract "Arrowhead V1.1 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
-  dct:creator [
-        		   schema:affiliation <http://inesctec.pt>;
-		           schema:affiliation <http://fe.up.pt>;
-		           schema:affiliation <https://cham.fcsh.unl.pt>;
-		           schema:affiliation <https://www.fcsh.unl.pt>;
-  ] ;
-	dct:description "This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .";
-	dct:modified "2025-05-11"^^xsd:date.
 
 
 
