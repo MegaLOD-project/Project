@@ -216,7 +216,7 @@ ah:chippinglocation-Transversal
 	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
   	rdfs:label "Arrowhead-Chipping Location-Transversal"@en;
 	rdfs:domain ah:Chipping;
-  	rdfs:range ah:anyURI
+  	rdfs:range ah:anyURI .
 
 ah:chippingShape
 	a rdf:Property,	owl:DataProperty;
