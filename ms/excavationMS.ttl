@@ -19,7 +19,6 @@
 @prefix ah: <http://www.purl.com/megalod/ms/ah/> .
 
 
-
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#
   #===========  #------<>-------------------------------<>-----#  ===========#
@@ -30,67 +29,61 @@ excav:Archaeologist
 	rdfs:comment "This Class represents the Archaeologist in charge of the excavation."@en;
 	rdfs:label "Arqueologist"@en;
  	owl:equivalentClass crm:E21_Person;
-	rdfs:SubClassOf foaf:Person .
-
-excav:TypometryValue
-	a rdfs:Class;
-	rdfs:comment "Defines a value and unit associated with the value ."@en;
-	rdfs:label "TypometryValue"@en;
- 	rdfs:SubClassOf schema:QuantitativeValue .
+	rdfs:subClassOf foaf:Person .
 
 excav:Weight
 	a rdfs:Class;
 	rdfs:comment "Defines a value and unit associated with weight of the item."@en;
 	rdfs:label "Weight"@en;
- 	rdfs:SubClassOf schema:QuantitativeValue .
+ 	rdfs:subClassOf schema:QuantitativeValue .
 
 excav:Depth
 	a rdfs:Class;
 	rdfs:comment "Defines a value and unit associated with depth of the item when it was excavated."@en;
 	rdfs:label "Depth"@en;
- 	rdfs:SubClassOf schema:QuantitativeValue .
+ 	rdfs:subClassOf schema:QuantitativeValue .
 
 excav:TypometryValue
 	a rdfs:Class;
 	rdfs:comment "Defines a value and unit associated with values of thickness, height and width of the Item"@en;
 	rdfs:label "Typometry Value"@en;
- 	rdfs:SubClassOf schema:QuantitativeValue .
+ 	rdfs:subClassOf schema:QuantitativeValue .
 
 excav:Item
 	a rdfs:Class;
 	rdfs:comment "An Item found in the excavation."@en;
 	rdfs:label "Item found in the Excavation"@en;
- 	rdfs:SubClassOf crm:E24_Physical_Man-Made_Thing .
+ 	rdfs:subClassOf crm:E24_Physical_Man-Made_Thing .
 
 excav:Location
 	a rdfs:Class;
 	rdfs:comment "The Location of the Exacavation."@en;
 	rdfs:label "he Location of the Exacavation."@en;
- 	rdfs:SubClassOf dbo:Place .
+ 	rdfs:subClassOf dbo:Place .
 
 excav:GPSCoordinates
 	a rdfs:Class;
 	rdfs:comment "The GPS coordinates."@en;
 	rdfs:label "The GPS coordinates."@en;
- 	rdfs:SubClassOf geo:SpatialThing .
+ 	rdfs:subClassOf geo:SpatialThing .
 
 excav:EncounterEvent
 	a rdfs:Class;
 	rdfs:comment "An Encounter Event on the Exacavation."@en;
 	rdfs:label "An Encounter Event on the Exacavation."@en;
- 	rdfs:SubClassOf crmsci:S19_Encounter_Event .
+ 	rdfs:subClassOf crmsci:S19_Encounter_Event .
 
 excav:StratigraphicVolumeUnit
 	a rdfs:Class;
 	rdfs:comment "A stratigraphic unit."@en;
 	rdfs:label "A stratigraphic unit."@en;
- 	rdfs:SubClassOf crmarchaeo:A2_Stratigraphic_Volume_Unit .
+ 	rdfs:subClassOf crmarchaeo:A2_Stratigraphic_Volume_Unit .
 
 excav:Context
 	a rdfs:Class;
 	rdfs:comment "A Context inside the stratigraphic unit."@en;
 	rdfs:label "A Context inside the stratigraphic unit."@en;
- 	rdfs:SubClassOf crmarchaeo:A1_Excavation_Processing_Unit .
+ 	rdfs:subClassOf crmarchaeo:A1_Excavation_Processing_Unit .
 
 excav:Square
 	a rdfs:Class;
@@ -115,104 +108,97 @@ excav:Coordinates
 	rdfs:label "The Coordinates of the Item in a Square."@en;
 	rdfs:subClassOf schema:GeoCoordinates  .
 
-
               #======<>===============================<>=====#
 #===========  #------<>-------------------------------<>-----#  ===========#
 #===========  #------<>          Properties           <>-----#  ===========#
 #===========  #------<>-------------------------------<>-----#	===========#
               #======<>===============================<>=====#
 
-     
-   
 #>-----------------------------------------<#
 #>           Object Properties             <#
 #>-----------------------------------------<#
 
-
 excav:hasGPSCoordinates
-	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "The GPS coordinates of the central point of the excavation's location (in degrees)."@en;
-	rdfs:label "Location - has GPS Coordinates"@en;
-  	rdfs:domain excav:Excavation;
-	rdfs:range excav:GPSLocation.
+  a rdf:Property, owl:ObjectProperty;
+  rdfs:comment "The GPS coordinates of the central point of the excavation's location (in degrees)."@en;
+  rdfs:label "Location - has GPS Coordinates"@en;
+  rdfs:domain excav:Excavation;
+  rdfs:range excav:GPSLocation.
 
 excav:hasPersonInCharge
-  a rdf:Property,	owl:ObjectProperty;
+  a rdf:Property, owl:ObjectProperty;
   rdfs:comment "The person in charge of the excavation (an Archaeologist)."@en;
   rdfs:label "The Excavation has a person in charge -> Archaeologist"@en;
   rdfs:domain excav:Excavation;
   rdfs:range excav:Archaeologist .
 
 excav:hasContext
-  	a rdf:Property,	owl:ObjectProperty;
-  	rdfs:comment "The contexts of the excavation."@en;
-  	rdfs:label "Excavation - hasContext"@en;
-        rdfs:domain excav:Excavation;
-  	rdfs:range excav:Context.
+   a rdf:Property, owl:ObjectProperty;
+   rdfs:comment "The contexts of the excavation."@en;
+   rdfs:label "Excavation - hasContext"@en;
+   rdfs:domain excav:Excavation;
+   rdfs:range excav:Context.
 
 excav:hasSVU
-  	a rdf:Property,	owl:ObjectProperty;
-  	rdfs:comment "The StratigraphicVolumeUnit (CIDOC CRM A2)."@en;
-  	rdfs:label "The  StratigraphicVolumeUnit"@en;
-  	rdfs:domain excav:Contect;
-  	rdfs:range excav:SratigraficVolumeUnit.
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "The StratigraphicVolumeUnit (CIDOC CRM A2)."@en;
+    rdfs:label "The  StratigraphicVolumeUnit"@en;
+    rdfs:domain excav:Context;
+    rdfs:range excav:StratigraphicVolumeUnit.
 
 excav:hasTimeline
-  	a rdfs:Class;
-  	rdfs:comment "The specific timeline of the the layer ."@en;
-  	rdfs:label "The Stratigraphic unit has a timeline"@en;
-    	rdfs:domain excav:StratigraphicVolumeUnit;
-  	rdfs:range excav:TimeLine .
+    a rdfs:Class;
+    rdfs:comment "The specific timeline of the the layer ."@en;
+    rdfs:label "The Stratigraphic unit has a timeline"@en;
+    rdfs:domain excav:StratigraphicVolumeUnit;
+    rdfs:range excav:TimeLine .
 
 excav:foundInCoordinates
-  a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "Points to the Coordinates where the item was found."@en;
-  rdfs:label "Coordinates of the Item found"@en;
-  rdfs:domain excav:Item ;
-  rdfs:range excav:GPSCoordinates .
-
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Points to the Coordinates where the item was found."@en;
+    rdfs:label "Coordinates of the Item found"@en;
+    rdfs:domain excav:Item ;
+    rdfs:range excav:GPSCoordinates .
 
 excav:foundInSVU
-  a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "Points to the Stratigraphic Unit where the item was found."@en;
-  rdfs:label "Encounter Event - an item found in a specific Stratigraphic Unit"@en;
-  rdfs:domain excav:EncouterEvent;
-  rdfs:range excav:StratigraphicVolumeUnit .
-
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Points to the Stratigraphic Unit where the item was found."@en;
+    rdfs:label "Encounter Event - an item found in a specific Stratigraphic Unit"@en;
+    rdfs:domain excav:EncouterEvent;
+    rdfs:range excav:StratigraphicVolumeUnit .
 
 excav:foundInContext
-  a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "Points to the Context where the item was found."@en;
-  rdfs:label "The Encounter Event - an item found in a specific Context"@en;
-  rdfs:domain excav:EncouterEvent;
-  rdfs:range excav:Context.
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Points to the Context where the item was found."@en;
+    rdfs:label "The Encounter Event - an item found in a specific Context"@en;
+    rdfs:domain excav:EncouterEvent;
+    rdfs:range excav:Context.
      
 excav:foundInExcavation
-  a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "Points to the Excavation where the item was found."@en;
-  rdfs:label "The Encounter Event - an item found in an Excavation"@en;
-  rdfs:domain excav:EncouterEvent;
-  rdfs:range excav:Excavation .
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Points to the Excavation where the item was found."@en;
+    rdfs:label "The Encounter Event - an item found in an Excavation"@en;
+    rdfs:domain excav:EncouterEvent;
+    rdfs:range excav:Excavation .
 
 ah:hasCoordinatesInSquare
-	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "Item found in the Coordinates (within the square)."@en;
-	rdfs:label "Item found in the Coordinates (within the square)"@en;
-	rdfs:domain excav:Item;
-	rdfs:range excav:Coordinates.
-
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Item found in the Coordinates (within the square)."@en;
+    rdfs:label "Item found in the Coordinates (within the square)"@en;
+    rdfs:domain excav:Item;
+    rdfs:range excav:Coordinates.
 
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
 excav:bcac
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "This property informs if the date in the bound of the timeline is before christ (bc) or After christ (ac). Use an URI of the term in the controlled vocabulary MegaLOD-BCAC"@en;
-	rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes ou depois de cristo. Usar o URI do termno correspondente (no vocabulário controlado MegaLOD-BCAC"@en;
-	rdfs:label "Definition of the period in time ."@en;
-        rdfs:label "Definição do periodo no tempo ."@en;
-        rdfs:domain excav:Instant;
-	rdfs:range xsd:anyURI.
+    a rdf:Property,owl:DataProperty;
+    rdfs:comment "This property informs if the date in the bound of the timeline is before christ (bc) or After christ (ac). Use an URI of the term in the controlled vocabulary MegaLOD-BCAC"@en;
+    rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes ou depois de cristo. Usar o URI do termno correspondente (no vocabulário controlado MegaLOD-BCAC"@en;
+    rdfs:label "Definition of the period in time ."@en;
+    rdfs:label "Definição do periodo no tempo ."@en;
+    rdfs:domain excav:Instant;
+    rdfs:range xsd:anyURI.
 
 excav:elongationIndex
 	a rdf:Property,	owl:DataProperty;
@@ -231,7 +217,6 @@ excav:thicknessIndex
         rdfs:label "Índice de Espessura ."@en;
         rdfs:domain excav:Item;
 	rdfs:range xsd:anyURI.
-
      
 #>---------------------------------------------------------<#
 #>      THE END END END END END END END END END            <#
