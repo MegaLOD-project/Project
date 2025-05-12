@@ -67,14 +67,14 @@ namespaces--> excav:https//purl.org/megalod/ms/excav/
 | Point (Sharp=True;Fractured=False)                   | point                       | Morphology                    | xsd:boolean      |                        | |
 | Body (Symmetrical=True; Non-symmetrical=False)       | body                        | Morphology                    | xsd:boolean      |                        | |
 | Base                                                 | base                        | Morphology                    | xsd:anyURI       | ah-base                | |
-| Chipping-mode                                        | mode                        | Chipping                      | xsd:anyURI       | ah-chippingMode        | |
-| Chipping-amplitude (Marginal=True;Deep=False)        | amplitude                   | Chipping                      | xsd:boolean      |                        | |
-| Chipping-direction                                   | direction                   | Chipping                      | xsd:anyURI       | ah-chippingDirection   | |
-| Chipping-orientation (Lateral=True;Transverse=False) | orientation                 | Chipping                      | xsd:boolean      |                       | |
-| Chipping-delineation                                 | dileneation                 | Chipping                      | xsd:anyURI       | ah-chippingDelineation | |
-| Chipping-location-Side                               | chippinglocation-Side       | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
-| Chipping-Location-Transversal                        | chippingLocation-Transveral | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
+| Chipping-mode                                        | chippingMode                        | Chipping                      | xsd:anyURI       | ah-chippingMode        | |
+| Chipping-amplitude (Marginal=True;Deep=False)        | chippingAmplitude                   | Chipping                      | xsd:boolean      |                        | |
+| Chipping-direction                                   | chippingDirection                   | Chipping                      | xsd:anyURI       | ah-chippingDirection   | |
+| Chipping-orientation (Lateral=True;Transverse=False) | chippingOrientation                 | Chipping                      | xsd:boolean      |                       | |
+| Chipping-delineation                                 | chippingDileneation                 | Chipping                      | xsd:anyURI       | ah-chippingDelineation | |
 | Chipping-Shape                                       | chippingShape               | Chipping                      | xsd:anyURI       | ah-chippingShape       | |
+| Chipping-location-Side                               | chippingLocationSide       | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
+| Chipping-Location-Transversal                        | chippingLocationTransveral | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
 | The arrowhead has a Morphology                       | hasMorphology               | Arrowhead                     | Morphology       |                        | |
 | The arrowhead has a Chipping                         | hasChipping                 | Arrowhead                     | Chipping         | |  |
 | Body length of the Arrowhead                         | bodyLength                  | Arrowhead                     | excav:TypometryValue | | rdfs:subPropertyOf crm:E54_Dimension |
