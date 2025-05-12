@@ -28,23 +28,6 @@
 		           schema:affiliation <http://fe.up.pt>;
 		           schema:affiliation <https://cham.fcsh.unl.pt>;
 		           schema:affiliation <https://www.fcsh.unl.pt>;
-  ] ,
-  [
-    rdfs:seeAlso <http://fe.up.pt/> ;  
-    foaf:homepage <https://www.up.pt/portal/en/> ;        
-    foaf:name "Mariana Curado Malta" ;
-    foaf:maker [
-    foaf:name "Mariana Curado Malta";
-    foaf:homepage <http://fe.up.pt/>;
-    ], [
-      schema:affiliation [
-      foaf:homepage <https://sigarra.up.pt/feup/pt/fest_geral.cursos_list?pv_num_unico=201906680> ;  
-      foaf:name "Domingos Santos"
-    ] ;
-    rdfs:seeAlso <http://fe.up.pt/> ; 
-    foaf:homepage <https://www.up.pt/portal/en/> ;       
-    foaf:name "Universidade do Porto"
-  ]
   ] ;
 	dct:description "This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .";
 	dct:modified "2025-05-11"^^xsd:date;
