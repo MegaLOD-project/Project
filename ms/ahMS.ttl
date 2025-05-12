@@ -26,8 +26,8 @@
   dct:creator [
         		   schema:affiliation <http://inesctec.pt>;
 		           schema:affiliation <http://fe.up.pt>;
-		           schema:affiliation <http://https://cham.fcsh.unl.pt>;
-		           schema:affiliation <http://https://www.fcsh.unl.pt>;
+		           schema:affiliation <https://cham.fcsh.unl.pt>;
+		           schema:affiliation <https://www.fcsh.unl.pt>;
   ] ,
   [
     rdfs:seeAlso <http://fe.up.pt/> ;  
@@ -49,7 +49,7 @@
 	dct:description "This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .";
 	dct:modified "2025-05-11"^^xsd:date;
 	vann:preferredNamespacePrefix "ah";
-	vann:preferredNamespaceUri "http://www.purl.org/megaLOD/ms/ah";
+	vann:preferredNamespaceUri "http://www.purl.org/megaLOD/ms/ah/";
 	rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWheads metadata scheme"@en;
 	wdrs:describedby <http://purl.org/megalod/ms/ah> .
 
