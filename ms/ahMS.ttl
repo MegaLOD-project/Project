@@ -16,8 +16,8 @@
 # Metadata #
 
 <http://purl.org/megalod/ms/ah> a voaf:Vocabulary, owl:Ontology;
-  voaf:reliesOn excav ;
-  voaf:extends excav ;
+ # voaf:reliesOn excav ;
+ # voaf:extends excav ;
   voaf:classNumber 3 ;
   voaf:propertyNumber  17 ;
   dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
