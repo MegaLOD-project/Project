@@ -54,8 +54,7 @@
   dct:modified "2025-05-10"^^xsd:date;
   vann:preferredNamespacePrefix "excav";
   vann:preferredNamespaceUri "https://purl.org/megalod/ms/excavation";
-  wdrs:describedby <https://purl.org/megalod/map> ;
-  voaf:.
+  wdrs:describedby <https://purl.org/megalod/map> .
 
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#
