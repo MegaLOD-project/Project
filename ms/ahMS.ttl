@@ -17,8 +17,7 @@
 # Metadata #
 
 <http://purl.org/megalod/ms/ah/> a voaf:Vocabulary, owl:Ontology;
- # voaf:reliesOn excav ;
- # voaf:extends excav ;
+
   voaf:classNumber 3 ;
   voaf:propertyNumber  17 ;
   dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
@@ -207,7 +206,7 @@ ah:chippingDelineation
  	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingDelineation."@pt;
 	rdfs:label "Arrowhead-Chipping-delineation"@en;
   	rdfs:domain ah:Chipping;
-	rdfs:range ah:anyURI.
+	rdfs:range xsd:anyURI.
 
 ah:chippingShape
 	a rdf:Property,	owl:DataProperty;
@@ -215,7 +214,7 @@ ah:chippingShape
 	rdfs:comment "Linha definida pelo bordo. Usar o vocabulário controlado AH-ChippingShape."@pt;
 	rdfs:label "Arrowhead-Chipping-shape"@en;
   	rdfs:domain ah:Chipping;
-	rdfs:range ah:anyURI.
+	rdfs:range xsd:anyURI.
 
 ah:chippingLocationSide
 	a rdf:Property,	owl:DataProperty;
@@ -223,7 +222,7 @@ ah:chippingLocationSide
   	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingLocation."@pt;
 	rdfs:label "Arrowhead-Chipping Location-lateral"@en;
 	rdfs:domain ah:Chipping;
-	rdfs:range ah:anyURI.
+	rdfs:range xsd:anyURI.
 
 ah:chippinglocationTransversal
   	a rdf:Property,	owl:DataProperty;
@@ -231,7 +230,7 @@ ah:chippinglocationTransversal
 	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
   	rdfs:label "Arrowhead-Chipping Location-Transversal"@en;
 	rdfs:domain ah:Chipping;
-  	rdfs:range ah:anyURI .
+  	rdfs:range xsd:anyURI .
 
 
 
