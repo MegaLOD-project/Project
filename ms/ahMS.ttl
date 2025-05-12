@@ -16,7 +16,7 @@
 
 # Metadata #
 
-ah a voaf:Vocabulary, owl:Ontology;
+<http://purl.org/megalod/ms/ah/> a voaf:Vocabulary, owl:Ontology;
  # voaf:reliesOn excav ;
  # voaf:extends excav ;
   voaf:classNumber 3 ;
