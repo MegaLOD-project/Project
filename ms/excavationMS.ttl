@@ -5,6 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix voaf:<http://purl.org/vocommons/voaf#> .
 @prefix schema: <http://schema.org/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
@@ -20,7 +21,9 @@
 #Metadata#
 
 <https://purl.org/megalod/ms/excavation> 
-  a voaf:metadataVoc, owl:Ontology;
+  a owl:Ontology; a voaf:Vocabulary ;
+  voaf:classNumber 	15 ;
+  voaf:propertyNumber	14;
   dct:title "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
   dct:abstract "Excavation metdata scheme is vocabulary to be used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for the descrition of the activities of arqueological excavations"@en;
@@ -51,8 +54,8 @@
   dct:modified "2025-05-10"^^xsd:date;
   vann:preferredNamespacePrefix "excav";
   vann:preferredNamespaceUri "https://purl.org/megalod/ms/excavation";
-  rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWhead MAP"@en;
-  wdrs:describedby <https://purl.org/megalod/map> .
+  wdrs:describedby <https://purl.org/megalod/map> ;
+  voaf:.
 
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#
@@ -134,8 +137,8 @@ excav:Square
 excav:TimeLine
 	a rdfs:Class;
 	rdfs:comment "A TimeLine"@en;
-	rdfs:label "A TimeLine."@en.
-	rdfs:subClassOf time:TemporalEntity
+	rdfs:label "A TimeLine."@en;
+	rdfs:subClassOf time:TemporalEntity .
 
 excav:Instant
 	a rdfs:Class;
