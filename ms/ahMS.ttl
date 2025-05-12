@@ -169,7 +169,7 @@ ah:base
 	rdfs:domain ah:Morphology;
 	rdfs:range xsd:anyURI.
 
-  ah:mode
+  ah:chippingMode
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "Type of retouching incidence, defines the angle formed by the retouching line and the chipping surface. A good pratice is to use the Controlled Vocabulary AH-ChippingMode."@en;
         rdfs:comment "Tipo de incidência do retoque, define o ângulo formado pela linha de retoque e a superfície de lascagem. Usar o vocabulário controlado AH-chippingMode."@pt;  	
@@ -177,7 +177,7 @@ ah:base
         rdfs:domain ah:Chipping;
   	rdfs:range xsd:anyURI.
 
-ah:amplitude
+ah:chippingAmplitude
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "Retouching extension, Marginal=True;Deep=False."@en;
         rdfs:comment "Extensão do retoque, Marginal=True;Profundo=False."@pt;
@@ -185,7 +185,7 @@ ah:amplitude
         rdfs:domain ah:Chipping;
 	rdfs:range xsd:boolean.
 
-ah:direction
+ah:chippingDirection
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "It results from the position in which the chip or blade is placed to be retouched. A good pratice is to use the Controlled Vocabulary AH-ChippingDirection."@en;
         rdfs:comment "Resulta da posição em que é colocada a lasca ou lamina para ser retocada. Usar o vocabulário controlado AH-ChippingDirection."@pt;
@@ -193,7 +193,7 @@ ah:direction
         rdfs:domain ah:Chipping;
 	rdfs:range xsd:anyURI.
 
-ah:orientation
+ah:chippingOrientation
   	a rdf:Property,	owl:DataProperty;
   	rdfs:comment "Angle between the original axis of the part and the line formed by the retouching, Lateral=True;Transverse=False."@en;
     	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque, Lateral=True;Transversal=False."@pt;
@@ -201,29 +201,13 @@ ah:orientation
  	rdfs:domain ah:Chipping;
   	rdfs:range xsd:boolean.
 
-ah:delineation
+ah:chippingDelineation
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "The retouching gives the margins a shape.. A good pratice is to use the Controlled Vocabulary AH-ChippingDelineation."@en;
  	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingDelineation."@pt;
 	rdfs:label "Arrowhead-Chipping-delineation"@en;
   	rdfs:domain ah:Chipping;
 	rdfs:range ah:anyURI.
-
-ah:chippinglocation-Side
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The retouching can occupy a position to the left or right of the axis of symmetry and, depending on the axis perpendicular to it, the retouching can be distal, medial or proximal. . A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
-  	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingLocation."@pt;
-	rdfs:label "Arrowhead-Chipping Location-lateral"@en;
-	rdfs:domain ah:Chipping;
-	rdfs:range ah:anyURI.
-
-ah:chippinglocation-Transversal
-  	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "The retouching can be distal or proximal and, depending on the edge where it is located, it can occupy a left, right or median position. A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
-	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
-  	rdfs:label "Arrowhead-Chipping Location-Transversal"@en;
-	rdfs:domain ah:Chipping;
-  	rdfs:range ah:anyURI .
 
 ah:chippingShape
 	a rdf:Property,	owl:DataProperty;
@@ -232,6 +216,24 @@ ah:chippingShape
 	rdfs:label "Arrowhead-Chipping-shape"@en;
   	rdfs:domain ah:Chipping;
 	rdfs:range ah:anyURI.
+
+ah:chippingLocationSide
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "The retouching can occupy a position to the left or right of the axis of symmetry and, depending on the axis perpendicular to it, the retouching can be distal, medial or proximal. . A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
+  	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingLocation."@pt;
+	rdfs:label "Arrowhead-Chipping Location-lateral"@en;
+	rdfs:domain ah:Chipping;
+	rdfs:range ah:anyURI.
+
+ah:chippinglocationTransversal
+  	a rdf:Property,	owl:DataProperty;
+  	rdfs:comment "The retouching can be distal or proximal and, depending on the edge where it is located, it can occupy a left, right or median position. A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
+	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
+  	rdfs:label "Arrowhead-Chipping Location-Transversal"@en;
+	rdfs:domain ah:Chipping;
+  	rdfs:range ah:anyURI .
+
+
 
 #>---------------------------------------------------------<#
 #>      THE END END END END END END END END END            <#
