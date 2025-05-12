@@ -113,13 +113,15 @@ ah:hasChipping
 
 ah:bodyLength
 	a rdf:Property,	owl:DataProperty;
+        rdfs:subPropertyOf crm:E54_Dimension ;
 	rdfs:comment "This property points to an instance that presents the length of the body of the arrowhead."@en;
 	rdfs:label "ArrowHead - bodyLength"@en;
         rdfs:domain ah:Arrowhead;
-	rdfs:range excav:TypometryValue.
+	rdfs:range excav:TypometryValue .
 
 ah:baseLength
 	a rdf:Property,	owl:DataProperty;
+        rdfs:subPropertyOf crm:E54_Dimension ;
 	rdfs:comment "This property points to an instance that presents the length of the base of the arrowhead."@en;
 	rdfs:label "ArrowHead - baseLength"@en;
         rdfs:domain ah:Arrowhead;
