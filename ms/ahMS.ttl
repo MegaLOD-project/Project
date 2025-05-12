@@ -15,7 +15,11 @@
 
 # Metadata #
 
-<http://purl.org/megalod/ms/ah> a voaf:metadataVoc, owl:Ontology;
+<http://purl.org/megalod/ms/ah> a voaf:Vocabulary, owl:Ontology;
+  voaf:reliesOn excav ;
+  voaf:extends excav ;
+  voaf:classNumber 3 ;
+  voaf:propertyNumber  17 ;
   dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
   dct:abstract "Arrowhead V1.1 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
