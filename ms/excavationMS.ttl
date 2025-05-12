@@ -18,43 +18,7 @@
 @prefix excav: <https://purl.org/megalod/ms/excav> .
 @prefix ah: <http://www.purl.com/megalod/ms/ah> .
 
-#Metadata#
 
-<https://purl.org/megalod/ms/excavation> 
-  a owl:Ontology; a voaf:Vocabulary ;
-  voaf:classNumber 	15 ;
-  voaf:propertyNumber	14;
-  dct:title "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
-  rdfs:label "Asset Description Metadata Schema - Excavation' Metadata Scheme"@en;
-  dct:abstract "Excavation metdata scheme is vocabulary to be used to describe semantic assets (or just 'Assets'), defined as highly reusable metadata (e.g. xml schemata, generic data models) and reference data (e.g. code lists, taxonomies, dictionaries, vocabularies) that are used for the descrition of the activities of arqueological excavations"@en;
-  dct:creator [
-    schema:affiliation <http://www.w3.org/data#W3C>;
-    rdfs:seeAlso <http://www.w3.org/> ;
-    foaf:homepage <http://www.w3.org/> ;
-    foaf:name "W3C"
-  ] ,
-  [
-    rdfs:seeAlso <http://fe.up.pt/> ;  
-    foaf:homepage <https://www.up.pt/portal/en/> ;        
-    foaf:name "Mariana Curado Malta" ;
-    foaf:maker [
-      foaf:name "Mariana Curado Malta";
-      foaf:homepage <http://fe.up.pt/>;
-    ], [
-    schema:affiliation [
-      foaf:homepage <https://sigarra.up.pt/feup/pt/fest_geral.cursos_list?pv_num_unico=201906680> ;  
-      foaf:name "Domingos Santos"
-    ] ;
-    rdfs:seeAlso <http://fe.up.pt/> ; 
-    foaf:homepage <https://www.up.pt/portal/en/> ;       
-    foaf:name "Universidade do Porto"
-  ]
-  ] ;
-  dct:description """This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .""";
-  dct:modified "2025-05-10"^^xsd:date;
-  vann:preferredNamespacePrefix "excav";
-  vann:preferredNamespaceUri "https://purl.org/megalod/ms/excavation";
-  wdrs:describedby <https://purl.org/megalod/map> .
 
   #===========  #------<>-------------------------------<>-----#  ===========#
   #===========  #------<>       CLASSES                 <>-----#  ===========#
