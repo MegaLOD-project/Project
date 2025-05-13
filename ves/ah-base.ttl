@@ -27,29 +27,34 @@
     skos:prefLabel "Straight"@en ;
     skos:prefLabel "Reto"@pt ;
     skos:notation "straight" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-base>;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
 
 <https://purl.org/megalod/kos/ah-base/convex> a skos:Concept ;
     skos:prefLabel "Convex"@en ;
     skos:prefLabel "Convexo"@pt ;
     skos:notation "convex" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
+skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
 
 <https://purl.org/megalod/kos/ah-base/concave> a skos:Concept ;
     skos:prefLabel "Concave"@en ;
     skos:prefLabel "Côncavo"@pt ;
     skos:notation "concave" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
+skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
 
 
 <https://purl.org/megalod/kos/ah-base/pedunculated> a skos:Concept ;
     skos:prefLabel "Pedunculated"@en ;
     skos:prefLabel "Pedunculado"@pt ;
     skos:notation "pedunculated" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
+skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
 
 <https://purl.org/megalod/kos/ah-base/triangular> a skos:Concept ;
     skos:prefLabel "Triangular"@en ;
     skos:prefLabel "Triangular"@pt ;
     skos:notation "triangular" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
+skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
