@@ -6,11 +6,11 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/ah/kos/ah-chippingMode> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/megalod/kos/ah-chippingMode> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead chipping mode"@en;
-    skos:hasTopConcept <https://purl.org/ah/kos/ah-chippingMode/plane>,
-        <https://purl.org/ah/kos/ah-chippingMode/parallel>,
-        <https://purl.org/ah/kos/ah-chippingMode/sub-parallel>;
+    skos:hasTopConcept <https://purl.org/megalod/kos/ah-chippingMode/plane>,
+        <https://purl.org/megalod/kos/ah-chippingMode/parallel>,
+        <https://purl.org/megalod/kos/ah-chippingMode/sub-parallel>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:creator "María Luisa Díez Platas, (UNIR, Spain)" ;
     dc:contributor "Américo Araújo (Universidade de Coimbra, Portugal) ";
@@ -19,20 +19,20 @@
     dc:title "Kos about arrowhead chipping mode"@en.
 
 
-<https://purl.org/ah/kos/ah-chippingMode/plane> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-chippingMode/plane> a skos:Concept ;
     skos:prefLabel "Plane"@en ;
     skos:prefLabel "Plano"@pt ;
     skos:notation "plane" ;
-    skos:inScheme <https://purl.org/ah/kos/ah-chippingMode> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingMode> .
 
-<https://purl.org/ah/kos/ah-chippingMode/parallel> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-chippingMode/parallel> a skos:Concept ;
     skos:prefLabel "Parallel"@en ;
     skos:prefLabel "Paralelo"@pt ;
     skos:notation "parallel" ;
-    skos:inScheme <https://purl.org/ah/kos/ah-chippingMode> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingMode> .
 
-<https://purl.org/ah/kos/ah-chippingMode/sub-parallel> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-chippingMode/sub-parallel> a skos:Concept ;
     skos:prefLabel "Sub-Parallel"@en ;
     skos:prefLabel "Sub-Paralelo"@pt ;
     skos:notation "sub-parallel" ;
-    skos:inScheme <https://purl.org/ah/kos/ah-chippingMode> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingMode> .
