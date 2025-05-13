@@ -1,5 +1,5 @@
 <https://purl.org/megalod/kos/IndexElongation> a skos:ConceptScheme, prov:Entity ;
-    skos:prefLabel "The Elogation Index of the Item - used as controlled term in excav:elongationIndexe"@en;
+    skos:prefLabel "The Elogation Index of the Item - used as controlled term in excav:elongationIndex"@en;
     skos:hasTopConcept 
         <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Elongated>,
         <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Medium>;
@@ -14,8 +14,8 @@
     skos:prefLabel "Elongated"@en ;
     skos:prefLabel "Alondado"@pt ;
     skos:prefLabel "Allongé"@fr ;
-    skos:inScheme <https://purl.org/megalod/kos/IndexElongation>;
-    skos:topConceptOf <https://purl.org/megalod/kos/IndexElongation>.
+    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-IndexElongation>;
+    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-IndexElongation>.
 
 <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Medium> a skos:Concept ;
     skos:prefLabel "Medium"@en ;
