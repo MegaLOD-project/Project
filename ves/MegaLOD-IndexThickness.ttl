@@ -8,7 +8,7 @@
 
 
 <https://purl.org/megalod/kos/IndexThickness a skos:ConceptScheme, prov:Entity ;
-    skos:prefLabel "The Elogation Index of the Item - used as controlled term in excav:elongationIndex"@en;
+    skos:prefLabel "The Thickness Index of the Item - used as controlled term in excav:thicknessIndex"@en;
     skos:hasTopConcept 
         <https://purl.org/megalod/kos/MegaLOD-IndexThickness/Thin>,
         <https://purl.org/megalod/kos/MegaLOD-IndexThickness/Medium>;
@@ -16,7 +16,7 @@
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
     dc:date "2025-05-13"^^xsd:date ;
-    dc:title "Kos about excavation dates"@en.
+    dc:title "A taxonomy to categorise Thickness Indexes of lithic Items of the Paleolithic"@en.
 
 
 <https://purl.org/megalod/kos/MegaLOD-IndexThickness/Thin> a skos:Concept ;
