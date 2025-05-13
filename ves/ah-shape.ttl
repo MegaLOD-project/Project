@@ -10,7 +10,7 @@
     skos:prefLabel "Arrowhead shape"@en;
     skos:hasTopConcept <https://purl.org/megalod/kos/ah-shape/triangle>,
         <https://purl.org/megalod/kos/ah-shape/lozenge-shaped>,
-        <https://purl.org/megalod/kos/ah-shape/pedunculated> ;
+        <https://purl.org/megalod/kos/ah-shape/stemmed> ;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:creator "María Luisa Díez Platas, (UNIR, Spain)" ;
     dc:contributor "Américo Araújo (Universidade Nova de Lisboa, Portugal) ";
@@ -35,8 +35,8 @@
     skos:inScheme <https://purl.org/megalod/kos/ah-shape>  ;
     skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.
 
-<https://purl.org/megalod/kos/ah-shape/pedunculated> a skos:Concept ;
-    skos:prefLabel "Pedunculated"@en ;
+<https://purl.org/megalod/kos/ah-shape/stemmed> a skos:Concept ;
+    skos:prefLabel "Stemmed"@en ;
     skos:prefLabel "Pedunculado"@pt ;
     skos:prefLabel "Pédonculée"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/ah-shape>  ;
