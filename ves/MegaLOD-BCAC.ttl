@@ -7,54 +7,27 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 
-<https://purl.org/megalod/kos/ah-base> a skos:ConceptScheme, prov:Entity ;
-    skos:prefLabel "Arrowhead base"@en;
+<https://purl.org/megalod/kos/MegaLOD-BCAC> a skos:ConceptScheme, prov:Entity ;
+    skos:prefLabel "The era before or after christ"@en;
     skos:hasTopConcept 
-        <https://purl.org/megalod/kos/ah-base/straight>,
-        <https://purl.org/megalod/kos/ah-base/convex>,
-        <https://purl.org/megalod/kos/ah-base/concave>,
-        <https://purl.org/megalod/kos/ah-base/pedunculated>,
-        <https://purl.org/megalod/kos/ah-base/triangular>;
+        <https://purl.org/megalod/kos/MegaLOD-BCAC/BC>,
+        <https://purl.org/megalod/kos/MegaLOD-BCAC/AC;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
-    dc:creator "María Luisa Díez Platas, (UNIR, Spain)" ;
-    dc:contributor "Américo Araújo (Universidade de Coimbra, Portugal) ";
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
-    dc:date "2024-04-25"^^xsd:date ;
-    dc:title "Kos about arrowhead base"@en.
+    dc:date "2025-05-213"^^xsd:date ;
+    dc:title "Kos about excavation dates"@en.
 
 
-<https://purl.org/megalod/kos/ah-base/straight> a skos:Concept ;
-    skos:prefLabel "Straight"@en ;
-    skos:prefLabel "Reto"@pt ;
-    skos:notation "straight" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base>;
-    skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
+<https://purl.org/megalod/kos/MegaLOD-BCAC/BC> a skos:Concept ;
+    skos:prefLabel "Before Christ"@en ;
+    skos:prefLabel "Antes de Cristo"@pt ;
+    skos:notation "Before Christ" ;
+    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-BCAC>;
+    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-BCAC>.
 
-<https://purl.org/megalod/kos/ah-base/convex> a skos:Concept ;
-    skos:prefLabel "Convex"@en ;
-    skos:prefLabel "Convexo"@pt ;
-    skos:notation "convex" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
-skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
-
-<https://purl.org/megalod/kos/ah-base/concave> a skos:Concept ;
-    skos:prefLabel "Concave"@en ;
-    skos:prefLabel "Côncavo"@pt ;
-    skos:notation "concave" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
-skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
-
-
-<https://purl.org/megalod/kos/ah-base/pedunculated> a skos:Concept ;
-    skos:prefLabel "Pedunculated"@en ;
-    skos:prefLabel "Pedunculado"@pt ;
-    skos:notation "pedunculated" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
-skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
-
-<https://purl.org/megalod/kos/ah-base/triangular> a skos:Concept ;
-    skos:prefLabel "Triangular"@en ;
-    skos:prefLabel "Triangular"@pt ;
-    skos:notation "triangular" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-base> ;
-skos:topConceptOf <https://purl.org/megalod/kos/ah-base>.
+<https://purl.org/megalod/kos/MegaLOD-BCAC/AC> a skos:Concept ;
+    skos:prefLabel "After  Christ"@en ;
+    skos:prefLabel "depois de Cristo"@pt ;
+    skos:notation "After Christ" ;
+    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-BCAC>;
+    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-BCAC>.
