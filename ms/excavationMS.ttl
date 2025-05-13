@@ -178,21 +178,21 @@ excav:foundInSVU
     a rdf:Property, owl:ObjectProperty;
     rdfs:comment "Points to the Stratigraphic Unit where the item was found."@en;
     rdfs:label "Encounter Event - an item found in a specific Stratigraphic Unit"@en;
-    rdfs:domain excav:EncouterEvent;
+    rdfs:domain excav:EncounterEvent;
     rdfs:range excav:StratigraphicVolumeUnit .
 
 excav:foundInContext
     a rdf:Property, owl:ObjectProperty;
     rdfs:comment "Points to the Context where the item was found."@en;
     rdfs:label "The Encounter Event - an item found in a specific Context"@en;
-    rdfs:domain excav:EncouterEvent;
+    rdfs:domain excav:EncounterEvent;
     rdfs:range excav:Context.
      
 excav:foundInExcavation
     a rdf:Property, owl:ObjectProperty;
     rdfs:comment "Points to the Excavation where the item was found."@en;
     rdfs:label "The Encounter Event - an item found in an Excavation"@en;
-    rdfs:domain excav:EncouterEvent;
+    rdfs:domain excav:EncounterEvent;
     rdfs:range excav:Excavation .
 
 excav:hasCoordinatesInSquare
