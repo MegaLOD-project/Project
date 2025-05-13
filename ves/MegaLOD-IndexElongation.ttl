@@ -1,4 +1,12 @@
-<https://purl.org/megalod/kos/IndexElongation> a skos:ConceptScheme, prov:Entity ;
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://purl.org/megalod/kos/MegaLOD-IndexElongation> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "The Elogation Index of the Item - used as controlled term in excav:elongationIndex"@en;
     skos:hasTopConcept 
         <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Elongated>,
@@ -7,7 +15,7 @@
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
     dc:date "2025-05-213"^^xsd:date ;
-    dc:title "Kos about excavation dates"@en.
+    dc:title "A taxonomy to categorise Thickness Indexes of lithic Items of the Palaeolithic"@en.
 
 
 <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Elongated> a skos:Concept ;
