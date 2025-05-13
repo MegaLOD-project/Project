@@ -64,7 +64,7 @@ excav:Item
 excav:Location
 	a rdfs:Class;
 	rdfs:comment "The Location of the Exacavation."@en;
-	rdfs:label "he Location of the Exacavation."@en;
+	rdfs:label "The Location of the Exacavation."@en;
  	rdfs:subClassOf dbo:Place .
 
 excav:GPSCoordinates
@@ -93,7 +93,7 @@ excav:Context
 
 excav:Square
 	a rdfs:Class;
-	rdfs:comment "A Square defined in the Excavation"@en;
+	rdfs:comment "A Square defined in the Excavation."@en;
 	rdfs:label "A Square defined in the Excavation."@en.
 
 excav:TimeLine
