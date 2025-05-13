@@ -6,34 +6,38 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/ah/kos/ah-shape> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/megalod/kos/ah-shape> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead shape"@en;
-    skos:hasTopConcept <https://purl.org/ah/kos/ah-shape/triangle>,
-        <https://purl.org/ah/kos/ah-shape/losangular>,
-        <https://purl.org/ah/kos/ah-shape/pedunculated> ;
+    skos:hasTopConcept <https://purl.org/megalod/kos/ah-shape/triangle>,
+        <https://purl.org/megalod/kos/ah-shape/lozenge-shaped>,
+        <https://purl.org/megalod/kos/ah-shape/pedunculated> ;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:creator "María Luisa Díez Platas, (UNIR, Spain)" ;
-    dc:contributor "Américo Araújo (Universidade de Coimbra, Portugal) ";
+    dc:contributor "Américo Araújo (Universidade Nova de Lisboa, Portugal) ";
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal)";
-    dc:date "2024-04-25"^^xsd:date ;
+    dc:date "2024-05-25"^^xsd:date ;
+    dc:modified "2025-05-13"^^xsd:date ;
     dc:title "Kos about arrowhead shape"@en.
 
 
-<https://purl.org/ah/kos/ah-shape/triangle> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-shape/triangle> a skos:Concept ;
     skos:prefLabel "Triangle"@en ;
     skos:prefLabel "Triangular"@pt ;
-    skos:notation "triangle" ;
-    skos:inScheme <https://purl.org/ah/kos/ah-shape> .
+    skos:prefLabel "Triangulaire"@fr ;
+   Losangique
+    skos:inScheme <https://purl.org/megalod/kos/ah-shape> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.
 
-<https://purl.org/ah/kos/ah-shape/losangular> a skos:Concept ;
-    skos:prefLabel "Losangular"@en ;
+<https://purl.org/megalod/kos/ah-shape/lozenge-shaped> a skos:Concept ;
+    skos:prefLabel "lozenge-shaped"@en ;
     skos:prefLabel "Losangular"@pt ;
-    skos:notation "losangular" ;
-    skos:inScheme <https://purl.org/ah/kos/ah-shape> .
+    skos:prefLabel "Losangique"@fr ;
+    skos:inScheme <https://purl.org/megalod/kos/ah-shape>  ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.
 
-
-<https://purl.org/ah/kos/ah-shape/pedunculated> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-shape/pedunculated> a skos:Concept ;
     skos:prefLabel "Pedunculated"@en ;
     skos:prefLabel "Pedunculado"@pt ;
-    skos:notation "pedunculated" ;
-    skos:inScheme <https://purl.org/ah/kos/ah-shape> .
+    skos:prefLabel "Pédonculée"@fr ;
+    skos:inScheme <https://purl.org/megalod/kos/ah-shape>  ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.
