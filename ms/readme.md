@@ -74,7 +74,7 @@ namespaces--> excav:https//purl.org/megalod/ms/excav/
 | Chipping-delineation                                 | chippingDileneation                 | Chipping                      | xsd:anyURI       | ah-chippingDelineation | |
 | Chipping-Shape                                       | chippingShape               | Chipping                      | xsd:anyURI       | ah-chippingShape       | |
 | Chipping-location-Side                               | chippingLocationSide       | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
-| Chipping-Location-Transversal                        | chippingLocationTransveral | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
+| Chipping-Location-Transversal                        | chippingLocationTransversal | Chipping                      | xsd:anyURI       | ah-chippingLocation    | |
 | The arrowhead has a Morphology                       | hasMorphology               | Arrowhead                     | Morphology       |                        | |
 | The arrowhead has a Chipping                         | hasChipping                 | Arrowhead                     | Chipping         | |  |
 | Body length of the Arrowhead                         | bodyLength                  | Arrowhead                     | excav:TypometryValue | | rdfs:subPropertyOf crm:E54_Dimension |
