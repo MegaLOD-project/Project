@@ -93,9 +93,15 @@ URI: https//purl.org/megalod/ms/axe/
 
 
 ## Terms
-| Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
-|------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
-| Morphology | morphology   | Axe  | xsd:anyURI |                        | axe-morphology
+| Label                                                | Vocabulary Term                | Domain                           | Range            | VES                       |
+|------------------------------------------------------|--------------------------------|----------------------------------|------------------|---------------------------|
+| Morphology                                           | morphology                     | Axe                              | xsd:anyURI       |   axe-morphology          |
+| Cross Section                                        | crossSection                   | Axe                              | xsd:anyURI       |  axe-morphology           |
+| Longitudinal Section                                 | longitudinalSection            | Axe                              | xsd:anyURI       |  axe-longitudinalSection  |
+| Polishing                                            | polishing                      | Axe                              | xsd:anyURI       |  axe-polishing            |
+| Edge                                                 | edge                           | Axe                              | xsd:anyURI       |  axe-edge                 |
+| Butt                                                 | butt                           | Axe                              | xsd:anyURI       |  axe-butt                 |
+| Traces of use                                        | tracesOfUse                    | Axe                              | xsd:anyURI       |  axe-tracesOfUse          |
 
 
 # Loom Weight Metadata Scheme
