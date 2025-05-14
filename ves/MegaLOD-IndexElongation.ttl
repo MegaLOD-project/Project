@@ -10,7 +10,7 @@
     skos:prefLabel "The Elogation Index of the Item - used as controlled term in excav:elongationIndex"@en;
     skos:hasTopConcept 
         <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Elongated>,
-        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Medium>;
+        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Medium>,
         <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Short>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
