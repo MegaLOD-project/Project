@@ -95,7 +95,7 @@ URI: https//purl.org/megalod/ms/axe/
 ## Terms
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                    |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|------------------------|
-| To be Defined |      |                                  |                  |                        |
+| Morphology | morphology   | Axe  | xsd:anyURI |                        | axe-morphology
 
 
 # Loom Weight Metadata Scheme
