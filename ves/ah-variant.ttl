@@ -23,17 +23,20 @@
     skos:prefLabel "Flat"@en ;
     skos:prefLabel "Liso"@pt ;
  
-    skos:inScheme <https://purl.org/megalod/kos/ah-variant> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-variant> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-variant> .
 
 <https://purl.org/megalod/kos/ah-variant/raised> a skos:Concept ;
     skos:prefLabel "Raised"@en ;
     skos:prefLabel "Elevado"@pt ;
  
-    skos:inScheme <https://purl.org/megalod/kos/ah-variant> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-variant> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-variant>.
 
 
 <https://purl.org/megalod/kos/ah-variant/thick>  a skos:Concept ;
     skos:prefLabel "Thick"@en ;
     skos:prefLabel "Espesso"@pt ;
 
-    skos:inScheme <https://purl.org/megalod/kos/ah-variant> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-variant> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-variant>.
