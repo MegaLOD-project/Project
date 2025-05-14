@@ -7,36 +7,36 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 
-<https://purl.org/megalod/kos/IndexThickness> a skos:ConceptScheme, prov:Entity ;
+<http://purl.org/megalod/kos/IndexThickness> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "The Thickness Index of the Item - used as controlled term in excav:thicknessIndex"@en;
     skos:hasTopConcept 
-        <https://purl.org/megalod/kos/MegaLOD-IndexThickness/Thin>,
-        <https://purl.org/megalod/kos/MegaLOD-IndexThickness/Medium>,
-        <https://purl.org/megalod/kos/MegaLOD-IndexThickness/Thick>;
+        <http://purl.org/megalod/kos/MegaLOD-IndexThickness/Thin>,
+        <http://purl.org/megalod/kos/MegaLOD-IndexThickness/Medium>,
+        <http://purl.org/megalod/kos/MegaLOD-IndexThickness/Thick>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
     dc:date "2025-05-13"^^xsd:date ;
     dc:title "A taxonomy to categorise Thickness Indexes of lithic Items of the Paleolithic"@en.
 
 
-<https://purl.org/megalod/kos/MegaLOD-IndexThickness/Thin> a skos:Concept ;
+<http://purl.org/megalod/kos/MegaLOD-IndexThickness/Thin> a skos:Concept ;
     skos:prefLabel "Thin"@en ;
     skos:prefLabel "Abatido"@pt ;
     skos:prefLabel "Aminci"@fr ;
-    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-IndexThickness>;
-    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-IndexThickness>.
+    skos:inScheme <http://purl.org/megalod/kos/MegaLOD-IndexThickness>;
+    skos:topConceptOf <http://purl.org/megalod/kos/MegaLOD-IndexThickness>.
 
-<https://purl.org/megalod/kos/MegaLOD-IndexThickness/Medium> a skos:Concept ;
+<http://purl.org/megalod/kos/MegaLOD-IndexThickness/Medium> a skos:Concept ;
     skos:prefLabel "Medium"@en ;
     skos:prefLabel "Mediano"@pt ;
     skos:prefLabel "Moyen"@fr ;
-    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-IndexThickness>;
-    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-IndexThickness>.
+    skos:inScheme <http://purl.org/megalod/kos/MegaLOD-IndexThickness>;
+    skos:topConceptOf <http://purl.org/megalod/kos/MegaLOD-IndexThickness>.
 
 
-<https://purl.org/megalod/kos/MegaLOD-IndexThickness/Thick> a skos:Concept ;
+<http://purl.org/megalod/kos/MegaLOD-IndexThickness/Thick> a skos:Concept ;
     skos:prefLabel "Thick"@en ;
     skos:prefLabel "Espesso"@pt ;
     skos:prefLabel "Épais"@fr ;
-    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-IndexThickness>;
-    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-IndexThickness>.
+    skos:inScheme <http://purl.org/megalod/kos/MegaLOD-IndexThickness>;
+    skos:topConceptOf <http://purl.org/megalod/kos/MegaLOD-IndexThickness>.

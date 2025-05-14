@@ -6,11 +6,11 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<https://purl.org/megalod/kos/ah-chippingDelineation> a skos:ConceptScheme, prov:Entity ;
+<http://purl.org/megalod/kos/ah-chippingDelineation> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead chipping delineation"@en;
-    skos:hasTopConcept <https://purl.org/megalod/kos/ah-chippingDelineation/continuous>,
-        <https://purl.org/megalod/kos/ah-chippingDelineation/composite>,
-        <https://purl.org/megalod/kos/ah-chippingDelineation/denticulated>;
+    skos:hasTopConcept <http://purl.org/megalod/kos/ah-chippingDelineation/continuous>,
+        <http://purl.org/megalod/kos/ah-chippingDelineation/composite>,
+        <http://purl.org/megalod/kos/ah-chippingDelineation/denticulated>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:creator "María Luisa Díez Platas, (UNIR, Spain)" ;
     dc:contributor "Américo Araújo (Universidade de Coimbra,Portugal) ";
@@ -19,23 +19,23 @@
     dc:title "KOS about arrowhead chipping delineation"@en.
 
 
-<https://purl.org/megalod/kos/ah-chippingDelineation/continuous> a skos:Concept ;
+<http://purl.org/megalod/kos/ah-chippingDelineation/continuous> a skos:Concept ;
     skos:prefLabel "Continuous"@en ;
     skos:prefLabel "Contínuo"@pt ;
 
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingDelineation/> ;
-    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingDelineation>.
+    skos:inScheme <http://purl.org/megalod/kos/ah-chippingDelineation/> ;
+    skos:topConceptOf <http://purl.org/megalod/kos/ah-chippingDelineation>.
 
-<https://purl.org/megalod/kos/ah-chippingDelineation/composite> a skos:Concept ;
+<http://purl.org/megalod/kos/ah-chippingDelineation/composite> a skos:Concept ;
     skos:prefLabel "Composite"@en ;
     skos:prefLabel "Composto"@pt ;
 
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingDelineation/> ;
-    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingDelineation> .
+    skos:inScheme <http://purl.org/megalod/kos/ah-chippingDelineation/> ;
+    skos:topConceptOf <http://purl.org/megalod/kos/ah-chippingDelineation> .
 
-<https://purl.org/megalod/kos/ah-chippingDelineation/denticulated> a skos:Concept ;
+<http://purl.org/megalod/kos/ah-chippingDelineation/denticulated> a skos:Concept ;
     skos:prefLabel "Denticulated"@en ;
     skos:prefLabel "Denticulado"@pt ;
 
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingDelineation/> ;
-    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingDelineation>.
+    skos:inScheme <http://purl.org/megalod/kos/ah-chippingDelineation/> ;
+    skos:topConceptOf <http://purl.org/megalod/kos/ah-chippingDelineation>.
