@@ -6,11 +6,11 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 
-<http://purl.org/megalod/kos/ah-shape> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/megalod/kos/ah-shape> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead shape"@en;
-    skos:hasTopConcept <http://purl.org/megalod/kos/ah-shape/triangle>,
-        <http://purl.org/megalod/kos/ah-shape/lozenge-shaped>,
-        <http://purl.org/megalod/kos/ah-shape/stemmed> ;
+    skos:hasTopConcept <https://purl.org/megalod/kos/ah-shape/triangle>,
+        <https://purl.org/megalod/kos/ah-shape/lozenge-shaped>,
+        <https://purl.org/megalod/kos/ah-shape/stemmed> ;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:creator "María Luisa Díez Platas, (UNIR, Spain)" ;
     dc:contributor "Américo Araújo (Universidade Nova de Lisboa, Portugal) ";
@@ -20,23 +20,23 @@
     dc:title "Kos about arrowhead shape"@en.
 
 
-<http://purl.org/megalod/kos/ah-shape/triangle> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-shape/triangle> a skos:Concept ;
     skos:prefLabel "Triangle"@en ;
     skos:prefLabel "Triangular"@pt ;
     skos:prefLabel "Triangulaire"@fr ;
-    skos:inScheme <http://purl.org/megalod/kos/ah-shape> ;
-    skos:topConceptOf <http://purl.org/megalod/kos/ah-shape>.
+    skos:inScheme <https://purl.org/megalod/kos/ah-shape> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.
 
-<http://purl.org/megalod/kos/ah-shape/lozenge-shaped> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-shape/lozenge-shaped> a skos:Concept ;
     skos:prefLabel "lozenge-shaped"@en ;
     skos:prefLabel "Losangular"@pt ;
     skos:prefLabel "Losangique"@fr ;
-    skos:inScheme <http://purl.org/megalod/kos/ah-shape>  ;
-    skos:topConceptOf <http://purl.org/megalod/kos/ah-shape>.
+    skos:inScheme <https://purl.org/megalod/kos/ah-shape>  ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.
 
-<http://purl.org/megalod/kos/ah-shape/stemmed> a skos:Concept ;
+<https://purl.org/megalod/kos/ah-shape/stemmed> a skos:Concept ;
     skos:prefLabel "Stemmed"@en ;
     skos:prefLabel "Pedunculado"@pt ;
     skos:prefLabel "Pédonculée"@fr ;
-    skos:inScheme <http://purl.org/megalod/kos/ah-shape>  ;
-    skos:topConceptOf <http://purl.org/megalod/kos/ah-shape>.
+    skos:inScheme <https://purl.org/megalod/kos/ah-shape>  ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.

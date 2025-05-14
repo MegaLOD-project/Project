@@ -7,27 +7,27 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/megalod/kos/MegaLOD-BCAC> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/megalod/kos/MegaLOD-BCAC> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "The era before or after christ"@en;
     skos:hasTopConcept 
-        <http://purl.org/megalod/kos/MegaLOD-BCAC/BC>,
-        <http://purl.org/megalod/kos/MegaLOD-BCAC/AC>;
+        <https://purl.org/megalod/kos/MegaLOD-BCAC/BC>,
+        <https://purl.org/megalod/kos/MegaLOD-BCAC/AC>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
     dc:date "2025-05-13"^^xsd:date ;
     dc:title "Kos about excavation dates"@en.
 
 
-<http://purl.org/megalod/kos/MegaLOD-BCAC/BC> a skos:Concept ;
+<https://purl.org/megalod/kos/MegaLOD-BCAC/BC> a skos:Concept ;
     skos:prefLabel "Before Christ"@en ;
     skos:prefLabel "Antes de Cristo"@pt ;
     skos:notation "Before Christ" ;
-    skos:inScheme <http://purl.org/megalod/kos/MegaLOD-BCAC>;
-    skos:topConceptOf <http://purl.org/megalod/kos/MegaLOD-BCAC>.
+    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-BCAC>;
+    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-BCAC>.
 
-<http://purl.org/megalod/kos/MegaLOD-BCAC/AC> a skos:Concept ;
+<https://purl.org/megalod/kos/MegaLOD-BCAC/AC> a skos:Concept ;
     skos:prefLabel "After  Christ"@en ;
     skos:prefLabel "depois de Cristo"@pt ;
     skos:notation "After Christ" ;
-    skos:inScheme <http://purl.org/megalod/kos/MegaLOD-BCAC>;
-    skos:topConceptOf <http://purl.org/megalod/kos/MegaLOD-BCAC>.
+    skos:inScheme <https://purl.org/megalod/kos/MegaLOD-BCAC>;
+    skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-BCAC>.

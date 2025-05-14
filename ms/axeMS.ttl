@@ -7,8 +7,8 @@
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
-@prefix excav: <http://purl.org/megalod/ms/excav/> .
-@prefix axe: <http://purl.org/megalod/ms/axe/> .
+@prefix excav: <https://purl.org/megalod/ms/excav/> .
+@prefix axe: <https://purl.org/megalod/ms/axe/> .
 
 
 # Metadata #
