@@ -1,18 +1,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix schema: <http://schema.org/> .
-@prefix crm:<http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
-@prefix ah: <http://purl.org/megalod/ms/ah/> .
 @prefix excav: <http://purl.org/megalod/ms/excav/> .
-@prefix excav: <http://purl.org/megalod/ms/axe/> .
+@prefix axe: <http://purl.org/megalod/ms/axe/> .
 
 
 # Metadata #
