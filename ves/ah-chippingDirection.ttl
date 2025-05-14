@@ -22,19 +22,19 @@
 <https://purl.org/megalod/kos/ah-chippingDirection/direct> a skos:Concept ;
     skos:prefLabel "Direct"@en ;
     skos:prefLabel "Direto"@pt ;
-    skos:notation "direct" ;
+ 
     skos:inScheme <https://purl.org/megalod/kos/ah-chippingDirection> .
 
 <https://purl.org/megalod/kos/ah-chippingDirection/reverse> a skos:Concept ;
     skos:prefLabel "Reverse"@en ;
     skos:prefLabel "Inverso"@pt ;
-    skos:notation "reverse" ;
+
     skos:inScheme <https://purl.org/megalod/kos/ah-chippingDirection> .
 
 <https://purl.org/megalod/kos/ah-chippingDirection/bifacial> a skos:Concept ;
     skos:prefLabel "Bifacial"@en ;
     skos:prefLabel "Bifacial"@pt ;
-    skos:notation "bifacial" ;
+ 
     skos:inScheme <https://purl.org/megalod/kos/ah-chippingDirection> .
 
 
