@@ -1,0 +1,166 @@
+Full TTL Data Length: 7321First 1000 characters of TTL Data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: Full Upload URL: http://localhost:7200/repositories/arch-project-shacl/rdf-graphs/service?graph=http%3A%2F%2Fwww.arch-project.com%2FRaw Body Length: 7321Upload Exception: Unable to connect to localhost:7200 . Error #0: stream_socket_client(): Unable to connect to localhost:7200 (Operation timed out)
+Trace: #0 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(1465): Laminas\Http\Client\Adapter\Socket->connect('localhost', 7200, false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(965): Laminas\Http\Client->doRequest(Object(Laminas\Uri\Http), 'POST', false, Array, '@prefix ah: <ht...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(704): Laminas\Http\Client->send()
+#3 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(301): AddTriplestore\Controller\Site\IndexController->sendToGraphDB('@prefix ah: <ht...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(180): AddTriplestore\Controller\Site\IndexController->uploadTtlData('@prefix ah: <ht...', NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(63): AddTriplestore\Controller\Site\IndexController->processFileUpload(Object(Laminas\Http\PhpEnvironment\Request), 'excavation', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php(71): AddTriplestore\Controller\Site\IndexController->uploadAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\Controller\AbstractActionController->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#8 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#9 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php(97): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#10 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/DispatchListener.php(132): Laminas\Mvc\Controller\AbstractController->dispatch(Object(Laminas\Http\PhpEnvironment\Request), Object(Laminas\Http\PhpEnvironment\Response))
+#11 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\DispatchListener->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#12 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#13 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Application.php(325): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#14 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/index.php(21): Laminas\Mvc\Application->run()
+#15 {main}Full TTL Data Length: 7321First 1000 characters of TTL Data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: Full Upload URL: http://localhost:7200/repositories/arch-project-shacl/rdf-graphs/service?graph=http%3A%2F%2Fwww.arch-project.com%2FRaw Body Length: 7321Upload Exception: Unable to connect to localhost:7200 . Error #0: stream_socket_client(): Unable to connect to localhost:7200 (Operation timed out)
+Trace: #0 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(1465): Laminas\Http\Client\Adapter\Socket->connect('localhost', 7200, false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(965): Laminas\Http\Client->doRequest(Object(Laminas\Uri\Http), 'POST', false, Array, '@prefix ah: <ht...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(704): Laminas\Http\Client->send()
+#3 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(301): AddTriplestore\Controller\Site\IndexController->sendToGraphDB('@prefix ah: <ht...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(180): AddTriplestore\Controller\Site\IndexController->uploadTtlData('@prefix ah: <ht...', NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(63): AddTriplestore\Controller\Site\IndexController->processFileUpload(Object(Laminas\Http\PhpEnvironment\Request), 'excavation', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php(71): AddTriplestore\Controller\Site\IndexController->uploadAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\Controller\AbstractActionController->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#8 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#9 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php(97): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#10 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/DispatchListener.php(132): Laminas\Mvc\Controller\AbstractController->dispatch(Object(Laminas\Http\PhpEnvironment\Request), Object(Laminas\Http\PhpEnvironment\Response))
+#11 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\DispatchListener->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#12 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#13 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Application.php(325): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#14 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/index.php(21): Laminas\Mvc\Application->run()
+#15 {main}Full TTL Data Length: 7321First 1000 characters of TTL Data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: Full Upload URL: http://localhost:7200/repositories/arch-project-shacl/rdf-graphs/service?graph=http%3A%2F%2Fwww.arch-project.com%2FRaw Body Length: 7321Upload Exception: Unable to connect to localhost:7200 . Error #0: stream_socket_client(): Unable to connect to localhost:7200 (Operation timed out)
+Trace: #0 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(1465): Laminas\Http\Client\Adapter\Socket->connect('localhost', 7200, false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(965): Laminas\Http\Client->doRequest(Object(Laminas\Uri\Http), 'POST', false, Array, '@prefix ah: <ht...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(704): Laminas\Http\Client->send()
+#3 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(301): AddTriplestore\Controller\Site\IndexController->sendToGraphDB('@prefix ah: <ht...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(180): AddTriplestore\Controller\Site\IndexController->uploadTtlData('@prefix ah: <ht...', NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(63): AddTriplestore\Controller\Site\IndexController->processFileUpload(Object(Laminas\Http\PhpEnvironment\Request), 'excavation', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php(71): AddTriplestore\Controller\Site\IndexController->uploadAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\Controller\AbstractActionController->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#8 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#9 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php(97): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#10 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/DispatchListener.php(132): Laminas\Mvc\Controller\AbstractController->dispatch(Object(Laminas\Http\PhpEnvironment\Request), Object(Laminas\Http\PhpEnvironment\Response))
+#11 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\DispatchListener->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#12 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#13 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Application.php(325): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#14 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/index.php(21): Laminas\Mvc\Application->run()
+#15 {main}Full TTL Data Length: 7321First 1000 characters of TTL Data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: Full Upload URL: http://localhost:7200/repositories/arch-project-shacl/rdf-graphs/service?graph=http%3A%2F%2Fwww.arch-project.com%2FRaw Body Length: 7321Upload Exception: Unable to connect to localhost:7200 . Error #0: stream_socket_client(): Unable to connect to localhost:7200 (Operation timed out)
+Trace: #0 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(1465): Laminas\Http\Client\Adapter\Socket->connect('localhost', 7200, false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(965): Laminas\Http\Client->doRequest(Object(Laminas\Uri\Http), 'POST', false, Array, '@prefix ah: <ht...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(704): Laminas\Http\Client->send()
+#3 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(301): AddTriplestore\Controller\Site\IndexController->sendToGraphDB('@prefix ah: <ht...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(180): AddTriplestore\Controller\Site\IndexController->uploadTtlData('@prefix ah: <ht...', NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(63): AddTriplestore\Controller\Site\IndexController->processFileUpload(Object(Laminas\Http\PhpEnvironment\Request), 'excavation', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php(71): AddTriplestore\Controller\Site\IndexController->uploadAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\Controller\AbstractActionController->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#8 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#9 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php(97): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#10 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/DispatchListener.php(132): Laminas\Mvc\Controller\AbstractController->dispatch(Object(Laminas\Http\PhpEnvironment\Request), Object(Laminas\Http\PhpEnvironment\Response))
+#11 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\DispatchListener->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#12 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#13 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Application.php(325): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#14 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/index.php(21): Laminas\Mvc\Application->run()
+#15 {main}Full TTL Data Length: 4005First 1000 characters of TTL Data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab:<http://www.purl.com/ah/kos#>.
+@prefix excav:<https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm:<http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+# Archaeologist
+<httpFull Upload URL: http://localhost:7200/repositories/arch-project-shacl/rdf-graphs/service?graph=http%3A%2F%2Fwww.arch-project.com%2FRaw Body Length: 4005Upload Exception: Unable to connect to localhost:7200 . Error #0: stream_socket_client(): Unable to connect to localhost:7200 (Operation timed out)
+Trace: #0 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(1465): Laminas\Http\Client\Adapter\Socket->connect('localhost', 7200, false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-http/src/Client.php(965): Laminas\Http\Client->doRequest(Object(Laminas\Uri\Http), 'POST', false, Array, '@prefix ah: <ht...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(704): Laminas\Http\Client->send()
+#3 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(301): AddTriplestore\Controller\Site\IndexController->sendToGraphDB('@prefix ah: <ht...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(180): AddTriplestore\Controller\Site\IndexController->uploadTtlData('@prefix ah: <ht...', 94)
+#5 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/modules/AddTriplestore/src/Controller/Site/IndexController.php(63): AddTriplestore\Controller\Site\IndexController->processFileUpload(Object(Laminas\Http\PhpEnvironment\Request), 'excavation', NULL)
+#6 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php(71): AddTriplestore\Controller\Site\IndexController->uploadAction()
+#7 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\Controller\AbstractActionController->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#8 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#9 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php(97): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#10 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/DispatchListener.php(132): Laminas\Mvc\Controller\AbstractController->dispatch(Object(Laminas\Http\PhpEnvironment\Request), Object(Laminas\Http\PhpEnvironment\Response))
+#11 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(319): Laminas\Mvc\DispatchListener->onDispatch(Object(Laminas\Mvc\MvcEvent))
+#12 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-eventmanager/src/EventManager.php(179): Laminas\EventManager\EventManager->triggerListeners(Object(Laminas\Mvc\MvcEvent), Object(Closure))
+#13 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/vendor/laminas/laminas-mvc/src/Application.php(325): Laminas\EventManager\EventManager->triggerEventUntil(Object(Closure), Object(Laminas\Mvc\MvcEvent))
+#14 /Applications/XAMPP/xamppfiles/htdocs/omeka-s/index.php(21): Laminas\Mvc\Application->run()
+#15 {main}

@@ -1,0 +1,1178 @@
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => Teste 2
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 422edbf901a5cbf24c53d153810f0d29-bfdf5810982560888b6dca312fe5e28d
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test-3
+    [prompt_34] => Teste 2
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => b0f42ed5a6ffb172c889ec5df844b0d3-33aeb0597880b4e7442f1fc0cd3fb3f5
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test-3
+    [prompt_34] => Teste 2
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => b0f42ed5a6ffb172c889ec5df844b0d3-33aeb0597880b4e7442f1fc0cd3fb3f5
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 3e1dfdffe1d1fad4374a3fffb7930c12-76540529aae22eae4421bf5c0c7ce6c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 7cdbd92b70ed3973b4d3707ed779f47d-2f0d6005c9cab4027a307247b4556b6c
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => bc78d1b598381a6df547ca8f50b29ade-89103abda76911c5a6dc90ed388c4493
+    [submit] => Submeter
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 527019e00fdad7a1b13474bb6c0b5480-ac9c90ba4601b3c774df6eeb797a32fd
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 27a7ecad2875d004e0e113ea1b8cbd85-6fd9b84fea64c560eaa64bf71ee8c0c0
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 84c0a89312d77b69fce1ae46e0c11d0f-9bd35a79550f72531d756fb7c11c1f17
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 69b062b2a786004b400beddc0aa6c027-d260e2858cd3461f9042758866abd5ba
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 77edad62dcdcbaec8f812159ed00020b-e23a35d8e4b883c89993733bbcfefc03
+    [existing_context] => 
+    [new_context_id] => CTX-08
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => bc65b6f9ff6a7ccc2cd522c4ab02641b-4d977019a6752ef2c44824c5a7b4b970
+    [existing_context] => 
+    [new_context_id] => CTX-08
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Testww
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 5c0b3110d1cbe922ee4888125cc3e9e9-b85e240f5df10ad0b636a6c49ae62924
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Testww
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 84e1c5a4ee4b353b6a6c7d519441271a-442b5b4ee47c40539a74d7a3b99830ca
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Testww
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 01a1d3316876b8bb95e83fb43dafc92c-ae8d8380870687b3dd9674f1f29849c2
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => aux
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => fb3e5436cb68f8be99210e2a9d1ce48d-35cdbbfa7ca2a03fcd4a8399b49e7e14
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => aux
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => f0f0dd150966c691c5c61f0fc7e894d1-3d45b05d6946d3212419bb6c5d9a1f6f
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 7846c348ab939682cad31884aebcc50d-60b5f35bdbc5100ca671c519c6140986
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => cfb9a09bc0b496a99c9f5d1ab35f66e9-123318d069892f6227c6491a8a728d6b
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => d4d7cc2209e6a4daddb83468b650528f-66f194b49f726c5882aaf8104ddc2c70
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => b44922ea4a8e175ad211a88dc6a278d9-8f4cc6cfa9000178017fea5ec55ffdc9
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 59bd27f1bd1fb59ef9b1a38278175d13-33586a464ecd871563903d445d4fcb8b
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => f33eacfab8e54e482410a003642c5b2e-821b95ea686d75fddbbf328b6e682df9
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => d1a706ba40d749d90ff63c1118e8862e-fefc822f968bfce91fe4cf17fa3c2daa
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 558001e73bf9a9a3740e6e1995f9b1ca-959f7de3a204459e7de4276d733c94e9
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 558001e73bf9a9a3740e6e1995f9b1ca-959f7de3a204459e7de4276d733c94e9
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 44af0cb5c076a17e7adec82a70f693f4-f85e17a2be2e388e08b17a5181041a68
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => fc34e616d7b938ee74c628ccf757a9d1-30b819873b3735dc9a088533024d859c
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 2524b61d77dc2ec983a77f8ffed14752-abe10a21679ddb607e2ab77b5af52644
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 7e6b720b07d0e2aabe263a4a361a9c4e-33dd6d9c1995d37fb25e45f13c91a762
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 2404fba90f93d983e6918c934e497171-4680c5fe797d9ecb030225341094b8e2
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => cad48b77741585c3cbdc07becdb8094c-32f7075b5149ba9cf5f5ce70579f0280
+    [submit] => Submeter
+    [existing_context] => 
+    [new_context_id] => CTX-05
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => SVU-009
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => Test
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => aec1b819fbf127b3b552f265aa7a2a11-f47b15c4f50102a76af9d70ff9409c81
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => 
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => f44840255e524546812003ff1935a0f9-f555145ca4fc9142e183778b86e392b1
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => 
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => auxd
+    [prompt_34] => 
+    [prompt_35] => 
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => 
+    [prompt_38] => 
+    [prompt_39] => 
+    [integer] => 
+    [prompt_40] => 
+    [csrf_3] => 6df2ef521f93933d1964d642cf2e68fd-be0e4987724c712a47f8b767d96aef9a
+    [existing_context] => 
+    [new_context_id] => 
+    [new_context_description] => 
+    [existing_svu] => 
+    [new_svu_id] => 
+    [new_svu_description] => 
+    [new_svu_lower_year] => 
+    [new_svu_upper_year] => 
+    [existing_encounter] => 
+    [new_encounter_date] => 
+    [new_encounter_depth] => 
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+    [upload_type] => arrowhead
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => arrowhead
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => arrowhead
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => arrowhead
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => arrowhead
+    [submit] => Upload
+)
+Received form submission: Array
+(
+    [upload_type] => excavation
+    [submit] => Upload
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+)
+Received form submission: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 275
+    [continuous_upload] => 1
+    [submit] => Upload
+)

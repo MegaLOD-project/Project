@@ -1,0 +1,276 @@
+
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing .    
+
+                    BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                } } 
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing .    
+
+                    BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing .    
+
+                    BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing .    
+
+                    BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing .    
+
+                    ah:shape ah-shape:triangle.
+BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing .    
+
+                    ah:shape ah-shape:triangle.
+BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing ;    
+
+                    ah:shape ah-shape:triangle.
+BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing ;    
+
+                    BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing ;    
+
+                    ah:shape ah-shape:triangle.
+BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }
+                PREFIX ah: <http://www.purl.com/ah/ms/ahMS#>
+                PREFIX dcterms: <http://purl.org/dc/terms/>
+                PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+                PREFIX crmsci: <http://cidoc-crm.org/extensions/crmsci/>
+                PREFIX ah-shape: <http://www.purl.com/ah/ms/ahMS#shape/>
+                PREFIX ah-variant: <http://www.purl.com/ah/ms/ahMS#variant/>
+                PREFIX ah-base: <http://www.purl.com/ah/ms/ahMS#base/>
+                PREFIX ah-chippingMode: <http://www.purl.com/ah/ms/ahMS#chippingMode/>
+                PREFIX ah-chippingDirection: <http://www.purl.com/ah/ms/ahMS#chippingDirection/>
+                PREFIX ah-chippingDelineation: <http://www.purl.com/ah/ms/ahMS#chippingDelineation/>
+                PREFIX ah-chippingShape: <http://www.purl.com/ah/ms/ahMS#chippingShape/>
+                PREFIX ah-chippingLocation: <http://www.purl.com/ah/ms/ahMS#chippingLocation/>
+                PREFIX dct: <http://purl.org/dc/terms/>
+                PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+                
+            
+                SELECT ?object
+                WHERE {
+                    ?subject a crm:E24_Physical_Man-Made_Thing ;    
+
+                    ah:shape ah-shape:triangle.
+BIND(rdf:type AS ?predicate) .
+                    OPTIONAL { ?subject dcterms:identifier ?object . }
+                }

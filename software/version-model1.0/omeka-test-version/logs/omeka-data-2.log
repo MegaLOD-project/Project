@@ -1,0 +1,773 @@
+Omeka Data: Array
+(
+)
+Omeka Data: Array
+(
+)
+Omeka Data: Array
+(
+    [0] => Array
+        (
+            [o:resource_class] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 1
+                            [@id] => http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing
+                        )
+
+                )
+
+            [o:item_set] => Array
+                (
+                )
+
+            [dcterms:identifier] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 10
+                            [@value] => AH-011
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [edm:Webresource] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/image1.jpg
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/3dmodel1.obj
+                        )
+
+                )
+
+            [crm:P45_consists_of] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.arch-project.com/data/material/flint-instance
+                        )
+
+                )
+
+            [dbo:Annotation] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Slight damage on the tip.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Found in layer 3.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [crm:E3_Condition_State] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 476
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [crm:E55_Type] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 478
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [ah:variant] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.purl.com/ah/kos/ah-variant/flat
+                        )
+
+                )
+
+            [ah:foundInCoordinates] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/gps1
+                        )
+
+                )
+
+            [ah:hasMorphology] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/morph1
+                        )
+
+                )
+
+            [ah:hasTypometry] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/type1
+                        )
+
+                )
+
+        )
+
+)
+Omeka Data: Array
+(
+    [0] => Array
+        (
+            [o:resource_class] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 1
+                            [@id] => http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing
+                        )
+
+                )
+
+            [o:item_set] => Array
+                (
+                )
+
+            [dcterms:identifier] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 10
+                            [@value] => AH-011
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [edm:Webresource] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/image1.jpg
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/3dmodel1.obj
+                        )
+
+                )
+
+            [crm:P45_consists_of] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.arch-project.com/data/material/flint-instance
+                        )
+
+                )
+
+            [dbo:Annotation] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Slight damage on the tip.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Found in layer 3.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [crm:E3_Condition_State] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 476
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [crm:E55_Type] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 478
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [ah:variant] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.purl.com/ah/kos/ah-variant/flat
+                        )
+
+                )
+
+            [ah:foundInCoordinates] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/gps1
+                        )
+
+                )
+
+            [ah:hasMorphology] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/morph1
+                        )
+
+                )
+
+            [ah:hasTypometry] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/type1
+                        )
+
+                )
+
+        )
+
+)
+Omeka Data: Array
+(
+)
+Omeka Data: Array
+(
+    [0] => Array
+        (
+            [o:resource_class] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 1
+                            [@id] => http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing
+                        )
+
+                )
+
+            [o:item_set] => Array
+                (
+                )
+
+            [dcterms:identifier] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 10
+                            [@value] => AH-011
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [edm:Webresource] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/image1.jpg
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/3dmodel1.obj
+                        )
+
+                )
+
+            [crm:P45_consists_of] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.arch-project.com/data/material/flint-instance
+                        )
+
+                )
+
+            [dbo:Annotation] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Slight damage on the tip.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Found in layer 3.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [crm:E3_Condition_State] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 476
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [crm:E55_Type] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 478
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [ah:variant] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.purl.com/ah/kos/ah-variant/flat
+                        )
+
+                )
+
+            [ah:foundInCoordinates] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/gps1
+                        )
+
+                )
+
+            [ah:hasMorphology] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/morph1
+                        )
+
+                )
+
+            [ah:hasTypometry] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/type1
+                        )
+
+                )
+
+        )
+
+)
+Omeka Data: Array
+(
+    [0] => Array
+        (
+            [o:resource_class] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 1
+                            [@id] => http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing
+                        )
+
+                )
+
+            [o:item_set] => Array
+                (
+                )
+
+            [dcterms:identifier] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 10
+                            [@value] => AH-011
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [edm:Webresource] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/image1.jpg
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/3dmodel1.obj
+                        )
+
+                )
+
+            [crm:P45_consists_of] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.arch-project.com/data/material/flint-instance
+                        )
+
+                )
+
+            [dbo:Annotation] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Slight damage on the tip.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Found in layer 3.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [crm:E3_Condition_State] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 476
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [crm:E55_Type] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 478
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [ah:variant] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.purl.com/ah/kos/ah-variant/flat
+                        )
+
+                )
+
+            [ah:foundInCoordinates] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/gps1
+                        )
+
+                )
+
+            [ah:hasMorphology] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/morph1
+                        )
+
+                )
+
+            [ah:hasTypometry] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/type1
+                        )
+
+                )
+
+        )
+
+)
+Omeka Data: Array
+(
+)
+Omeka Data: Array
+(
+)
+Omeka Data: Array
+(
+)
+Omeka Data: Array
+(
+    [0] => Array
+        (
+            [o:resource_class] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 1
+                            [@id] => http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing
+                        )
+
+                )
+
+            [o:item_set] => Array
+                (
+                )
+
+            [dcterms:identifier] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 10
+                            [@value] => AH-016
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [edm:Webresource] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/image1.jpg
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://example.com/3dmodel1.obj
+                        )
+
+                )
+
+            [crm:P45_consists_of] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.arch-project.com/data/material/flint-instance
+                        )
+
+                )
+
+            [dbo:Annotation] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Slight damage on the tip.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                    [1] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 57
+                            [@value] => Found in layer 3.
+                            [@type] => http://www.w3.org/2001/XMLSchema#string
+                        )
+
+                )
+
+            [crm:E3_Condition_State] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 476
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [crm:E55_Type] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => literal
+                            [property_id] => 478
+                            [@value] => true
+                            [@type] => http://www.w3.org/2001/XMLSchema#boolean
+                        )
+
+                )
+
+            [ah:variant] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 
+                            [@id] => http://www.purl.com/ah/kos/ah-variant/flat
+                        )
+
+                )
+
+            [ah:foundInCoordinates] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/gps1
+                        )
+
+                )
+
+            [ah:hasMorphology] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/morph1
+                        )
+
+                )
+
+            [ah:hasTypometry] => Array
+                (
+                    [0] => Array
+                        (
+                            [type] => resource
+                            [property_id] => 476
+                            [@id] => http://www.arch-project.com/data/type1
+                        )
+
+                )
+
+        )
+
+)

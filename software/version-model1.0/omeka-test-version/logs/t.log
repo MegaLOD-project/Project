@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:time="http://www.w3.org/2006/time#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:crmarchaeo="http://www.cidoc-crm.org/extensions/crmarchaeo/" xmlns:crmsci="https://cidoc-crm.org/extensions/crmsci/" xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#">
+  <crmarchaeo:A9_Archaeological_Excavation rdf:about=""/>
+</rdf:RDF>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E7_Activity"/>
+    <dct:identifier xmlns:dct="http://purl.org/dc/terms/"/>
+  </rdf:Description>
+</rdf:RDF>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    ah-shape:triangle
+    ah-variant:flat
+    true
+    false
+    ah-base:straight
+    ah-chippingMode:plane
+    true
+    ah-chippingDirection:direct
+    true
+    ah-chippingDelineation:continuous
+    ah-chippingLocation:distal
+    ah-chippingLocation:median
+    ah-chippingLocation:distal
+    ah-chippingLocation:proximal
+    
+
+    ah-chippingShape:straight
+</rdf:RDF>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    ah-shape:triangle
+    ah-variant:flat
+    true
+    false
+    ah-base:straight
+    ah-chippingMode:plane
+    true
+    ah-chippingDirection:direct
+    true
+    ah-chippingDelineation:continuous
+    ah-chippingLocation:distal
+    ah-chippingLocation:median
+    ah-chippingLocation:distal
+    ah-chippingLocation:proximal
+    
+
+    ah-chippingShape:straight
+</rdf:RDF>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    ah-shape:triangle
+    ah-variant:flat
+    true
+    false
+    ah-base:straight
+    ah-chippingMode:plane
+    true
+    ah-chippingDirection:direct
+    true
+    ah-chippingDelineation:continuous
+    ah-chippingLocation:distal
+    ah-chippingLocation:median
+    ah-chippingLocation:distal
+    ah-chippingLocation:proximal
+    
+
+    ah-chippingShape:straight
+</rdf:RDF>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    ah-shape:triangle
+    ah-variant:flat
+    true
+    false
+    ah-base:straight
+    ah-chippingMode:plane
+    true
+    ah-chippingDirection:direct
+    true
+    ah-chippingDelineation:continuous
+    ah-chippingLocation:distal
+    ah-chippingLocation:median
+    ah-chippingLocation:distal
+    ah-chippingLocation:proximal
+    
+
+    ah-chippingShape:straight
+</rdf:RDF>

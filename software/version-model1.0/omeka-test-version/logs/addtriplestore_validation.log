@@ -1,0 +1,20 @@
+2025-04-20T13:25:18+00:00 INFO (6): --- validateDataWithRest Start [2025-04-20 13:25:18] ---
+2025-04-20T13:25:18+00:00 INFO (6): Attempting SHACL validation via REST endpoint: http://localhost:7200/rest/data/validation/repositories/arch-project-shacl
+Attempting SHACL validation via REST: http://localhost:7200/rest/data/validation/repositories/arch-project-shacl2025-04-20T13:25:18+00:00 INFO (6): Validation REST Response Status: 405
+Validation REST Response Status: 4052025-04-20T13:25:18+00:00 INFO (6): Validation REST Response Body:
+Method Not Allowed
+
+Validation REST Response Body:
+Method Not Allowed
+2025-04-20T13:25:18+00:00 ERR (3): SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed
+SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed2025-04-20T13:25:18+00:00 INFO (6): --- validateDataWithRest End [2025-04-20 13:25:18] ---
+2025-04-20T13:25:26+00:00 INFO (6): --- validateDataWithRest Start [2025-04-20 13:25:26] ---
+2025-04-20T13:25:26+00:00 INFO (6): Attempting SHACL validation via REST endpoint: http://localhost:7200/rest/data/validation/repositories/arch-project-shacl
+Attempting SHACL validation via REST: http://localhost:7200/rest/data/validation/repositories/arch-project-shacl2025-04-20T13:25:26+00:00 INFO (6): Validation REST Response Status: 405
+Validation REST Response Status: 4052025-04-20T13:25:26+00:00 INFO (6): Validation REST Response Body:
+Method Not Allowed
+
+Validation REST Response Body:
+Method Not Allowed
+2025-04-20T13:25:26+00:00 ERR (3): SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed
+SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed2025-04-20T13:25:26+00:00 INFO (6): --- validateDataWithRest End [2025-04-20 13:25:26] ---

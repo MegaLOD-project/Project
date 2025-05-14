@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crmarchaeo="http://www.cidoc-crm.org/extensions/crmarchaeo/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dct="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:crmsci="https://cidoc-crm.org/extensions/crmsci/" xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crmarchaeo:A9_Archaeological_Excavation rdf:about="https://purl.org/ah/ms/excavationMS/resource/Excavation_EXC-1234">
+    <dcterms:identifier>EXC-1234</dcterms:identifier>
+    <dul:hasLocation rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Location_Castanheiro do Vento"/>
+    <excav:hasPersonInCharge rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Archaeologist_0000-0002-1825-0097"/>
+    <excav:hasContext rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Context_CTX-001"/>
+    <excav:hasContext rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Context_CTX-002"/>
+  </crmarchaeo:A9_Archaeological_Excavation>
+  <dbo:Place rdf:about="https://purl.org/ah/ms/excavationMS/resource/Location_Castanheiro do Vento">
+    <dbo:district rdf:resource="https://purl.org/ah/ms/excavationMS/resource/District_Guarda"/>
+    <dbo:parish rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Parish_Horta do Douro"/>
+    <dbo:informationName>Castanheiro do Vento</dbo:informationName>
+    <excav:hasGPSCoordinates rdf:resource="https://purl.org/ah/ms/excavationMS/resource/GPSCoords_Castanheiro do Vento"/>
+  </dbo:Place>
+  <geo:SpatialThing rdf:about="https://purl.org/ah/ms/excavationMS/resource/GPSCoords_Castanheiro do Vento">
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41.0514</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-7.3069</geo:long>
+  </geo:SpatialThing>
+  <dbo:District rdf:about="https://purl.org/ah/ms/excavationMS/resource/District_Guarda">
+    <dbo:informationName>Guarda</dbo:informationName>
+  </dbo:District>
+  <dbo:Parish rdf:about="https://purl.org/ah/ms/excavationMS/resource/Parish_Horta do Douro">
+    <dbo:informationName>Horta do Douro</dbo:informationName>
+  </dbo:Parish>
+  <excav:Archaeologist rdf:about="https://purl.org/ah/ms/excavationMS/resource/Archaeologist_0000-0002-1825-0097">
+    <foaf:account rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0002-1825-0097</foaf:account>
+    <foaf:name>Joao Muralha</foaf:name>
+    <foaf:mbox rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">mailto:joao.muralha@example.com</foaf:mbox>
+    <foaf:mbox rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">mailto:excavation@castanheiro.org</foaf:mbox>
+  </excav:Archaeologist>
+  <crmarchaeo:A1_Excavation_Processing_Unit rdf:about="https://purl.org/ah/ms/excavationMS/resource/Context_CTX-001">
+    <dcterms:identifier>CTX-001</dcterms:identifier>
+    <dcterms:description>Main habitation area</dcterms:description>
+    <excav:hasSVU rdf:resource="https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-001"/>
+  </crmarchaeo:A1_Excavation_Processing_Unit>
+  <crmarchaeo:A2_Stratigraphic_Volume_Unit rdf:about="https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-001">
+    <dcterms:identifier>SVU-001</dcterms:identifier>
+    <dcterms:description>Cultural layer with arrowheads</dcterms:description>
+    <excav:hasTimeLine rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-001"/>
+  </crmarchaeo:A2_Stratigraphic_Volume_Unit>
+  <time:TemporalEntity rdf:about="https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-001">
+    <time:hasBeginning rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2900"/>
+    <time:hasEnd rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2500"/>
+  </time:TemporalEntity>
+  <time:Instant rdf:about="https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2900">
+    <time:inXSDYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2900</time:inXSDYear>
+    <excav:bc rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</excav:bc>
+  </time:Instant>
+  <time:Instant rdf:about="https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2500">
+    <time:inXSDYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2500</time:inXSDYear>
+    <excav:bc rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</excav:bc>
+  </time:Instant>
+  <crmsci:S19_Encounter_Event rdf:about="https://purl.org/ah/ms/excavationMS/resource/Event_CTX-001">
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-06-15</dcterms:date>
+    <dbo:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.75</dbo:depth>
+    <crmsci:O19_encountered_object rdf:resource="https://purl.org/ah/ms/ahMS/resource/Arrowhead_AH0087"/>
+    <excav:foundInSVU rdf:resource="https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-001"/>
+    <excav:foundInAContext rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Context_CTX-001"/>
+    <excav:foundInAExcavation rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Excavation_EXC-1234"/>
+  </crmsci:S19_Encounter_Event>
+  <crmarchaeo:A1_Excavation_Processing_Unit rdf:about="https://purl.org/ah/ms/excavationMS/resource/Context_CTX-002">
+    <dcterms:identifier>CTX-002</dcterms:identifier>
+    <dcterms:description>Storage area</dcterms:description>
+    <excav:hasSVU rdf:resource="https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-002"/>
+  </crmarchaeo:A1_Excavation_Processing_Unit>
+  <crmarchaeo:A2_Stratigraphic_Volume_Unit rdf:about="https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-002">
+    <dcterms:identifier>SVU-002</dcterms:identifier>
+    <dcterms:description>Stratified layer with preservation of organic materials</dcterms:description>
+    <excav:hasTimeLine rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-002"/>
+  </crmarchaeo:A2_Stratigraphic_Volume_Unit>
+  <time:TemporalEntity rdf:about="https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-002">
+    <time:hasBeginning rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2800"/>
+    <time:hasEnd rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2600"/>
+  </time:TemporalEntity>
+  <time:Instant rdf:about="https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2800">
+    <time:inXSDYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2800</time:inXSDYear>
+    <excav:bc rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</excav:bc>
+  </time:Instant>
+  <time:Instant rdf:about="https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2600">
+    <time:inXSDYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2600</time:inXSDYear>
+    <excav:bc rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</excav:bc>
+  </time:Instant>
+  <crmsci:S19_Encounter_Event rdf:about="https://purl.org/ah/ms/excavationMS/resource/Event_CTX-002">
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-10</dcterms:date>
+    <dbo:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.1</dbo:depth>
+    <crmsci:O19_encountered_object rdf:resource="https://purl.org/ah/ms/ahMS/resource/Arrowhead_AH0088"/>
+    <excav:foundInSVU rdf:resource="https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-002"/>
+    <excav:foundInAContext rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Context_CTX-002"/>
+    <excav:foundInAExcavation rdf:resource="https://purl.org/ah/ms/excavationMS/resource/Excavation_EXC-1234"/>
+  </crmsci:S19_Encounter_Event>
+</rdf:RDF>

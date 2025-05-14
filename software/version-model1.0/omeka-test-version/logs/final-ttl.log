@@ -1,0 +1,147 @@
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix ns3: <https://cidoc-crm.org/extensions/crmsci/> .
+
+<https://purl.org/ah/ms/excavationMS/resource/Excavation_EXC-1234>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC-1234" ;
+  ns0:hasLocation <https://purl.org/ah/ms/excavationMS/resource/Location_Castanheiro do Vento> ;
+  ns1:hasPersonInCharge <https://purl.org/ah/ms/excavationMS/resource/Archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <https://purl.org/ah/ms/excavationMS/resource/Context_CTX-001>, <https://purl.org/ah/ms/excavationMS/resource/Context_CTX-002> .
+
+<https://purl.org/ah/ms/excavationMS/resource/Location_Castanheiro do Vento>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <https://purl.org/ah/ms/excavationMS/resource/District_Guarda> ;
+  ns2:parish <https://purl.org/ah/ms/excavationMS/resource/Parish_Horta do Douro> ;
+  ns2:informationName "Castanheiro do Vento" ;
+  ns1:hasGPSCoordinates <https://purl.org/ah/ms/excavationMS/resource/GPSCoords_Castanheiro do Vento> .
+
+<https://purl.org/ah/ms/excavationMS/resource/GPSCoords_Castanheiro do Vento>
+  a geo:SpatialThing ;
+  geo:lat 41.0514 ;
+  geo:long -7.3069 .
+
+<https://purl.org/ah/ms/excavationMS/resource/District_Guarda>
+  a ns2:District ;
+  ns2:informationName "Guarda" .
+
+<https://purl.org/ah/ms/excavationMS/resource/Parish_Horta do Douro>
+  a ns2:Parish ;
+  ns2:informationName "Horta do Douro" .
+
+<https://purl.org/ah/ms/excavationMS/resource/Archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Joao Muralha" ;
+  foaf:mbox "mailto:joao.muralha@example.com"^^xsd:anyURI, "mailto:excavation@castanheiro.org"^^xsd:anyURI .
+
+<https://purl.org/ah/ms/excavationMS/resource/Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main habitation area" ;
+  ns1:hasSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-001> .
+
+<https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Cultural layer with arrowheads" ;
+  ns1:hasTimeLine <https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-001> .
+
+<https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-001>
+  a time:TemporalEntity ;
+  time:hasBeginning <https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2900> ;
+  time:hasEnd <https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2500> .
+
+<https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2900>
+  a time:Instant ;
+  time:inXSDYear "2900"^^xsd:gYear ;
+  ns1:bc true .
+
+<https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2500>
+  a time:Instant ;
+  time:inXSDYear "2500"^^xsd:gYear ;
+  ns1:bc true .
+
+<https://purl.org/ah/ms/excavationMS/resource/Event_CTX-001>
+  a <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-06-15"^^xsd:date ;
+  ns2:depth 1.75 ;
+  ns3:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/Arrowhead_AH0087> ;
+  ns1:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-001> ;
+  ns1:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_CTX-001> ;
+  ns1:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_EXC-1234> .
+
+<https://purl.org/ah/ms/excavationMS/resource/Context_CTX-002>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-002" ;
+  dc:description "Storage area" ;
+  ns1:hasSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-002> .
+
+<https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-002>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-002" ;
+  dc:description "Stratified layer with preservation of organic materials" ;
+  ns1:hasTimeLine <https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-002> .
+
+<https://purl.org/ah/ms/excavationMS/resource/Timeline_SVU-002>
+  a time:TemporalEntity ;
+  time:hasBeginning <https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2800> ;
+  time:hasEnd <https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2600> .
+
+<https://purl.org/ah/ms/excavationMS/resource/Instant_LowerBound_2800>
+  a time:Instant ;
+  time:inXSDYear "2800"^^xsd:gYear ;
+  ns1:bc true .
+
+<https://purl.org/ah/ms/excavationMS/resource/Instant_UpperBound_2600>
+  a time:Instant ;
+  time:inXSDYear "2600"^^xsd:gYear ;
+  ns1:bc true .
+
+<https://purl.org/ah/ms/excavationMS/resource/Event_CTX-002>
+  a ns3:S19_Encounter_Event ;
+  dc:date "2023-07-10"^^xsd:date ;
+  ns2:depth 2.1 ;
+  ns3:O19_encountered_object <https://purl.org/ah/ms/ahMS/resource/Arrowhead_AH0088> ;
+  ns1:foundInSVU <https://purl.org/ah/ms/excavationMS/resource/SVU_SVU-002> ;
+  ns1:foundInAContext <https://purl.org/ah/ms/excavationMS/resource/Context_CTX-002> ;
+  ns1:foundInAExcavation <https://purl.org/ah/ms/excavationMS/resource/Excavation_EXC-1234> .
+

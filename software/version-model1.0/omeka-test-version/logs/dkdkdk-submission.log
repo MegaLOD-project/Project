@@ -1,0 +1,1783 @@
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/CTX-05> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d0ab78bfd5> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d0ab78bfd5"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d0ca423a0e> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d0ca423a0e"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d0e570239b> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d0e570239b"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d0e6fba30c> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d0e6fba30c"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d0ed199074> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d0ed199074"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d0f1723f5f> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d0f1723f5f"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d0fbb3751c> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d0fbb3751c"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d11cc524da> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d11cc524da"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d13132644b> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d13132644b"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d134371efa> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d134371efa"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d1381eceab> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d1381eceab"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d138b8a0b3> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d138b8a0b3"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d13c2a29b0> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d13c2a29b0"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d15f4d37be> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d15f4d37be"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d16d51fb7d> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d16d51fb7d"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d176fca27a> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d176fca27a"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d23285a108> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d23285a108"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-05>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-05> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-05"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d2338eb99b> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d2338eb99b"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681d2338eb98e>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681d2338eb98e> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681d2338eb98e"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d236d3e75b> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d236d3e75b"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681d236d3e74f>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681d236d3e74f> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681d236d3e74f"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d250687f16> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d250687f16"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681d250687f0a>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681d250687f0a> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681d250687f0a"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681d271153138> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681d271153138"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681d27115312d>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681d27115312d> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681d27115312d"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e0c0ff11c2> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e0c0ff11c2"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e0c0ff11b7>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e0c0ff11b7> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e0c0ff11b7"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e0ca4cc7b9> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e0ca4cc7b9"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e0ca4cc7ae>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e0ca4cc7ae> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e0ca4cc7ae"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e1143ebe87> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e1143ebe87"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e1143ebe7c>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e1143ebe7c> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e1143ebe7c"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e1158b1774> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e1158b1774"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e1158b1768>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e1158b1768> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e1158b1768"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e1168d05b9> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e1168d05b9"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e1168d05ad>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e1168d05ad> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e1168d05ad"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e12c59d837> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e12c59d837"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e12c59d82b>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e12c59d82b> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e12c59d82b"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e1316bf361> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e1316bf361"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e1316bf355>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e1316bf355> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e1316bf355"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e14e118b26> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e14e118b26"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e14e118b1b>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e14e118b1b> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e14e118b1b"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e182db776e> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e182db776e"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e182db7762>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e182db7762> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e182db7762"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e197bba6a3> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e197bba6a3"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e197bba697>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e197bba697> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e197bba697"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e1a2aee997> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e1a2aee997"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-006>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-006> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-006"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-001>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-001> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-001"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e1c4ad1015> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e1c4ad1015"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e1c4ad100a>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e1c4ad100a> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e1c4ad100a"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e1cae0b26e> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e1cae0b26e"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e26f6bb700> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e26f6bb700"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e26f6bb6f5>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e26f6bb6f5> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e26f6bb6f5"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e2843c4fbd> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e2843c4fbd"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e2843c4fb2>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e2843c4fb2> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e2843c4fb2"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e29494d634> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e29494d634"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e29494d629>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e29494d629> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e29494d629"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e299434c74> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e299434c74"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e299434c69>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e299434c69> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e299434c69"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e2db53954e> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e2db53954e"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e2db539542>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e2db539542> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e2db539542"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e3b6771a90> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e3b6771a90"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e3b6771a85>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e3b6771a85> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e3b6771a85"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e41fbad2b0> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e41fbad2b0"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e41fbad2a4>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e41fbad2a4> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e41fbad2a4"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e42389e8db> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e42389e8db"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e42389e8cf>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e42389e8cf> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e42389e8cf"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e42f30ca09> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e42f30ca09"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e42f30c72c>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e42f30c72c> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e42f30c72c"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e44864ddfe> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e44864ddfe"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e44864ddf1>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e44864ddf1> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e44864ddf1"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681e465181b45> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681e465181b45"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-681e465181b3a>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-681e465181b3a> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-681e465181b3a"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f59ff5aa9f> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f59ff5aa9f"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-001>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-001> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-001"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f5a3d8b19d> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f5a3d8b19d"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f5bbe76d9b> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f5bbe76d9b"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-006>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-006> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-006"^^xsd:string;
+    excav:hasSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    dct:description "very bad"^^xsd:string;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009> a crmarchaeo:A2_Stratigraphic_Volume_Unit;
+    dct:identifier "SVU-009"^^xsd:string;
+    dct:description "this is a test"^^xsd:string;
+    excav:hasTimeLine <http://www.arch-project.com/data/svu/SVU-009/timeline>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009/timeline> a time:TemporalEntity;
+    time:hasBeginning <http://www.arch-project.com/data/svu/SVU-009/timeline/beginning>;
+    time:hasEnd <http://www.arch-project.com/data/svu/SVU-009/timeline/end>;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009/timeline/beginning> a time:Instant;
+    time:inXSDYear "2500"^^xsd:gYear;
+    excav:bc true;
+    .
+
+<http://www.arch-project.com/data/svu/SVU-009/timeline/end> a time:Instant;
+    time:inXSDYear "2000"^^xsd:gYear;
+    excav:bc true;
+    .
+
+<http://www.arch-project.com/data/encounter/681f5bbe76dab> a crmsci:S19_Encounter_Event;
+    dct:date "2001-02-23"^^xsd:date;
+    dbo:depth "1.75"^^xsd:decimal;
+    excav:foundInAExcavation <http://www.arch-project.com/data/excavation/EXC-681f5bbe76d9b>;
+    excav:foundInAContext <http://www.arch-project.com/data/context/CTX-006>;
+    excav:foundInSVU <http://www.arch-project.com/data/svu/SVU-009>;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f5f255f0cf> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f5f255f0cf"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f5fce51446> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f5fce51446"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f6051392be> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f6051392be"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f6301c3e69> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f6301c3e69"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f63c28a80e> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f63c28a80e"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f6d8bc5c78> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f6d8bc5c78"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f6e9345ab0> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f6e9345ab0"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+
+TTL data: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+<http://www.arch-project.com/data/excavation/EXC-681f6ede73992> a crmarchaeo:A9_Archaeological_Excavation;
+    dct:identifier "EXC-681f6ede73992"^^xsd:string;
+    excav:hasContext <http://www.arch-project.com/data/context/CTX-008>;
+    .
+
+<http://www.arch-project.com/data/context/CTX-008> a crmarchaeo:A1_Excavation_Processing_Unit;
+    dct:identifier "CTX-008"^^xsd:string;
+    .
+

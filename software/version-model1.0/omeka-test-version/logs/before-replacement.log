@@ -1,0 +1,2626 @@
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+
+Before Replacement: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://www.cidoc-crm.org/extensions/crmsci/> .
+
+<excav:excavation_EXC4334-44>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation> ;
+  dc:identifier "EXC4334-44" ;
+  ns0:hasLocation <excav:location_BlackwaterSite> ;
+  ns1:ArchaeologistShape <excav:archaeologist_0000-0002-1825-0097> ;
+  ns1:hasContext <excav:Context_CTX-001> .
+
+<excav:location_BlackwaterSite>
+  a <http://dbpedia.org/ontology/Place> ;
+  ns2:district <excav:District_District5> ;
+  ns2:parish <excav:Parish_StMarys> ;
+  ns2:informationName "BlackwaterSite" ;
+  ns1:hasGPSCoordinates <excav:GPSCoords_BlackwaterSite> .
+
+<excav:GPSCoords_BlackwaterSite>
+  a geo:SpatialThing ;
+  geo:lat 53.3498 ;
+  geo:long -6.2603 .
+
+<excav:District_District5>
+  a ns2:District ;
+  ns2:informationName "District5" .
+
+<excav:Parish_StMarys>
+  a ns2:Parish ;
+  ns2:informationName "StMarys" .
+
+<excav:archaeologist_0000-0002-1825-0097>
+  a ns1:Archaeologist ;
+  foaf:account "https://orcid.org/0000-0002-1825-0097"^^xsd:anyURI ;
+  foaf:name "Dr. Aoife Byrne" ;
+  foaf:mbox "mailto:aoife.byrne@iae.ie"^^xsd:anyURI, "mailto:director@blackwater.ie"^^xsd:anyURI .
+
+<excav:Context_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit> ;
+  dc:identifier "CTX-001" ;
+  dc:description "Main occupation layer" ;
+  ns1:hasSVU <excav:SVU_SVU-001> .
+
+<excav:SVU_SVU-001>
+  a <http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit> ;
+  dc:identifier "SVU-001" ;
+  dc:description "Charcoal-rich layer" ;
+  ns1:hasTimeLine <excav:Timeline_SVU-001> .
+
+<excav:Timeline_>
+  a time:TemporalEntity ;
+  time:Instant [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ], [ a rdf:type ], [ a time:inXSDYear ], [ a ns1:bc ] .
+
+<excav:Event_CTX-001>
+  a <http://www.cidoc-crm.org/extensions/crmsci/S19_Encounter_Event>, <https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event> ;
+  dc:date "2023-05-15"^^xsd:date ;
+  ns2:depth 2.4 ;
+  ns3:O19_encountered_object <excav:Item_AH0093> ;
+  ns1:foundInSVU <excav:SVU_SVU-001> ;
+  ns1:foundInAExcavation <excav:excavation_EXC4334-44> ;
+  ns1:foundInAContext <excav:Context_CTX-001> .
+

@@ -1,0 +1,65 @@
+<?php
+$this->collectingPrepareForm(); // Call the CollectingPrepareForm view helper
+$success = $this->params()->fromQuery('success', false);
+$result = $this->params()->fromQuery('result', '');
+$itemSetId = $this->params()->fromQuery('item_set_id');
+?>
+
+<?php if ($itemSetId): ?>
+    <div class="excavation-context alert <?php echo $result ? 'alert-success' : 'alert-info'; ?>">
+        <p>You are adding an arrowhead to the excavation with Item Set ID: <?php echo $this->escapeHtml($itemSetId); ?></p>
+        
+        <?php if ($result): ?>
+            <div class="result-message">
+                <?php echo $this->escapeHtml($result); ?>
+            </div>
+        <?php endif; ?>
+    </div>
+<?php endif; ?>
+
+<?php if ($success): ?>
+    <div class="success-message">
+        <?php echo $this->escapeHtml($result); ?>
+    </div>
+    
+    <div class="button-group">
+        <a href="<?php echo $this->url('site/collecting', [
+            'site-slug' => $this->currentSite()->slug(),
+            'form-id' => $this->params('form-id'),
+            'action' => 'uploadArrowheadForm'
+        ], ['query' => [
+            'item_set_id' => $itemSetId
+        ]], true); ?>" class="button">
+            Add Another Arrowhead
+        </a>
+        <a href="<?php echo $this->url('site', [], true); ?>" class="button">
+            Exit
+        </a>
+    </div>
+<?php else: ?>
+    <?php echo $this->form()->openTag($form); ?>
+    
+    <input type="hidden" name="upload_type" value="<?php echo $this->escapeHtml($formType); ?>">
+    
+    <?php if ($itemSetId): ?>
+        <input type="hidden" name="item_set_id" value="<?php echo $this->escapeHtml($itemSetId); ?>">
+    <?php endif; ?>
+    
+    <div class="form-elements">
+        <?php foreach ($form->getElements() as $element): ?>
+            <div class="form-group">
+                <?php if ($element->getLabel()): ?>
+                    <label><?php echo $this->formLabel($element); ?></label>
+                <?php endif; ?>
+                <?php echo $this->formElement($element); ?>
+                <?php echo $this->formElementErrors($element); ?>
+            </div>
+        <?php endforeach; ?>
+    </div>
+    
+    <div class="form-actions">
+        <button type="submit" class="button">Submit Arrowhead</button>
+    </div>
+    
+    <?php echo $this->form()->closeTag(); ?>
+<?php endif; ?>

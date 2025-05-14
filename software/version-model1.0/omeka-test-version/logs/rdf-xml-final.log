@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crmarchaeo="http://www.cidoc-crm.org/extensions/crmarchaeo/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:crmsci="https://cidoc-crm.org/extensions/crmsci/" xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crmarchaeo:A9_Archaeological_Excavation xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:excavation_EXC4334-44">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/extensions/crmarchaeo/A9_Archaeological_Excavation"/>
+    <dcterms:identifier>EXC4334-44</dcterms:identifier>
+    <dul:hasLocation rdf:resource="excav:location_BlackwaterSite"/>
+    <excav:ArchaeologistShape rdf:resource="excav:archaeologist_0000-0002-1825-0097"/>
+    <excav:hasContext rdf:resource="excav:Context_CTX-001"/>
+  </crmarchaeo:A9_Archaeological_Excavation>
+  <dbo:Place xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:location_BlackwaterSite">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <dbo:district rdf:resource="excav:District_District5"/>
+    <dbo:parish rdf:resource="excav:Parish_StMarys"/>
+    <dbo:informationName>BlackwaterSite</dbo:informationName>
+    <excav:hasGPSCoordinates rdf:resource="excav:GPSCoords_BlackwaterSite"/>
+  </dbo:Place>
+  <geo:SpatialThing xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:GPSCoords_BlackwaterSite">
+    <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53.3498</geo:lat>
+    <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-6.2603</geo:long>
+  </geo:SpatialThing>
+  <dbo:District xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:District_District5">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/District"/>
+    <dbo:informationName>District5</dbo:informationName>
+  </dbo:District>
+  <dbo:Parish xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:Parish_StMarys">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Parish"/>
+    <dbo:informationName>StMarys</dbo:informationName>
+  </dbo:Parish>
+  <excav:Archaeologist xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:archaeologist_0000-0002-1825-0097">
+    <rdf:type rdf:resource="https://purl.org/ah/ms/excavationMS#Archaeologist"/>
+    <foaf:account rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0002-1825-0097</foaf:account>
+    <foaf:name>Dr. Aoife Byrne</foaf:name>
+    <foaf:mbox rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">mailto:aoife.byrne@iae.ie</foaf:mbox>
+    <foaf:mbox rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">mailto:director@blackwater.ie</foaf:mbox>
+  </excav:Archaeologist>
+  <crmarchaeo:A1_Excavation_Processing_Unit xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:Context_CTX-001">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/extensions/crmarchaeo/A1_Excavation_Processing_Unit"/>
+    <dcterms:identifier>CTX-001</dcterms:identifier>
+    <dcterms:description>Main occupation layer</dcterms:description>
+    <excav:hasSVU rdf:resource="excav:SVU_SVU-001"/>
+  </crmarchaeo:A1_Excavation_Processing_Unit>
+  <crmarchaeo:A2_Stratigraphic_Volume_Unit xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:SVU_SVU-001">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/extensions/crmarchaeo/A2_Stratigraphic_Volume_Unit"/>
+    <dcterms:identifier>SVU-001</dcterms:identifier>
+    <dcterms:description>Charcoal-rich layer</dcterms:description>
+    <excav:hasTimeLine rdf:resource="excav:Timeline_SVU-001"/>
+  </crmarchaeo:A2_Stratigraphic_Volume_Unit>
+  <time:TemporalEntity xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:Timeline_SVU-001">
+    <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    <time:Instant rdf:about="excav:Instant_LowerBound_350">
+      <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+      <time:inXSDYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">350</time:inXSDYear>
+      <excav:bc rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</excav:bc>
+    </time:Instant>
+    <time:Instant rdf:about="excav:Instant_UpperBound_450">
+      <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+      <time:inXSDYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">450</time:inXSDYear>
+      <excav:bc rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</excav:bc>
+    </time:Instant>
+  </time:TemporalEntity>
+  <crmsci:S19_Encounter_Event xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/" rdf:about="excav:Event_CTX-001">
+    <rdf:type rdf:resource="https://cidoc-crm.org/extensions/crmsci/S19_Encounter_Event"/>
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-05-15</dcterms:date>
+    <dbo:depth rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.4</dbo:depth>
+    <crmsci:O19_encountered_object rdf:resource="excav:Item_AH0093"/>
+    <excav:foundInSVU rdf:resource="excav:SVU_SVU-001"/>
+    <excav:foundInAExcavation rdf:resource="excav:excavation_EXC4334-44"/>
+    <excav:foundInAContext rdf:resource="excav:Context_CTX-001"/>
+  </crmsci:S19_Encounter_Event>
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crmarchaeo="http://www.cidoc-crm.org/extensions/crmarchaeo/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dct="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:crmsci="https://cidoc-crm.org/ext<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crmarchaeo="http://www.cidoc-crm.org/extensions/crmarchaeo/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dct="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:crmsci="https://cidoc-crm.org/ext

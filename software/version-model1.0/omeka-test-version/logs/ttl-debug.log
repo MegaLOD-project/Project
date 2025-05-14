@@ -1,0 +1,17 @@
+Starting RDF/XML to TTL conversionRDF/XML data loaded into graph successfullyGraph serialized to Turtle successfullyTTL data before adding prefixes (sample): @prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix ns1: <https://purl.org/ah/ms/excavationMS#> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns3: <http://wwwContent type detected: ArrowheadApplying arrowhead cleanup patternsApplied cleanup patterns: length changed from 4437 to 4437Final TTL length: 4455 charactersTTL sample: @prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://Starting RDF/XML to TTL conversionRDF/XML data loaded into graph successfullyGraph serialized to Turtle successfullyFinal TTL data generated successfully

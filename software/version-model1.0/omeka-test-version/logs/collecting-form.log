@@ -1,0 +1,998 @@
+Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 813
+    [prompt_1] => -44
+    [integer] => 
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => 
+    [prompt_4] => 
+    [prompt_5] => 
+    [prompt_6] => 
+    [prompt_7] => 
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => 
+    [prompt_11] => 
+    [prompt_12] => 
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => 
+    [prompt_19] => 
+    [prompt_20] => 
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => 
+    [prompt_24] => 
+    [prompt_25] => 
+    [prompt_26] => 
+    [prompt_27] => 
+    [prompt_28] => 
+    [prompt_29] => 
+    [prompt_30] => 
+    [csrf_1] => 347c73f78d8623a8c4203b3823994eb1-161b56d544f22951035a5ff96de26eb0
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => -44
+    [arrowhead_shape] => 
+    [arrowhead_variant] => 
+    [arrowhead_base] => 
+    [arrowhead_material] => 
+    [arrowhead_annotation] => 
+    [latitude] => 
+    [longitude] => 
+)
+Processed collecting form data: Data uploaded successfully to both GraphDB and Omeka S. Created 1 items with updated titles.Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 813
+    [prompt_1] => 76
+    [integer] => 77
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => This is a test
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Pedunculated
+    [prompt_8] => 4.55
+    [prompt_9] => 2.45
+    [prompt_10] => True (Sharp)
+    [prompt_11] => False (Non-symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 33
+    [prompt_14] => 44
+    [prompt_15] => 55
+    [prompt_16] => 66
+    [prompt_17] => 77
+    [prompt_18] => Plane
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Bifacial
+    [prompt_21] => True (Lateral)
+    [prompt_22] => Continuous
+    [prompt_23] => Median
+    [prompt_24] => 
+    [prompt_25] => 
+    [prompt_26] => Distal
+    [prompt_27] => 
+    [prompt_28] => 
+    [prompt_29] => Convex
+    [prompt_30] => FLint
+    [csrf_1] => fc3c5b5121c4d7979af4a675e0b727c9-10a2419135be73bcf56400c6a6301758
+    [submit] => Submeter
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => 76
+    [arrowhead_shape] => 
+    [arrowhead_variant] => This is a test
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+    [latitude] => Pedunculated
+    [longitude] => 4.55
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found 'i' [line 35]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 813
+    [prompt_1] => 54
+    [integer] => 
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => test
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => 
+    [prompt_19] => 
+    [prompt_20] => 
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => 
+    [prompt_24] => 
+    [prompt_25] => 
+    [prompt_26] => 
+    [prompt_27] => 
+    [prompt_28] => 
+    [prompt_29] => 
+    [prompt_30] => 
+    [csrf_1] => 6533c20b01e677a94981108d47e0422c-a4a000210f960c5ff2979936c070d90f
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => 54
+    [arrowhead_shape] => 
+    [arrowhead_variant] => test
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+    [latitude] => Losangular
+    [longitude] => 
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found '(' [line 43]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 813
+    [prompt_1] => 45
+    [integer] => 
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => 
+    [prompt_4] => 
+    [prompt_5] => 
+    [prompt_6] => 
+    [prompt_7] => 
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => 
+    [prompt_11] => 
+    [prompt_12] => 
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => 
+    [prompt_19] => 
+    [prompt_20] => 
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => 
+    [prompt_24] => 
+    [prompt_25] => 
+    [prompt_26] => 
+    [prompt_27] => 
+    [prompt_28] => 
+    [prompt_29] => 
+    [prompt_30] => 
+    [csrf_1] => e1e1e29b47c03778b3715524d7a2f271-e4c9ad90926f9ad438b45e9be84960fe
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => 45
+    [arrowhead_shape] => 
+    [arrowhead_variant] => 
+    [arrowhead_base] => 
+    [arrowhead_material] => 
+    [arrowhead_annotation] => 
+    [latitude] => 
+    [longitude] => 
+)
+Processed collecting form data: Data uploaded successfully to both GraphDB and Omeka S. Created 1 items with updated titles.Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 813
+    [prompt_1] => 32
+    [integer] => 34
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => dgajhwdbajd
+    [prompt_4] => True (Complete)
+    [prompt_5] => False (Short)
+    [prompt_6] => Raised
+    [prompt_7] => Pedunculated
+    [prompt_8] => 3.4
+    [prompt_9] => 3.2
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Straight
+    [prompt_13] => 33
+    [prompt_14] => 22
+    [prompt_15] => 11
+    [prompt_16] => 12
+    [prompt_17] => 34
+    [prompt_18] => Plane
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Bifacial
+    [prompt_21] => True (Lateral)
+    [prompt_22] => Continuous
+    [prompt_23] => Distal
+    [prompt_24] => 
+    [prompt_25] => 
+    [prompt_26] => Distal
+    [prompt_27] => 
+    [prompt_28] => 
+    [prompt_29] => Concave
+    [prompt_30] => Flint
+    [csrf_1] => fef977e7db9c5c4aac28afd908feba43-b3ba228b465f6e807edd5fe63a89ef50
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => 32
+    [arrowhead_shape] => 
+    [arrowhead_variant] => dgajhwdbajd
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => False (Short)
+    [arrowhead_annotation] => Raised
+    [latitude] => Pedunculated
+    [longitude] => 3.4
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found '(' [line 44]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 45
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 3.4
+    [prompt_9] => 2.1
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 22
+    [prompt_14] => 22
+    [prompt_15] => 33
+    [prompt_16] => 44
+    [prompt_17] => 55
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 150675033324dd33de1e45c98011ec1b-4568e6c8ad04d8de37499228a1b58a8a
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => 45
+    [arrowhead_shape] => 
+    [arrowhead_variant] => ok testing
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+    [latitude] => Losangular
+    [longitude] => 3.4
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found 't' [line 35]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => a8f57e94d6a7d62e06b8d18d0dd4d5c1-74729fa121009b7edf662c4d804cf5d6
+)
+Original Collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => a8f57e94d6a7d62e06b8d18d0dd4d5c1-74729fa121009b7edf662c4d804cf5d6
+)
+Mapped fields: Array
+(
+    [prompt_1] => 
+    [prompt_2] => 
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+)
+Invalid latitude value: LosangularInvalid longitude value: Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => AH-68237bc53f405
+    [arrowhead_shape] => 
+    [arrowhead_variant] => ok testing
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found 't' [line 37]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => a8f57e94d6a7d62e06b8d18d0dd4d5c1-74729fa121009b7edf662c4d804cf5d6
+)
+Original Collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => a8f57e94d6a7d62e06b8d18d0dd4d5c1-74729fa121009b7edf662c4d804cf5d6
+)
+Mapped fields: Array
+(
+    [prompt_1] => 
+    [prompt_2] => 
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+)
+Invalid latitude value: LosangularInvalid longitude value: Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => AH-68237c2a16110
+    [arrowhead_shape] => 
+    [arrowhead_variant] => ok testing
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found 't' [line 37]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 129d436bc8b64c7e654158787c559f89-fdb83369768a1600ff1f63cd78bff0c6
+)
+Original Collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 129d436bc8b64c7e654158787c559f89-fdb83369768a1600ff1f63cd78bff0c6
+)
+Mapped fields: Array
+(
+    [prompt_1] => 
+    [prompt_2] => 
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+)
+Invalid latitude value: LosangularInvalid longitude value: Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => AH-68237cedd02b3
+    [arrowhead_shape] => 
+    [arrowhead_variant] => ok testing
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found 't' [line 41]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 44
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 64beae23aedadae11adc365ba0c19cc9-b4d39e060111be51ef419bf7c3a31d52
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => 44
+    [arrowhead_shape] => 
+    [arrowhead_variant] => ok testing
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+    [latitude] => Losangular
+    [longitude] => 
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found 't' [line 35]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 0241b3493d9a1084d8ae88de3e726515-adc7ae8e9367c4a5e9fdcd7fc4a1c15e
+)
+Transformed arrowhead data: Array
+(
+    [arrowhead_identifier] => 
+    [arrowhead_shape] => 
+    [arrowhead_variant] => ok testing
+    [arrowhead_base] => True (Complete)
+    [arrowhead_material] => True (Elongate)
+    [arrowhead_annotation] => Raised
+    [latitude] => Losangular
+    [longitude] => 
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found 't' [line 35]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 55
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => ok testing
+    [prompt_4] => True (Complete)
+    [prompt_5] => True (Elongate)
+    [prompt_6] => Raised
+    [prompt_7] => Losangular
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => True (Symmetrical)
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Parallel
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => 
+    [prompt_22] => 
+    [prompt_23] => Distal
+    [prompt_24] => Median
+    [prompt_25] => Distal
+    [prompt_26] => Median
+    [prompt_27] => Distal
+    [prompt_28] => Median
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 7970ea061cdc9112c88ed7be16b2bb7d-a968061e7d0e83b66533f2bccc9303f7
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found '^' [line 39]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 33
+    [integer] => 66
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => kahebfakebfja aejfhakjefbhak
+    [prompt_4] => True (Complete)
+    [prompt_5] => 
+    [prompt_6] => Raised
+    [prompt_7] => Triangle
+    [prompt_8] => 3.3
+    [prompt_9] => 4.5
+    [prompt_10] => True (Sharp)
+    [prompt_11] => 
+    [prompt_12] => Convex
+    [prompt_13] => 44
+    [prompt_14] => 55
+    [prompt_15] => 4
+    [prompt_16] => 5
+    [prompt_17] => 66
+    [prompt_18] => Plane
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => True (Lateral)
+    [prompt_22] => Composite
+    [prompt_23] => Median
+    [prompt_24] => Distal
+    [prompt_25] => Median
+    [prompt_26] => Distal
+    [prompt_27] => Median
+    [prompt_28] => Distal
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 0224d08b79488e1836d227a6c366b2e3-eda99aed00a4f02ed7531e20f2e775e6
+)
+Processed collecting form data: Failed to upload data to GraphDB: Failed to upload data: Response Status: 400 | Response Body: MALFORMED DATA: Expected '.', found '^' [line 39]Received collecting form data: Array
+(
+    [upload_type] => arrowhead
+    [item_set_id] => 820
+    [prompt_1] => 
+    [integer] => 66
+    [prompt_2] => 
+    [file] => Array
+        (
+            [2] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+    [prompt_3] => kahebfakebfja aejfhakjefbhak
+    [prompt_4] => True (Complete)
+    [prompt_5] => 
+    [prompt_6] => Raised
+    [prompt_7] => Triangle
+    [prompt_8] => 
+    [prompt_9] => 
+    [prompt_10] => True (Sharp)
+    [prompt_11] => 
+    [prompt_12] => Convex
+    [prompt_13] => 
+    [prompt_14] => 
+    [prompt_15] => 
+    [prompt_16] => 
+    [prompt_17] => 
+    [prompt_18] => Plane
+    [prompt_19] => True (Marginal)
+    [prompt_20] => Reverse
+    [prompt_21] => True (Lateral)
+    [prompt_22] => Composite
+    [prompt_23] => Median
+    [prompt_24] => Distal
+    [prompt_25] => Median
+    [prompt_26] => Distal
+    [prompt_27] => Median
+    [prompt_28] => Distal
+    [prompt_29] => Straight
+    [prompt_30] => Flint
+    [csrf_1] => 989589913b636a29d73bf26019521049-9f69bd647e82cdc7e29b4a922ff30531
+)
+Processed collecting form data: Data uploaded successfully to both GraphDB and Omeka S. Created 1 items with updated titles.

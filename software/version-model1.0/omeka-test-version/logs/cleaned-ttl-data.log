@@ -1,0 +1,597 @@
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix ah: http://www.purl.com/ah/ms/ahMS#.
+@prefix ah-shape: http://www.purl.com/ah/kos/ah-shape/.
+@prefix ah-variant: http://www.purl.com/ah/kos/ah-variant/.
+@prefix ah-base: http://www.purl.com/ah/kos/ah-base/.
+@prefix ah-chippingMode: http://www.purl.com/ah/kos/ah-chippingMode/.
+@prefix ah-chippingDirection: http://www.purl.com/ah/kos/ah-chippingDirection/.
+@prefix ah-chippingDelineation: http://www.purl.com/ah/kos/ah-chippingDelineation/.
+@prefix ah-chippingLocation: http://www.purl.com/ah/kos/ah-chippingLocation/.
+@prefix ah-chippingShape: http://www.purl.com/ah/kos/ah-chippingShape/.
+@prefix crm: http://www.cidoc-crm.org/cidoc-crm/.
+@prefix rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#.
+@prefix xsd: http://www.w3.org/2001/XMLSchema#.
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema#.
+@prefix owl: http://www.w3.org/2002/07/owl#.
+@prefix skos: http://www.w3.org/2004/02/skos/core#.
+@prefix dc: http://purl.org/dc/elements/1.1/.
+@prefix dcterms: http://purl.org/dc/terms/.
+@prefix foaf: http://xmlns.com/foaf/0.1/.
+@prefix ah-vocab: http://www.purl.com/ah/kos#.
+@prefix excav: https://purl.org/ah/ms/excavationMS#.
+@prefix dct: http://purl.org/dc/terms/.
+@prefix schema: http://schema.org/.
+@prefix voaf: http://purl.org/vocommons/voaf#.
+@prefix vann: http://purl.org/vocab/vann/.
+@prefix dbo: http://dbpedia.org/ontology/.
+@prefix time: http://www.w3.org/2006/time#.
+@prefix edm: http://www.europeana.eu/schemas/edm#.
+@prefix dul: http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#.
+@prefix crmsci: https://cidoc-crm.org/extensions/crmsci/.
+@prefix crmarchaeo: http://www.cidoc-crm.org/extensions/crmarchaeo/.
+@prefix geo: http://www.w3.org/2003/01/geo/wgs84_pos#.
+@prefix sh: http://www.w3.org/ns/shacl#.
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.europeana.eu/schemas/edm/> .
+@prefix ns1: <http://www.purl.com/ah/ms/ahMS#> .
+@prefix ns2: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns3: <http://dbpedia.org/ontology/> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos/> .
+
+<ah:arrowhead0013>
+  a <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing>, <crmsci:S19_Encounter_Event> ;
+  dc:identifier "AH0013" ;
+  ns0:Webresource <http://example.com/image1.jpg>, <http://example.com/image2.png>, <http://example.com/model1.obj> ;
+  ns1:shape <http://www.purl.com/ah/kos/ah-shape/triangle> ;
+  ns2:E57_Material <http://vocab.getty.edu/aat/300010351> ;
+  ns3:Annotation "Slight damage on tip.", "Found in layer 3." ;
+  ns2:E3_Condition_State true ;
+  ns2:E55_Type true ;
+  ns1:variant <http://www.purl.com/ah/kos/ah-variant/flat> ;
+  ns1:foundInCoordinates <ah:GPS_GPS001> ;
+  ns1:hasMorphology <ah:Morphology_0013> ;
+  ns1:hasTypometry <ah:Typometry_0013> ;
+  ns2:P12i_was_present_at <ah:EncounterEvent_ExcavationSite1> .
+
+<ah:Morphology_0013>
+  a ns1:Morphology ;
+  ns1:point true ;
+  ns1:body true ;
+  ns1:base <http://www.purl.com/ah/kos/ah-base/straight> .
+
+<ah:Typometry_0013>
+  a ns1:Typometry ;
+  ns2:E54_Dimension "50", "25", "5", "40", "15" ;
+  ns1:hasChipping <ah:Chipping_0013> .
+
+<ah:Chipping_0013>
+  a ns1:Chipping ;
+  ns1:mode <http://www.purl.com/ah/kos/ah-chippingMode/plane> ;
+  ns1:amplitude false ;
+  ns1:direction <http://www.purl.com/ah/kos/ah-chippingDirection/direct> ;
+  ns1:orientation true ;
+  ns1:delineation <http://www.purl.com/ah/kos/ah-chippingDelineation/continuous> ;
+  ns1:chippinglocation-Lateral <http://www.purl.com/ah/kos/ah-chippingLocation/distal>, <http://www.purl.com/ah/kos/ah-chippingLocation/median> ;
+  ns1:chippingLocation-Transversal <http://www.purl.com/ah/kos/ah-chippingLocation/distal> ;
+  ns1:chippingShape <http://www.purl.com/ah/kos/ah-chippingShape/straight> .
+
+<ah:GPS_GPS001>
+  a <http://www.w3.org/2003/01/geo/wgs84_pos/SpatialThing> ;
+  ns4:lat "34.0522" ;
+  ns4:long "-118.2437" .
+
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.europeana.eu/schemas/edm/> .
+@prefix ns1: <http://www.purl.com/ah/ms/ahMS#> .
+@prefix ns2: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns3: <http://dbpedia.org/ontology/> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos/> .
+
+<ah:arrowhead0013>
+  a <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing>, <crmsci:S19_Encounter_Event> ;
+  dc:identifier "AH0013" ;
+  ns0:Webresource <http://example.com/image1.jpg>, <http://example.com/image2.png>, <http://example.com/model1.obj> ;
+  ns1:shape <http://www.purl.com/ah/kos/ah-shape/triangle> ;
+  ns2:E57_Material <http://vocab.getty.edu/aat/300010351> ;
+  ns3:Annotation "Slight damage on tip.", "Found in layer 3." ;
+  ns2:E3_Condition_State true ;
+  ns2:E55_Type true ;
+  ns1:variant <http://www.purl.com/ah/kos/ah-variant/flat> ;
+  ns1:foundInCoordinates <ah:GPS_GPS001> ;
+  ns1:hasMorphology <ah:Morphology_0013> ;
+  ns1:hasTypometry <ah:Typometry_0013> ;
+  ns2:P12i_was_present_at <ah:EncounterEvent_ExcavationSite1> .
+
+<ah:Morphology_0013>
+  a ns1:Morphology ;
+  ns1:point true ;
+  ns1:body true ;
+  ns1:base <http://www.purl.com/ah/kos/ah-base/straight> .
+
+<ah:Typometry_0013>
+  a ns1:Typometry ;
+  ns2:E54_Dimension "50", "25", "5", "40", "15" ;
+  ns1:hasChipping <ah:Chipping_0013> .
+
+<ah:Chipping_0013>
+  a ns1:Chipping ;
+  ns1:mode <http://www.purl.com/ah/kos/ah-chippingMode/plane> ;
+  ns1:amplitude false ;
+  ns1:direction <http://www.purl.com/ah/kos/ah-chippingDirection/direct> ;
+  ns1:orientation true ;
+  ns1:delineation <http://www.purl.com/ah/kos/ah-chippingDelineation/continuous> ;
+  ns1:chippinglocation-Lateral <http://www.purl.com/ah/kos/ah-chippingLocation/distal>, <http://www.purl.com/ah/kos/ah-chippingLocation/median> ;
+  ns1:chippingLocation-Transversal <http://www.purl.com/ah/kos/ah-chippingLocation/distal> ;
+  ns1:chippingShape <http://www.purl.com/ah/kos/ah-chippingShape/straight> .
+
+<ah:GPS_GPS001>
+  a <http://www.w3.org/2003/01/geo/wgs84_pos/SpatialThing> ;
+  ns4:lat "34.0522" ;
+  ns4:long "-118.2437" .
+
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.europeana.eu/schemas/edm/> .
+@prefix ns1: <http://www.purl.com/ah/ms/ahMS#> .
+@prefix ns2: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns3: <http://dbpedia.org/ontology/> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos/> .
+
+<ah:arrowhead0013>
+  a <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing>, <crmsci:S19_Encounter_Event> ;
+  dc:identifier "AH0013" ;
+  ns0:Webresource <http://example.com/image1.jpg>, <http://example.com/image2.png>, <http://example.com/model1.obj> ;
+  ns1:shape <http://www.purl.com/ah/kos/ah-shape/triangle> ;
+  ns2:E57_Material <http://vocab.getty.edu/aat/300010351> ;
+  ns3:Annotation "Slight damage on tip.", "Found in layer 3." ;
+  ns2:E3_Condition_State true ;
+  ns2:E55_Type true ;
+  ns1:variant <http://www.purl.com/ah/kos/ah-variant/flat> ;
+  ns1:foundInCoordinates <ah:GPS_GPS001> ;
+  ns1:hasMorphology <ah:Morphology_0013> ;
+  ns1:hasTypometry <ah:Typometry_0013> ;
+  ns2:P12i_was_present_at <ah:EncounterEvent_ExcavationSite1> .
+
+<ah:Morphology_0013>
+  a ns1:Morphology ;
+  ns1:point true ;
+  ns1:body true ;
+  ns1:base <http://www.purl.com/ah/kos/ah-base/straight> .
+
+<ah:Typometry_0013>
+  a ns1:Typometry ;
+  ns2:E54_Dimension "50", "25", "5", "40", "15" ;
+  ns1:hasChipping <ah:Chipping_0013> .
+
+<ah:Chipping_0013>
+  a ns1:Chipping ;
+  ns1:mode <http://www.purl.com/ah/kos/ah-chippingMode/plane> ;
+  ns1:amplitude false ;
+  ns1:direction <http://www.purl.com/ah/kos/ah-chippingDirection/direct> ;
+  ns1:orientation true ;
+  ns1:delineation <http://www.purl.com/ah/kos/ah-chippingDelineation/continuous> ;
+  ns1:chippinglocation-Lateral <http://www.purl.com/ah/kos/ah-chippingLocation/distal>, <http://www.purl.com/ah/kos/ah-chippingLocation/median> ;
+  ns1:chippingLocation-Transversal <http://www.purl.com/ah/kos/ah-chippingLocation/distal> ;
+  ns1:chippingShape <http://www.purl.com/ah/kos/ah-chippingShape/straight> .
+
+<ah:GPS_GPS001>
+  a <http://www.w3.org/2003/01/geo/wgs84_pos/SpatialThing> ;
+  ns4:lat "34.0522" ;
+  ns4:long "-118.2437" .
+
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.europeana.eu/schemas/edm/> .
+@prefix ns1: <http://www.purl.com/ah/ms/ahMS#> .
+@prefix ns2: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns3: <http://dbpedia.org/ontology/> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos/> .
+
+<ah:arrowhead0013>
+  a <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing>, <crmsci:S19_Encounter_Event> ;
+  dc:identifier "AH0013" ;
+  ns0:Webresource <http://example.com/image1.jpg>, <http://example.com/image2.png>, <http://example.com/model1.obj> ;
+  ns1:shape <http://www.purl.com/ah/kos/ah-shape/triangle> ;
+  ns2:E57_Material <http://vocab.getty.edu/aat/300010351> ;
+  ns3:Annotation "Slight damage on tip.", "Found in layer 3." ;
+  ns2:E3_Condition_State true ;
+  ns2:E55_Type true ;
+  ns1:variant <http://www.purl.com/ah/kos/ah-variant/flat> ;
+  ns1:foundInCoordinates <ah:GPS_GPS001> ;
+  ns1:hasMorphology <ah:Morphology_0013> ;
+  ns1:hasTypometry <ah:Typometry_0013> ;
+  ns2:P12i_was_present_at <ah:EncounterEvent_ExcavationSite1> .
+
+<ah:Morphology_0013>
+  a ns1:Morphology ;
+  ns1:point true ;
+  ns1:body true ;
+  ns1:base <http://www.purl.com/ah/kos/ah-base/straight> .
+
+<ah:Typometry_0013>
+  a ns1:Typometry ;
+  ns2:E54_Dimension "50", "25", "5", "40", "15" ;
+  ns1:hasChipping <ah:Chipping_0013> .
+
+<ah:Chipping_0013>
+  a ns1:Chipping ;
+  ns1:mode <http://www.purl.com/ah/kos/ah-chippingMode/plane> ;
+  ns1:amplitude false ;
+  ns1:direction <http://www.purl.com/ah/kos/ah-chippingDirection/direct> ;
+  ns1:orientation true ;
+  ns1:delineation <http://www.purl.com/ah/kos/ah-chippingDelineation/continuous> ;
+  ns1:chippinglocation-Lateral <http://www.purl.com/ah/kos/ah-chippingLocation/distal>, <http://www.purl.com/ah/kos/ah-chippingLocation/median> ;
+  ns1:chippingLocation-Transversal <http://www.purl.com/ah/kos/ah-chippingLocation/distal> ;
+  ns1:chippingShape <http://www.purl.com/ah/kos/ah-chippingShape/straight> .
+
+<ah:GPS_GPS001>
+  a <http://www.w3.org/2003/01/geo/wgs84_pos/SpatialThing> ;
+  ns4:lat "34.0522" ;
+  ns4:long "-118.2437" .
+
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.europeana.eu/schemas/edm/> .
+@prefix ns1: <http://www.purl.com/ah/ms/ahMS#> .
+@prefix ns2: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ns3: <http://dbpedia.org/ontology/> .
+@prefix ns4: <http://www.w3.org/2003/01/geo/wgs84_pos/> .
+
+<ah:arrowhead0013>
+  a <http://www.cidoc-crm.org/cidoc-crm/E24_Physical_Man-Made_Thing>, <crmsci:S19_Encounter_Event> ;
+  dc:identifier "AH0013" ;
+  ns0:Webresource <http://example.com/image1.jpg>, <http://example.com/image2.png>, <http://example.com/model1.obj> ;
+  ns1:shape <http://www.purl.com/ah/kos/ah-shape/triangle> ;
+  ns2:E57_Material <http://vocab.getty.edu/aat/300010351> ;
+  ns3:Annotation "Slight damage on tip.", "Found in layer 3." ;
+  ns2:E3_Condition_State true ;
+  ns2:E55_Type true ;
+  ns1:variant <http://www.purl.com/ah/kos/ah-variant/flat> ;
+  ns1:foundInCoordinates <ah:GPS_GPS001> ;
+  ns1:hasMorphology <ah:Morphology_0013> ;
+  ns1:hasTypometry <ah:Typometry_0013> ;
+  ns2:P12i_was_present_at <ah:EncounterEvent_ExcavationSite1> .
+
+<ah:Morphology_0013>
+  a ns1:Morphology ;
+  ns1:point true ;
+  ns1:body true ;
+  ns1:base <http://www.purl.com/ah/kos/ah-base/straight> .
+
+<ah:Typometry_0013>
+  a ns1:Typometry ;
+  ns2:E54_Dimension "50", "25", "5", "40", "15" ;
+  ns1:hasChipping <ah:Chipping_0013> .
+
+<ah:Chipping_0013>
+  a ns1:Chipping ;
+  ns1:mode <http://www.purl.com/ah/kos/ah-chippingMode/plane> ;
+  ns1:amplitude false ;
+  ns1:direction <http://www.purl.com/ah/kos/ah-chippingDirection/direct> ;
+  ns1:orientation true ;
+  ns1:delineation <http://www.purl.com/ah/kos/ah-chippingDelineation/continuous> ;
+  ns1:chippinglocation-Lateral <http://www.purl.com/ah/kos/ah-chippingLocation/distal>, <http://www.purl.com/ah/kos/ah-chippingLocation/median> ;
+  ns1:chippingLocation-Transversal <http://www.purl.com/ah/kos/ah-chippingLocation/distal> ;
+  ns1:chippingShape <http://www.purl.com/ah/kos/ah-chippingShape/straight> .
+
+<ah:GPS_GPS001>
+  a <http://www.w3.org/2003/01/geo/wgs84_pos/SpatialThing> ;
+  ns4:lat "34.0522" ;
+  ns4:long "-118.2437" .
+
+@prefix ah: <http://www.purl.com/ah/ms/ahMS#>.
+@prefix ah-shape: <http://www.purl.com/ah/kos/ah-shape/>.
+@prefix ah-variant: <http://www.purl.com/ah/kos/ah-variant/>.
+@prefix ah-base: <http://www.purl.com/ah/kos/ah-base/>.
+@prefix ah-chippingMode: <http://www.purl.com/ah/kos/ah-chippingMode/>.
+@prefix ah-chippingDirection: <http://www.purl.com/ah/kos/ah-chippingDirection/>.
+@prefix ah-chippingDelineation: <http://www.purl.com/ah/kos/ah-chippingDelineation/>.
+@prefix ah-chippingLocation: <http://www.purl.com/ah/kos/ah-chippingLocation/>.
+@prefix ah-chippingShape: <http://www.purl.com/ah/kos/ah-chippingShape/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ah-vocab: <http://www.purl.com/ah/kos#>.
+@prefix excav: <https://purl.org/ah/ms/excavationMS#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix schema: <http://schema.org/>.
+@prefix voaf: <http://purl.org/vocommons/voaf#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix edm: <http://www.europeana.eu/schemas/edm#>.
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#>.
+@prefix crmsci: <https://cidoc-crm.org/extensions/crmsci/>.
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.

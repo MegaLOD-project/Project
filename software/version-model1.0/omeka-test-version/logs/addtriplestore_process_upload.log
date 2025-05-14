@@ -1,0 +1,6 @@
+2025-04-20T13:25:18+00:00 INFO (6): --- processAndUploadTtl Start [2025-04-20 13:25:18] ---
+2025-04-20T13:25:18+00:00 ERR (3): SHACL Validation Failed: SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed
+SHACL Validation Failed: SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed2025-04-20T13:25:18+00:00 INFO (6): --- processAndUploadTtl End [2025-04-20 13:25:18] ---
+2025-04-20T13:25:26+00:00 INFO (6): --- processAndUploadTtl Start [2025-04-20 13:25:26] ---
+2025-04-20T13:25:26+00:00 ERR (3): SHACL Validation Failed: SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed
+SHACL Validation Failed: SHACL validation request failed with HTTP Status: 405. Response: Method Not Allowed2025-04-20T13:25:26+00:00 INFO (6): --- processAndUploadTtl End [2025-04-20 13:25:26] ---

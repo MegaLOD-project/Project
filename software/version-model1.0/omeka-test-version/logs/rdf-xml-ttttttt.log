@@ -1,0 +1,805 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+        EXC-041
+        
+        
+        
+    
+
+    
+        http://www.arch-project.com/data/account1
+        John Doe
+        johndoe@example.com
+    
+
+    
+        CTX-001
+        
+    
+
+    
+        SVU-001
+        A stratigraphic layer containing artifacts
+        
+    
+
+    
+        Ancient Site A
+        
+        
+        
+    
+
+    
+        40.1234
+        -8.5678
+    
+
+    
+        
+        
+    
+
+    
+        0500
+        true
+    
+
+    
+        0450
+        true
+    
+
+    
+        District X
+    
+
+    
+        Parish Y
+    
+
+    
+        2024-03-22
+        2.5
+        
+        
+        
+        
+    
+
+    
+
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E24_Physical_Man-Made_Thing rdf:about="ah:arrowhead0013">
+    <dcterms:identifier>AH0013</dcterms:identifier>
+    <edm:Webresource rdf:resource="http://example.com/image1.jpg"/>
+    <edm:Webresource rdf:resource="http://example.com/image2.png"/>
+    <edm:Webresource rdf:resource="http://example.com/model1.obj"/>
+    <ah:shape rdf:resource="http://www.purl.com/ah/kos/ah-shape/triangle"/>
+    <crm:E57_Material rdf:resource="http://vocab.getty.edu/aat/300010351"/>
+    <dbo:Annotation>Slight damage on tip.</dbo:Annotation>
+    <dbo:Annotation>Found in layer 3.</dbo:Annotation>
+    <crm:E3_Condition_State>true</crm:E3_Condition_State>
+    <crm:E55_Type>true</crm:E55_Type>
+    <ah:variant rdf:resource="http://www.purl.com/ah/kos/ah-variant/flat"/>
+    <ah:foundInCoordinates rdf:resource="ah:GPS_GPS001"/>
+    <ah:hasMorphology rdf:resource="ah:Morphology_0013"/>
+    <ah:hasTypometry rdf:resource="ah:Typometry_0013"/>
+    <crm:P12i_was_present_at rdf:resource="ah:EncounterEvent_ExcavationSite1"/>
+    <rdf:type rdf:resource="crmsci:S19_Encounter_Event"/>
+  </crm:E24_Physical_Man-Made_Thing>
+  <ah:Morphology rdf:about="ah:Morphology_0013">
+    <ah:point>true</ah:point>
+    <ah:body>true</ah:body>
+    <ah:base rdf:resource="http://www.purl.com/ah/kos/ah-base/straight"/>
+  </ah:Morphology>
+  <ah:Typometry rdf:about="ah:Typometry_0013">
+    <crm:E54_Dimension>50</crm:E54_Dimension>
+    <crm:E54_Dimension>25</crm:E54_Dimension>
+    <crm:E54_Dimension>5</crm:E54_Dimension>
+    <crm:E54_Dimension>40</crm:E54_Dimension>
+    <crm:E54_Dimension>15</crm:E54_Dimension>
+    <ah:hasChipping rdf:resource="ah:Chipping_0013"/>
+  </ah:Typometry>
+  <ah:Chipping rdf:about="ah:Chipping_0013">
+    <ah:mode rdf:resource="http://www.purl.com/ah/kos/ah-chippingMode/plane"/>
+    <ah:amplitude>false</ah:amplitude>
+    <ah:direction rdf:resource="http://www.purl.com/ah/kos/ah-chippingDirection/direct"/>
+    <ah:orientation>true</ah:orientation>
+    <ah:delineation rdf:resource="http://www.purl.com/ah/kos/ah-chippingDelineation/continuous"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/median"/>
+    <ah:chippingLocation-Transversal rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippingShape rdf:resource="http://www.purl.com/ah/kos/ah-chippingShape/straight"/>
+  </ah:Chipping>
+  <geo:SpatialThing rdf:about="ah:GPS_GPS001">
+    <geo:lat>34.0522</geo:lat>
+    <geo:long>-118.2437</geo:long>
+  </geo:SpatialThing>
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+        EXC-041
+        
+        
+        
+    
+
+    
+        http://www.arch-project.com/data/account1
+        John Doe
+        johndoe@example.com
+    
+
+    
+        CTX-001
+        
+    
+
+    
+        SVU-001
+        A stratigraphic layer containing artifacts
+        
+    
+
+    
+        Ancient Site A
+        
+        
+        
+    
+
+    
+        40.1234
+        -8.5678
+    
+
+    
+        
+        
+    
+
+    
+        0500
+        true
+    
+
+    
+        0450
+        true
+    
+
+    
+        District X
+    
+
+    
+        Parish Y
+    
+
+    
+        2024-03-22
+        2.5
+        
+        
+        
+        
+    
+
+    
+
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+        EXC-041
+        
+        
+        
+    
+
+    
+        http://www.arch-project.com/data/account1
+        John Doe
+        johndoe@example.com
+    
+
+    
+        CTX-001
+        
+    
+
+    
+        SVU-001
+        A stratigraphic layer containing artifacts
+        
+    
+
+    
+        Ancient Site A
+        
+        
+        
+    
+
+    
+        40.1234
+        -8.5678
+    
+
+    
+        
+        
+    
+
+    
+        0500
+        true
+    
+
+    
+        0450
+        true
+    
+
+    
+        District X
+    
+
+    
+        Parish Y
+    
+
+    
+        2024-03-22
+        2.5
+        
+        
+        
+        
+    
+
+    
+
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+        EXC-041
+        
+        
+        
+    
+
+    
+        http://www.arch-project.com/data/account1
+        John Doe
+        johndoe@example.com
+    
+
+    
+        CTX-001
+        
+    
+
+    
+        SVU-001
+        A stratigraphic layer containing artifacts
+        
+    
+
+    
+        Ancient Site A
+        
+        
+        
+    
+
+    
+        40.1234
+        -8.5678
+    
+
+    
+        
+        
+    
+
+    
+        0500
+        true
+    
+
+    
+        0450
+        true
+    
+
+    
+        District X
+    
+
+    
+        Parish Y
+    
+
+    
+        2024-03-22
+        2.5
+        
+        
+        
+        
+    
+
+    
+
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+        EXC-041
+        
+        
+        
+    
+
+    
+        http://www.arch-project.com/data/account1
+        John Doe
+        johndoe@example.com
+    
+
+    
+        CTX-001
+        
+    
+
+    
+        SVU-001
+        A stratigraphic layer containing artifacts
+        
+    
+
+    
+        Ancient Site A
+        
+        
+        
+    
+
+    
+        40.1234
+        -8.5678
+    
+
+    
+        
+        
+    
+
+    
+        0500
+        true
+    
+
+    
+        0450
+        true
+    
+
+    
+        District X
+    
+
+    
+        Parish Y
+    
+
+    
+        2024-03-22
+        2.5
+        
+        
+        
+        
+    
+
+    
+
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+        EXC-041
+        
+        
+        
+    
+
+    
+        http://www.arch-project.com/data/account1
+        John Doe
+        johndoe@example.com
+    
+
+    
+        CTX-001
+        
+    
+
+    
+        SVU-001
+        A stratigraphic layer containing artifacts
+        
+    
+
+    
+        Ancient Site A
+        
+        
+        
+    
+
+    
+        40.1234
+        -8.5678
+    
+
+    
+        
+        
+    
+
+    
+        0500
+        true
+    
+
+    
+        0450
+        true
+    
+
+    
+        District X
+    
+
+    
+        Parish Y
+    
+
+    
+        2024-03-22
+        2.5
+        
+        
+        
+        
+    
+
+    
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    
+        EXC-041
+        
+        
+        
+    
+
+    
+        http://www.arch-project.com/data/account1
+        John Doe
+        johndoe@example.com
+    
+
+    
+        CTX-001
+        
+    
+
+    
+        SVU-001
+        A stratigraphic layer containing artifacts
+        
+    
+
+    
+        Ancient Site A
+        
+        
+        
+    
+
+    
+        40.1234
+        -8.5678
+    
+
+    
+        
+        
+    
+
+    
+        0500
+        true
+    
+
+    
+        0450
+        true
+    
+
+    
+        District X
+    
+
+    
+        Parish Y
+    
+
+    
+        2024-03-22
+        2.5
+        
+        
+        
+        
+    
+
+    
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E24_Physical_Man-Made_Thing rdf:about="ah:arrowhead0013">
+    <dcterms:identifier>AH0013</dcterms:identifier>
+    <edm:Webresource rdf:resource="http://example.com/image1.jpg"/>
+    <edm:Webresource rdf:resource="http://example.com/image2.png"/>
+    <edm:Webresource rdf:resource="http://example.com/model1.obj"/>
+    <ah:shape rdf:resource="http://www.purl.com/ah/kos/ah-shape/triangle"/>
+    <crm:E57_Material rdf:resource="http://vocab.getty.edu/aat/300010351"/>
+    <dbo:Annotation>Slight damage on tip.</dbo:Annotation>
+    <dbo:Annotation>Found in layer 3.</dbo:Annotation>
+    <crm:E3_Condition_State>true</crm:E3_Condition_State>
+    <crm:E55_Type>true</crm:E55_Type>
+    <ah:variant rdf:resource="http://www.purl.com/ah/kos/ah-variant/flat"/>
+    <ah:foundInCoordinates rdf:resource="ah:GPS_GPS001"/>
+    <ah:hasMorphology rdf:resource="ah:Morphology_0013"/>
+    <ah:hasTypometry rdf:resource="ah:Typometry_0013"/>
+    <crm:P12i_was_present_at rdf:resource="ah:EncounterEvent_ExcavationSite1"/>
+    <rdf:type rdf:resource="crmsci:S19_Encounter_Event"/>
+  </crm:E24_Physical_Man-Made_Thing>
+  <ah:Morphology rdf:about="ah:Morphology_0013">
+    <ah:point>true</ah:point>
+    <ah:body>true</ah:body>
+    <ah:base rdf:resource="http://www.purl.com/ah/kos/ah-base/straight"/>
+  </ah:Morphology>
+  <ah:Typometry rdf:about="ah:Typometry_0013">
+    <crm:E54_Dimension>50</crm:E54_Dimension>
+    <crm:E54_Dimension>25</crm:E54_Dimension>
+    <crm:E54_Dimension>5</crm:E54_Dimension>
+    <crm:E54_Dimension>40</crm:E54_Dimension>
+    <crm:E54_Dimension>15</crm:E54_Dimension>
+    <ah:hasChipping rdf:resource="ah:Chipping_0013"/>
+  </ah:Typometry>
+  <ah:Chipping rdf:about="ah:Chipping_0013">
+    <ah:mode rdf:resource="http://www.purl.com/ah/kos/ah-chippingMode/plane"/>
+    <ah:amplitude>false</ah:amplitude>
+    <ah:direction rdf:resource="http://www.purl.com/ah/kos/ah-chippingDirection/direct"/>
+    <ah:orientation>true</ah:orientation>
+    <ah:delineation rdf:resource="http://www.purl.com/ah/kos/ah-chippingDelineation/continuous"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/median"/>
+    <ah:chippingLocation-Transversal rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippingShape rdf:resource="http://www.purl.com/ah/kos/ah-chippingShape/straight"/>
+  </ah:Chipping>
+  <geo:SpatialThing rdf:about="ah:GPS_GPS001">
+    <geo:lat>34.0522</geo:lat>
+    <geo:long>-118.2437</geo:long>
+  </geo:SpatialThing>
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E24_Physical_Man-Made_Thing rdf:about="ah:arrowhead0013">
+    <dcterms:identifier>AH0013</dcterms:identifier>
+    <edm:Webresource rdf:resource="http://example.com/image1.jpg"/>
+    <edm:Webresource rdf:resource="http://example.com/image2.png"/>
+    <edm:Webresource rdf:resource="http://example.com/model1.obj"/>
+    <ah:shape rdf:resource="http://www.purl.com/ah/kos/ah-shape/triangle"/>
+    <crm:E57_Material rdf:resource="http://vocab.getty.edu/aat/300010351"/>
+    <dbo:Annotation>Slight damage on tip.</dbo:Annotation>
+    <dbo:Annotation>Found in layer 3.</dbo:Annotation>
+    <crm:E3_Condition_State>true</crm:E3_Condition_State>
+    <crm:E55_Type>true</crm:E55_Type>
+    <ah:variant rdf:resource="http://www.purl.com/ah/kos/ah-variant/flat"/>
+    <ah:foundInCoordinates rdf:resource="ah:GPS_GPS001"/>
+    <ah:hasMorphology rdf:resource="ah:Morphology_0013"/>
+    <ah:hasTypometry rdf:resource="ah:Typometry_0013"/>
+    <crm:P12i_was_present_at rdf:resource="ah:EncounterEvent_ExcavationSite1"/>
+    <rdf:type rdf:resource="crmsci:S19_Encounter_Event"/>
+  </crm:E24_Physical_Man-Made_Thing>
+  <ah:Morphology rdf:about="ah:Morphology_0013">
+    <ah:point>true</ah:point>
+    <ah:body>true</ah:body>
+    <ah:base rdf:resource="http://www.purl.com/ah/kos/ah-base/straight"/>
+  </ah:Morphology>
+  <ah:Typometry rdf:about="ah:Typometry_0013">
+    <crm:E54_Dimension>50</crm:E54_Dimension>
+    <crm:E54_Dimension>25</crm:E54_Dimension>
+    <crm:E54_Dimension>5</crm:E54_Dimension>
+    <crm:E54_Dimension>40</crm:E54_Dimension>
+    <crm:E54_Dimension>15</crm:E54_Dimension>
+    <ah:hasChipping rdf:resource="ah:Chipping_0013"/>
+  </ah:Typometry>
+  <ah:Chipping rdf:about="ah:Chipping_0013">
+    <ah:mode rdf:resource="http://www.purl.com/ah/kos/ah-chippingMode/plane"/>
+    <ah:amplitude>false</ah:amplitude>
+    <ah:direction rdf:resource="http://www.purl.com/ah/kos/ah-chippingDirection/direct"/>
+    <ah:orientation>true</ah:orientation>
+    <ah:delineation rdf:resource="http://www.purl.com/ah/kos/ah-chippingDelineation/continuous"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/median"/>
+    <ah:chippingLocation-Transversal rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippingShape rdf:resource="http://www.purl.com/ah/kos/ah-chippingShape/straight"/>
+  </ah:Chipping>
+  <geo:SpatialThing rdf:about="ah:GPS_GPS001">
+    <geo:lat>34.0522</geo:lat>
+    <geo:long>-118.2437</geo:long>
+  </geo:SpatialThing>
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E24_Physical_Man-Made_Thing rdf:about="ah:arrowhead0013">
+    <dcterms:identifier>AH0013</dcterms:identifier>
+    <edm:Webresource rdf:resource="http://example.com/image1.jpg"/>
+    <edm:Webresource rdf:resource="http://example.com/image2.png"/>
+    <edm:Webresource rdf:resource="http://example.com/model1.obj"/>
+    <ah:shape rdf:resource="http://www.purl.com/ah/kos/ah-shape/triangle"/>
+    <crm:E57_Material rdf:resource="http://vocab.getty.edu/aat/300010351"/>
+    <dbo:Annotation>Slight damage on tip.</dbo:Annotation>
+    <dbo:Annotation>Found in layer 3.</dbo:Annotation>
+    <crm:E3_Condition_State>true</crm:E3_Condition_State>
+    <crm:E55_Type>true</crm:E55_Type>
+    <ah:variant rdf:resource="http://www.purl.com/ah/kos/ah-variant/flat"/>
+    <ah:foundInCoordinates rdf:resource="ah:GPS_GPS001"/>
+    <ah:hasMorphology rdf:resource="ah:Morphology_0013"/>
+    <ah:hasTypometry rdf:resource="ah:Typometry_0013"/>
+    <crm:P12i_was_present_at rdf:resource="ah:EncounterEvent_ExcavationSite1"/>
+    <rdf:type rdf:resource="crmsci:S19_Encounter_Event"/>
+  </crm:E24_Physical_Man-Made_Thing>
+  <ah:Morphology rdf:about="ah:Morphology_0013">
+    <ah:point>true</ah:point>
+    <ah:body>true</ah:body>
+    <ah:base rdf:resource="http://www.purl.com/ah/kos/ah-base/straight"/>
+  </ah:Morphology>
+  <ah:Typometry rdf:about="ah:Typometry_0013">
+    <crm:E54_Dimension>50</crm:E54_Dimension>
+    <crm:E54_Dimension>25</crm:E54_Dimension>
+    <crm:E54_Dimension>5</crm:E54_Dimension>
+    <crm:E54_Dimension>40</crm:E54_Dimension>
+    <crm:E54_Dimension>15</crm:E54_Dimension>
+    <ah:hasChipping rdf:resource="ah:Chipping_0013"/>
+  </ah:Typometry>
+  <ah:Chipping rdf:about="ah:Chipping_0013">
+    <ah:mode rdf:resource="http://www.purl.com/ah/kos/ah-chippingMode/plane"/>
+    <ah:amplitude>false</ah:amplitude>
+    <ah:direction rdf:resource="http://www.purl.com/ah/kos/ah-chippingDirection/direct"/>
+    <ah:orientation>true</ah:orientation>
+    <ah:delineation rdf:resource="http://www.purl.com/ah/kos/ah-chippingDelineation/continuous"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/median"/>
+    <ah:chippingLocation-Transversal rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippingShape rdf:resource="http://www.purl.com/ah/kos/ah-chippingShape/straight"/>
+  </ah:Chipping>
+  <geo:SpatialThing rdf:about="ah:GPS_GPS001">
+    <geo:lat>34.0522</geo:lat>
+    <geo:long>-118.2437</geo:long>
+  </geo:SpatialThing>
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E24_Physical_Man-Made_Thing rdf:about="ah:arrowhead0013">
+    <dcterms:identifier>AH0013</dcterms:identifier>
+    <edm:Webresource rdf:resource="http://example.com/image1.jpg"/>
+    <edm:Webresource rdf:resource="http://example.com/image2.png"/>
+    <edm:Webresource rdf:resource="http://example.com/model1.obj"/>
+    <ah:shape rdf:resource="http://www.purl.com/ah/kos/ah-shape/triangle"/>
+    <crm:E57_Material rdf:resource="http://vocab.getty.edu/aat/300010351"/>
+    <dbo:Annotation>Slight damage on tip.</dbo:Annotation>
+    <dbo:Annotation>Found in layer 3.</dbo:Annotation>
+    <crm:E3_Condition_State>true</crm:E3_Condition_State>
+    <crm:E55_Type>true</crm:E55_Type>
+    <ah:variant rdf:resource="http://www.purl.com/ah/kos/ah-variant/flat"/>
+    <ah:foundInCoordinates rdf:resource="ah:GPS_GPS001"/>
+    <ah:hasMorphology rdf:resource="ah:Morphology_0013"/>
+    <ah:hasTypometry rdf:resource="ah:Typometry_0013"/>
+    <crm:P12i_was_present_at rdf:resource="ah:EncounterEvent_ExcavationSite1"/>
+    <rdf:type rdf:resource="crmsci:S19_Encounter_Event"/>
+  </crm:E24_Physical_Man-Made_Thing>
+  <ah:Morphology rdf:about="ah:Morphology_0013">
+    <ah:point>true</ah:point>
+    <ah:body>true</ah:body>
+    <ah:base rdf:resource="http://www.purl.com/ah/kos/ah-base/straight"/>
+  </ah:Morphology>
+  <ah:Typometry rdf:about="ah:Typometry_0013">
+    <crm:E54_Dimension>50</crm:E54_Dimension>
+    <crm:E54_Dimension>25</crm:E54_Dimension>
+    <crm:E54_Dimension>5</crm:E54_Dimension>
+    <crm:E54_Dimension>40</crm:E54_Dimension>
+    <crm:E54_Dimension>15</crm:E54_Dimension>
+    <ah:hasChipping rdf:resource="ah:Chipping_0013"/>
+  </ah:Typometry>
+  <ah:Chipping rdf:about="ah:Chipping_0013">
+    <ah:mode rdf:resource="http://www.purl.com/ah/kos/ah-chippingMode/plane"/>
+    <ah:amplitude>false</ah:amplitude>
+    <ah:direction rdf:resource="http://www.purl.com/ah/kos/ah-chippingDirection/direct"/>
+    <ah:orientation>true</ah:orientation>
+    <ah:delineation rdf:resource="http://www.purl.com/ah/kos/ah-chippingDelineation/continuous"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/median"/>
+    <ah:chippingLocation-Transversal rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippingShape rdf:resource="http://www.purl.com/ah/kos/ah-chippingShape/straight"/>
+  </ah:Chipping>
+  <geo:SpatialThing rdf:about="ah:GPS_GPS001">
+    <geo:lat>34.0522</geo:lat>
+    <geo:long>-118.2437</geo:long>
+  </geo:SpatialThing>
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ah="http://www.purl.com/ah/ms/ahMS#" xmlns:ah-shape="http://www.purl.com/ah/kos/ah-shape/" xmlns:ah-variant="http://www.purl.com/ah/kos/ah-variant/" xmlns:ah-base="http://www.purl.com/ah/kos/ah-base/" xmlns:ah-chippingMode="http://www.purl.com/ah/kos/ah-chippingMode/" xmlns:ah-chippingDirection="http://www.purl.com/ah/kos/ah-chippingDirection/" xmlns:ah-chippingDelineation="http://www.purl.com/ah/kos/ah-chippingDelineation/" xmlns:ah-chippingLocation="http://www.purl.com/ah/kos/ah-chippingLocation/" xmlns:ah-chippingShape="http://www.purl.com/ah/kos/ah-chippingShape/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:edm="http://www.europeana.eu/schemas/edm/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <crm:E24_Physical_Man-Made_Thing rdf:about="ah:arrowhead0013">
+    <dcterms:identifier>AH0013</dcterms:identifier>
+    <edm:Webresource rdf:resource="http://example.com/image1.jpg"/>
+    <edm:Webresource rdf:resource="http://example.com/image2.png"/>
+    <edm:Webresource rdf:resource="http://example.com/model1.obj"/>
+    <ah:shape rdf:resource="http://www.purl.com/ah/kos/ah-shape/triangle"/>
+    <crm:E57_Material rdf:resource="http://vocab.getty.edu/aat/300010351"/>
+    <dbo:Annotation>Slight damage on tip.</dbo:Annotation>
+    <dbo:Annotation>Found in layer 3.</dbo:Annotation>
+    <crm:E3_Condition_State>true</crm:E3_Condition_State>
+    <crm:E55_Type>true</crm:E55_Type>
+    <ah:variant rdf:resource="http://www.purl.com/ah/kos/ah-variant/flat"/>
+    <ah:foundInCoordinates rdf:resource="ah:GPS_GPS001"/>
+    <ah:hasMorphology rdf:resource="ah:Morphology_0013"/>
+    <ah:hasTypometry rdf:resource="ah:Typometry_0013"/>
+    <crm:P12i_was_present_at rdf:resource="ah:EncounterEvent_ExcavationSite1"/>
+    <rdf:type rdf:resource="crmsci:S19_Encounter_Event"/>
+  </crm:E24_Physical_Man-Made_Thing>
+  <ah:Morphology rdf:about="ah:Morphology_0013">
+    <ah:point>true</ah:point>
+    <ah:body>true</ah:body>
+    <ah:base rdf:resource="http://www.purl.com/ah/kos/ah-base/straight"/>
+  </ah:Morphology>
+  <ah:Typometry rdf:about="ah:Typometry_0013">
+    <crm:E54_Dimension>50</crm:E54_Dimension>
+    <crm:E54_Dimension>25</crm:E54_Dimension>
+    <crm:E54_Dimension>5</crm:E54_Dimension>
+    <crm:E54_Dimension>40</crm:E54_Dimension>
+    <crm:E54_Dimension>15</crm:E54_Dimension>
+    <ah:hasChipping rdf:resource="ah:Chipping_0013"/>
+  </ah:Typometry>
+  <ah:Chipping rdf:about="ah:Chipping_0013">
+    <ah:mode rdf:resource="http://www.purl.com/ah/kos/ah-chippingMode/plane"/>
+    <ah:amplitude>false</ah:amplitude>
+    <ah:direction rdf:resource="http://www.purl.com/ah/kos/ah-chippingDirection/direct"/>
+    <ah:orientation>true</ah:orientation>
+    <ah:delineation rdf:resource="http://www.purl.com/ah/kos/ah-chippingDelineation/continuous"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippinglocation-Lateral rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/median"/>
+    <ah:chippingLocation-Transversal rdf:resource="http://www.purl.com/ah/kos/ah-chippingLocation/distal"/>
+    <ah:chippingShape rdf:resource="http://www.purl.com/ah/kos/ah-chippingShape/straight"/>
+  </ah:Chipping>
+  <geo:SpatialThing rdf:about="ah:GPS_GPS001">
+    <geo:lat>34.0522</geo:lat>
+    <geo:long>-118.2437</geo:long>
+  </geo:SpatialThing>
+</rdf:RDF>
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:excav="https://purl.org/ah/ms/excavationMS#" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:time="http://www.w3.org/2006/time#" xmlns:crmsci="https://cidoc-crm.org/extensions/crmsci/" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:crmarchaeo="http://www.cidoc-crm.org/extensions/crmarchaeo/" xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"/>
