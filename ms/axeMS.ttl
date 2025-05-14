@@ -19,7 +19,7 @@
 <http://purl.org/megalod/ms/ah/> a voaf:Vocabulary, owl:Ontology;
 
   voaf:classNumber 1 ;
-  voaf:propertyNumber  17 ;
+  voaf:propertyNumber 6 ;
   dct:title "Asset Description Metadata Schema - Axes' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - Axes' Metadata Scheme"@en;
   dct:abstract "Axes V1.0 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
@@ -67,55 +67,45 @@ ah:Axe
 ah:morphology
 	a rdf:Property,	owl:DataProperty;
        	rdfs:comment "The morphology of the axe. Use a term of the controlled vocabulary axe-morphology"@en;
-	rdfs:label "Axe - morphology"@en;
+	rdfs:label "The axe - Morphology"@en;
         rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI .
 
 ah:crossSection
 	a rdf:Property,	owl:DataProperty;
 	rdfs:comment "The cross section of the axe. Use a term of the controlled vocabulary axe-morphology."@en;
-	rdfs:label "Axe - cross section"@en;
+	rdfs:label "The axe - Cross Section"@en;
         rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI .
 
 ah:longitudinalSection
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The Longitudinal Section of the axe. Use a term of the controlled vocabulary  axe-longitudinalSection."@en;
-	rdfs:label "Axe - Longitudinal Section"@en;
+	rdfs:comment "The longitudinal section of the axe. Use a term of the controlled vocabulary  axe-longitudinalSection."@en;
+	rdfs:label "The axe - Longitudinal Section"@en;
         rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI.
 
-ah:Polishing
+ah:polishing
   	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "The Polishing of the axe. Use a term of the controlled vocabulary  axe-Polishing."@en;
-  	rdfs:label "Axe - Polishing"@en;
+  	rdfs:comment "The polishing of the axe. Use a term of the controlled vocabulary  axe-polishing."@en;
+  	rdfs:label "The axe - Polishing"@en;
         rdfs:domain ah:Axe;
   	rdfs:range xsd:anyURI.
 
 ah:edge
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "the Edge of the axe. Use a term of the controlled vocabulary  axe-edge."@en;
-	rdfs:label "Axe-edge."@en;
+	rdfs:comment "The edge of the axe. Use a term of the controlled vocabulary  axe-edge."@en;
+	rdfs:label "The Axe-edge."@en;
 	rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI.
 
-ah:body
+ah:tracesOfUse
 	a rdf:Property,	owl:DataProperty;
-        rdfs:comment "THis property is used to define the simmetry of the body of the arrowhead. Symmetrical=True; Non-symmetrical=False"@en;
-	rdfs:comment "Esta propriedade define a simetria da base da ponta de seta. Simétrica=True; Não simétrica=False";
-	rdfs:label "Arrowhead-Morphology - body. Symmetrical=True; Non-symmetrical=False. "@en;
-	rdfs:label "Arrowhead-Morphology - body. Simétrica=True; Não Simétrica=False. "@pt;
-        rdfs:domain ah:Morphology;
-	rdfs:range xsd:boolean.
-
-ah:base
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "This properties defines the base of the arrowhead. A good pratice is to use the controlled vocabulary AH-Base."@en;
-	rdfs:comment "Esta propriedade é usada para categorizar a base da ponta de seta. Usar o vocabulário controlado AH-Base."@pt;	
-	rdfs:label "ArrowHead - Morphology - Base. A good pratice is to use the Controlled Vocabulary AH-Base. "@en;
-	rdfs:label "ArrowHead - Morphology - Base. Uma boa prática é usar o vocabulário controlado AH-Base. "@pt;
-	rdfs:domain ah:Morphology;
+        rdfs:comment "The traces of use of the axe.  Use a term of the controlled vocabulary  axe-tracesOfUse"@en;
+	rdfs:label "The traces of use of the axe. "@en;
+        rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI.
+
 
   
 
