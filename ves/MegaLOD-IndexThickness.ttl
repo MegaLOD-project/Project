@@ -7,7 +7,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 
 
-<https://purl.org/megalod/kos/IndexThickness> a skos:ConceptScheme, prov:Entity ;
+<https://purl.org/megalod/kos/MegaLOD-IndexThickness> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "The Thickness Index of the Item - used as controlled term in excav:thicknessIndex"@en;
     skos:hasTopConcept 
         <https://purl.org/megalod/kos/MegaLOD-IndexThickness/Thin>,
