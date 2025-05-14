@@ -24,22 +24,26 @@
     skos:prefLabel "Straight"@en ;
     skos:prefLabel "Reto"@pt ;
     skos:notation "straight" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingShape> .
 
 <https://purl.org/megalod/kos/ah-chippingShape/convex> a skos:Concept ;
     skos:prefLabel "Convex"@en ;
     skos:prefLabel "Convexo"@pt ;
     skos:notation "convex" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingShape> .
 
 <https://purl.org/megalod/kos/ah-chippingShape/concave> a skos:Concept ;
     skos:prefLabel "Concave"@en ;
     skos:prefLabel "Côncavo"@pt ;
     skos:notation "concave" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingShape> .
 
 <https://purl.org/megalod/kos/ah-chippingShape/sinuous> a skos:Concept ;
     skos:prefLabel "Sinuous"@en ;
     skos:prefLabel "Sinuouso"@pt ;
     skos:notation "sinuous" ;
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingShape>;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingShape>  .

@@ -23,16 +23,19 @@
     skos:prefLabel "Distal"@en ;
     skos:prefLabel "Distal"@pt ;
   
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingLocation> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingLocation> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingLocation>.
 
 <https://purl.org/megalod/kos/ah-chippingLocation/median> a skos:Concept ;
     skos:prefLabel "Median"@en ;
     skos:prefLabel "Mediana"@pt ;
    
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingLocation> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingLocation> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingLocation>.
 
 <https://purl.org/megalod/kos/ah-chippingLocation/proximal> a skos:Concept ;
     skos:prefLabel "Proximal"@en ;
     skos:prefLabel "Proximal"@pt ;
   
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingLocation> .
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingLocation> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingLocation>.
