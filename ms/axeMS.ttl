@@ -18,22 +18,22 @@
 
 <http://purl.org/megalod/ms/ah/> a voaf:Vocabulary, owl:Ontology;
 
-  voaf:classNumber 3 ;
+  voaf:classNumber 1 ;
   voaf:propertyNumber  17 ;
-  dct:title "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
-  rdfs:label "Asset Description Metadata Schema - ArrowHeads' Metadata Scheme"@en;
-  dct:abstract "Arrowhead V1.1 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
+  dct:title "Asset Description Metadata Schema - Axes' Metadata Scheme"@en;
+  rdfs:label "Asset Description Metadata Schema - Axes' Metadata Scheme"@en;
+  dct:abstract "Axes V1.0 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
   dct:creator [
         		   schema:affiliation <http://inesctec.pt>;
 		           schema:affiliation <http://fe.up.pt>;
 		           schema:affiliation <https://cham.fcsh.unl.pt>;
 		           schema:affiliation <https://www.fcsh.unl.pt>;
   ] ;
-	dct:description "This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age arrowheads .";
+	dct:description "This is the RDF encoding of the data Model for the description of the Chalcolithic and Early/Middle Bronze Age axes .";
 	dct:modified "2025-05-11"^^xsd:date;
 	vann:preferredNamespacePrefix "ah";
-	vann:preferredNamespaceUri "http://purl.org/megaLOD/ms/ah/";
-	rdfs:comment "This file specifies the set of RDF classes and properties used in the ArroWheads metadata scheme"@en;
+	vann:preferredNamespaceUri "http://www.purl.org/megaLOD/ms/ah/";
+	rdfs:comment "This file specifies the set of RDF classes and properties used in the Axes metadata scheme"@en;
 	wdrs:describedby <http://purl.org/megalod/ms/ah> .
 
 
@@ -43,24 +43,13 @@
 #===========  #------<>       CLASSES                 <>-----#  ===========#
 #===========  #------<>-------------------------------<>-----#	===========#
               #======<>===============================<>=====#
-ah:Arrowhead
+ah:Axe
 	a rdfs:Class;
-	rdfs:comment "A Arrowhead."@en;
+	rdfs:comment "An Axe."@en;
 	rdfs:subClassOf excav:Item;
-        rdfs:label "ArrowHead"@en;
-	rdfs:label "Ponta de Seta"@pt.
-
-ah:Morphology
-	a rdfs:Class;
-	rdfs:comment "Morphology of the arrowhead."@en;
-	rdfs:comment "Morphologia da Ponta de Seta."@pt;
-	rdfs:label "Morfologia"@pt.
-
-ah:Chipping
-	a rdfs:Class;
-	rdfs:comment "Chipping of the arrowhead."@en;
- 	rdfs:label "ArrowHead - Chipping"@en;
-	rdfs:label "Chipping"@en.
+        rdfs:label "Axe"@en;
+	rdfs:label "Machado"@pt ;
+	redf:label "Biface"@fr.
 
 
 
@@ -70,68 +59,45 @@ ah:Chipping
 #===========  #------<>-------------------------------<>-----#	===========#
               #======<>===============================<>=====#
 
-#>-----------------------------------------<#
-#>           Object Properties             <#
-#>-----------------------------------------<#
-
-ah:hasMorphology
-	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "This property points to an instance of the definition of the morphology of the arrowhead."@en;
-	rdfs:label "ArrowHead - morphology"@en;
-	rdfs:domain ah:Arrowhead;
-	rdfs:range ah:Morphology.
-
-ah:hasChipping
-  a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "This Property points to an instance of the definition of the chipping of the arrowhead."@en;
-  rdfs:label "ArrowHead - has chipping"@en;
-  rdfs:domain ah:Arrowhead;
-  rdfs:range ah:Chipping.
-
-
 
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
 
-ah:bodyLength
+ah:morphology
 	a rdf:Property,	owl:DataProperty;
-        rdfs:subPropertyOf crm:E54_Dimension ;
-	rdfs:comment "This property points to an instance that presents the length of the body of the arrowhead."@en;
-	rdfs:label "ArrowHead - bodyLength"@en;
-        rdfs:domain ah:Arrowhead;
-	rdfs:range excav:TypometryValue .
+       	rdfs:comment "The morphology of the axe. Use a term of the controlled vocabulary axe-morphology"@en;
+	rdfs:label "Axe - morphology"@en;
+        rdfs:domain ah:Axe;
+	rdfs:range xsd:anyURI .
 
-ah:baseLength
+ah:crossSection
 	a rdf:Property,	owl:DataProperty;
-        rdfs:subPropertyOf crm:E54_Dimension ;
-	rdfs:comment "This property points to an instance that presents the length of the base of the arrowhead."@en;
-	rdfs:label "ArrowHead - baseLength"@en;
-        rdfs:domain ah:Arrowhead;
-	rdfs:range excav:TypometryValue.
+	rdfs:comment "The cross section of the axe. Use a term of the controlled vocabulary axe-morphology."@en;
+	rdfs:label "Axe - cross section"@en;
+        rdfs:domain ah:Axe;
+	rdfs:range xsd:anyURI .
 
-ah:shape
+ah:longitudinalSection
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "This property records the shape of the arrowhead. A good practice is to use the controlled vocabulary  AH-Shape."@en;
-	rdfs:label "ArrowHead - shape"@en;
-        rdfs:domain ah:Arrowhead;
+	rdfs:comment "The Longitudinal Section of the axe. Use a term of the controlled vocabulary  axe-longitudinalSection."@en;
+	rdfs:label "Axe - Longitudinal Section"@en;
+        rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI.
 
-ah:variant
+ah:Polishing
   	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "This property records the variant of the arrowhead. A good practice is to use the controlled vocabulary  AH-Variant."@en;
-  	rdfs:label "ArrowHead - Variant"@en;
-        rdfs:domain ah:Arrowhead;
+  	rdfs:comment "The Polishing of the axe. Use a term of the controlled vocabulary  axe-Polishing."@en;
+  	rdfs:label "Axe - Polishing"@en;
+        rdfs:domain ah:Axe;
   	rdfs:range xsd:anyURI.
 
-ah:point
+ah:edge
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "Definition of the tip of the arrowhead. Sharp=True;Fractured=False."@en;
-	rdfs:comment "Definição da ponta da ponta de seta. Piquant=True;Não Piquant=False."@pt;
-	rdfs:label "Arrowhead-point - point. Sharp=True;Fractured=False"@en;
-  	rdfs:label "Arrowhead-point - point. Piquant=True;Não Piquant=False"@pt;
-	rdfs:domain ah:Morphology;
-	rdfs:range xsd:boolean.
+	rdfs:comment "the Edge of the axe. Use a term of the controlled vocabulary  axe-edge."@en;
+	rdfs:label "Axe-edge."@en;
+	rdfs:domain ah:Axe;
+	rdfs:range xsd:anyURI.
 
 ah:body
 	a rdf:Property,	owl:DataProperty;
@@ -151,70 +117,7 @@ ah:base
 	rdfs:domain ah:Morphology;
 	rdfs:range xsd:anyURI.
 
-  ah:chippingMode
-  	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "Type of retouching incidence, defines the angle formed by the retouching line and the chipping surface. A good pratice is to use the Controlled Vocabulary AH-ChippingMode."@en;
-        rdfs:comment "Tipo de incidência do retoque, define o ângulo formado pela linha de retoque e a superfície de lascagem. Usar o vocabulário controlado AH-chippingMode."@pt;  	
-  	rdfs:label "Arrowhead-Chipping-mode"@en;
-        rdfs:domain ah:Chipping;
-  	rdfs:range xsd:anyURI.
-
-ah:chippingAmplitude
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "Retouching extension, Marginal=True;Deep=False."@en;
-        rdfs:comment "Extensão do retoque, Marginal=True;Profundo=False."@pt;
-	rdfs:label "Arrowhead-Chipping-amplitude"@en;
-        rdfs:domain ah:Chipping;
-	rdfs:range xsd:boolean.
-
-ah:chippingDirection
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "It results from the position in which the chip or blade is placed to be retouched. A good pratice is to use the Controlled Vocabulary AH-ChippingDirection."@en;
-        rdfs:comment "Resulta da posição em que é colocada a lasca ou lamina para ser retocada. Usar o vocabulário controlado AH-ChippingDirection."@pt;
-	rdfs:label "Arrowhead-Chipping-direction"@en;
-        rdfs:domain ah:Chipping;
-	rdfs:range xsd:anyURI.
-
-ah:chippingOrientation
-  	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "Angle between the original axis of the part and the line formed by the retouching, Lateral=True;Transverse=False."@en;
-    	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque, Lateral=True;Transversal=False."@pt;
-  	rdfs:label "Arrowhead-Chipping-Orientation"@en;
- 	rdfs:domain ah:Chipping;
-  	rdfs:range xsd:boolean.
-
-ah:chippingDelineation
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The retouching gives the margins a shape.. A good pratice is to use the Controlled Vocabulary AH-ChippingDelineation."@en;
- 	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingDelineation."@pt;
-	rdfs:label "Arrowhead-Chipping-delineation"@en;
-  	rdfs:domain ah:Chipping;
-	rdfs:range xsd:anyURI.
-
-ah:chippingShape
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "Line defined by the edge. A good pratice is to use the Controlled Vocabulary AH-ChippingShape."@en;
-	rdfs:comment "Linha definida pelo bordo. Usar o vocabulário controlado AH-ChippingShape."@pt;
-	rdfs:label "Arrowhead-Chipping-shape"@en;
-  	rdfs:domain ah:Chipping;
-	rdfs:range xsd:anyURI.
-
-ah:chippingLocationSide
-	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The retouching can occupy a position to the left or right of the axis of symmetry and, depending on the axis perpendicular to it, the retouching can be distal, medial or proximal. . A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
-  	rdfs:comment "Ângulo entre o eixo primitivo da peça e a linha formada pelo retoque. Usar o vocabulário controlado AH-ChippingLocation."@pt;
-	rdfs:label "Arrowhead-Chipping Location-lateral"@en;
-	rdfs:domain ah:Chipping;
-	rdfs:range xsd:anyURI.
-
-ah:chippingLocationTransversal
-  	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "The retouching can be distal or proximal and, depending on the edge where it is located, it can occupy a left, right or median position. A good pratice is to use the COntrolled Vocabulary AH-ChippingLocation."@en;
-	rdfs:comment "O retoque pode ser distal ou próximal e em função do bordo onde se situa, pode ocupar uma posição à esquerda, à direita, ou mediana. Usar o vocabulário controlado AH-ChippingLocation."@pt;
-  	rdfs:label "Arrowhead-Chipping Location-Transversal"@en;
-	rdfs:domain ah:Chipping;
-  	rdfs:range xsd:anyURI .
-
+  
 
 
 #>---------------------------------------------------------<#
