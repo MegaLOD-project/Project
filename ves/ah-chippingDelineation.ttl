@@ -23,7 +23,7 @@
     skos:prefLabel "Continuous"@en ;
     skos:prefLabel "Contínuo"@pt ;
 
-    skos:inScheme <https://purl.org/megalod/kos/ah-chippingDelineation/> ;
+    skos:inScheme <https://purl.org/megalod/kos/ah-chippingDelineation> ;
     skos:topConceptOf <https://purl.org/megalod/kos/ah-chippingDelineation>.
 
 <https://purl.org/megalod/kos/ah-chippingDelineation/composite> a skos:Concept ;
