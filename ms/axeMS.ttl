@@ -99,6 +99,13 @@ ah:edge
 	rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI.
 
+ah:butt
+	a rdf:Property,	owl:DataProperty;
+	rdfs:comment "The butt of the axe. Use a term of the controlled vocabulary  axe-butt."@en;
+	rdfs:label "The Axe-butt."@en;
+	rdfs:domain ah:Axe;
+	rdfs:range xsd:anyURI.
+
 ah:tracesOfUse
 	a rdf:Property,	owl:DataProperty;
         rdfs:comment "The traces of use of the axe.  Use a term of the controlled vocabulary  axe-tracesOfUse"@en;
