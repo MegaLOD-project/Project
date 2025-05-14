@@ -161,7 +161,7 @@ excav:hasSquare
 
 
 excav:hasTimeline
-    a rdf:Property; owl:ObjectProperty;
+    a rdf:Property, owl:ObjectProperty;
     rdfs:comment "The specific timeline of the the layer ."@en;
     rdfs:label "The Stratigraphic unit has a timeline"@en;
     rdfs:domain excav:StratigraphicVolumeUnit;

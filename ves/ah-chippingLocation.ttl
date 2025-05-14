@@ -8,7 +8,7 @@
 
 <https://purl.org/megalod/kos/ah-chippingLocation> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "Arrowhead chipping location"@en;
-    skos:hasTopConcept <https://purl.org/ah/kos/ah-chippingLocation/distal>,
+    skos:hasTopConcept <https://purl.org/megalod/kos/ah-chippingLocation/median>,
         <https://purl.org/megalod/kos/ah-chippingLocation/median>,
         <https://purl.org/megalod/kos/ah-chippingLocation/proximal>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;

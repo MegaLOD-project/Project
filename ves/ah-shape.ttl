@@ -24,7 +24,6 @@
     skos:prefLabel "Triangle"@en ;
     skos:prefLabel "Triangular"@pt ;
     skos:prefLabel "Triangulaire"@fr ;
-   Losangique
     skos:inScheme <https://purl.org/megalod/kos/ah-shape> ;
     skos:topConceptOf <https://purl.org/megalod/kos/ah-shape>.
 
