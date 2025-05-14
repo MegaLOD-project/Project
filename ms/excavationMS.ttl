@@ -16,7 +16,7 @@
 @prefix dbo:<http://dbpedia.org/ontology/> .
 @prefix time:<http://www.w3.org/2006/time#> .
 @prefix excav: <https://purl.org/megalod/ms/excavation/> .
-@prefix ah: <https://www.purl.com/megalod/ms/ah/> .
+@prefix ah: <https://purl.com/megalod/ms/ah/> .
 
 
   #===========  #------<>-------------------------------<>-----#  ===========#
