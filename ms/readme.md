@@ -104,7 +104,7 @@ URI: https//purl.org/megalod/ms/axe/
 | Traces of use                                        | tracesOfUse                    | Axe                              | xsd:anyURI       |  axe-polished             |
 | Traces of reuse                                      | tracesOfReu                    | Axe                              | xsd:anyURI       |  axe-tracesOfReuse        |
 | Traces of fixation                                   | tracesOfFixation               | Axe                              | xsd:boolean      |           |
-| Repolishing after fracture                           | repolishingAfterUse            | Axe                              | xsd:boolean      |           |
+| Repolishing after fracture                           | repolishingAfterFracture       | Axe                              | xsd:boolean      |           |
 
 
 # Loom Weight Metadata Scheme
