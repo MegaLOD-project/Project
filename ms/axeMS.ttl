@@ -117,7 +117,16 @@ ah:butt
 
 ah:tracesOfUse
 	a rdf:Property,	owl:DataProperty;
-        rdfs:comment "The traces of use of the axe.  Use a term of the controlled vocabulary  axe-tracesOfUse"@en;
+        rdfs:comment "The traces of use of the axe.  Use a term of the controlled vocabulary  axe-polishing"@en;
+	rdfs:label "The traces of use of the axe. "@en;
+	rdfs:label "O machado - Vestígios de Reutilização"@pt;	
+	rdfs:label "Le biface - Traces de réutilisation"@fr;
+        rdfs:domain ah:Axe;
+	rdfs:range xsd:anyURI.
+
+ah:tracesOReuUse
+	a rdf:Property,	owl:DataProperty;
+        rdfs:comment "The traces of Reuse of the axe.  Use a term of the controlled vocabulary  axe-tracesOfReuse"@en;
 	rdfs:label "The traces of use of the axe. "@en;
 	rdfs:label "O machado - Vestígios de Reutilização"@pt;	
 	rdfs:label "Le biface - Traces de réutilisation"@fr;
@@ -125,6 +134,14 @@ ah:tracesOfUse
 	rdfs:range xsd:anyURI.
 
 
+ah:tracesOfHaftin
+	a rdf:Property,	owl:DataProperty;
+        rdfs:comment "The traces of Reuse of the axe.  Use a term of the controlled vocabulary  axe-tracesOfReuse"@en;
+	rdfs:label "The traces of use of the axe. "@en;
+	rdfs:label "O machado - Vestígios de Reutilização"@pt;	
+	rdfs:label "Le biface - Traces de réutilisation"@fr;
+        rdfs:domain ah:Axe;
+	rdfs:range xsd:anyURI.
   
 
 
