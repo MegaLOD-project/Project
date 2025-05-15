@@ -143,7 +143,14 @@ ah:tracesOfFixation
         rdfs:domain ah:Axe;
 	rdfs:range xsd:boolean.
   
-
+ah:repolishingAfterFracture
+	a rdf:Property,	owl:DataProperty;
+        rdfs:comment "If the axe has traces of repolishing After Fracture ."@en;
+	rdfs:label "Traces of repolishing After Fracture. "@en;
+	rdfs:label "O machado - Vestígios de repolimento após fractura"@pt;	
+	rdfs:label "Le biface - Traces de repolissage après fracture"@fr;
+        rdfs:domain ah:Axe;
+	rdfs:range xsd:boolean.
 
 #>---------------------------------------------------------<#
 #>      THE END END END END END END END END END            <#
