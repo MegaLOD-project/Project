@@ -19,7 +19,7 @@
   voaf:propertyNumber 6 ;
   dct:title "Asset Description Metadata Schema - Axes' Metadata Scheme"@en;
   rdfs:label "Asset Description Metadata Schema - Axes' Metadata Scheme"@en;
-  dct:abstract "Axes V1.0 is a RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeologicaçl findings of the Paleoticit."@en;
+  dct:abstract "Axes V1.0 is an RDF vocabulary or a metadata scheme used to describe semantic assets, of archaeological findings of the Palaeolithic."@en;
   dct:creator [
         		   schema:affiliation <http://inesctec.pt>;
 		           schema:affiliation <http://fe.up.pt>;
@@ -88,12 +88,12 @@ ah:longitudinalSection
         rdfs:domain ah:Axe;
 	rdfs:range xsd:anyURI.
 
-ah:polishing
+ah:polished
   	a rdf:Property,	owl:DataProperty;
-  	rdfs:comment "The polishing of the axe. Use a term of the controlled vocabulary  axe-polishing."@en;
-  	rdfs:label "The axe - Polishing"@en;
+  	rdfs:comment "The polishing of the axe. Use a term of the controlled vocabulary  axe-polished."@en;
+  	rdfs:label "The axe - Polished"@en;
 	rdfs:label "O machado - Polimento"@pt;	
-	rdfs:label "Le biface - Polissage"@fr;
+	rdfs:label "Le biface - Poli"@fr;
         rdfs:domain ah:Axe;
   	rdfs:range xsd:anyURI.
 
@@ -117,7 +117,7 @@ ah:butt
 
 ah:tracesOfUse
 	a rdf:Property,	owl:DataProperty;
-        rdfs:comment "The traces of use of the axe.  Use a term of the controlled vocabulary  axe-polishing"@en;
+        rdfs:comment "The traces of use of the axe.  Use a term of the controlled vocabulary  axe-polished"@en;
 	rdfs:label "The traces of use of the axe. "@en;
 	rdfs:label "O machado - Vestígios de Reutilização"@pt;	
 	rdfs:label "Le biface - Traces de réutilisation"@fr;
@@ -134,14 +134,14 @@ ah:tracesOReuUse
 	rdfs:range xsd:anyURI.
 
 
-ah:tracesOfHaftin
+ah:tracesOfFixation
 	a rdf:Property,	owl:DataProperty;
-        rdfs:comment "The traces of Reuse of the axe.  Use a term of the controlled vocabulary  axe-tracesOfReuse"@en;
-	rdfs:label "The traces of use of the axe. "@en;
-	rdfs:label "O machado - Vestígios de Reutilização"@pt;	
-	rdfs:label "Le biface - Traces de réutilisation"@fr;
+        rdfs:comment "The traces of Fixation of the axe.  Use a term of the controlled vocabulary  axe-tracesOfFixation"@en;
+	rdfs:label "The traces of fixation of the axe. "@en;
+	rdfs:label "O machado - Vestígios de fixação"@pt;	
+	rdfs:label "Le biface - Traces de fixation"@fr;
         rdfs:domain ah:Axe;
-	rdfs:range xsd:anyURI.
+	rdfs:range xsd:boolean.
   
 
 
