@@ -95,13 +95,16 @@ URI: https//purl.org/megalod/ms/axe/
 ## Terms
 | Label                                                | Vocabulary Term                | Domain                           | Range            | VES                       |
 |------------------------------------------------------|--------------------------------|----------------------------------|------------------|---------------------------|
-| Morphology                                           | morphology                     | Axe                              | xsd:anyURI       |   axe-morphology          |
+| Morphology                                           | morphology                     | Axe                              | xsd:anyURI       |  axe-morphology           |
 | Cross Section                                        | crossSection                   | Axe                              | xsd:anyURI       |  axe-morphology           |
 | Longitudinal Section                                 | longitudinalSection            | Axe                              | xsd:anyURI       |  axe-longitudinalSection  |
-| Polishing                                            | polishing                      | Axe                              | xsd:anyURI       |  axe-polishing            |
+| Polished                                             | polished                       | Axe                              | xsd:anyURI       |  axe-polished             |
 | Edge                                                 | edge                           | Axe                              | xsd:anyURI       |  axe-edge                 |
 | Butt                                                 | butt                           | Axe                              | xsd:anyURI       |  axe-butt                 |
-| Traces of use                                        | tracesOfUse                    | Axe                              | xsd:anyURI       |  axe-tracesOfUse          |
+| Traces of use                                        | tracesOfUse                    | Axe                              | xsd:anyURI       |  axe-polished             |
+| Traces of reuse                                      | tracesOfReu                    | Axe                              | xsd:anyURI       |  axe-tracesOfReuse        |
+| Traces of fixation                                   | tracesOfFixation               | Axe                              | xsd:boolean      |           |
+| Repolishing after fracture                           | repolishingAfterUse            | Axe                              | xsd:boolean      |           |
 
 
 # Loom Weight Metadata Scheme
