@@ -1,8 +1,6 @@
 # MegaLOD Project - Vocabulary Encoding Schemes
 The following table presents the Vocabulary Encoding Schemes to be used with the MegaLOD metadata schemes:
 
-##Arrowhead
-
 http://purl.org/megalod/kos/
 
 | VES                                                | Valores (PT)                                                         | Values (EN)                                                               |   Values (FR)       |
