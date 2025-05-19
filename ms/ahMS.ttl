@@ -39,13 +39,6 @@ ah:Chipping
  	rdfs:label "ArrowHead - Chipping"@en ;
 	rdfs:label "Chipping"@en .
 
-ah:SpecificTypometry
-	a rdfs:Class;
-	rdfs:subClassOf schema:QuantitativeValue ;
-	rdfs:comment "The specific Typometry of the arrowhead."@en ;
- 	rdfs:label "ArrowHead - Specific Typometry"@en ;
-	rdfs:label "Specific Typometry"@en .
-
 
 
               #======<>===============================<>=====#
@@ -59,45 +52,38 @@ ah:SpecificTypometry
 #>-----------------------------------------<#
 
 ah:hasMorphology
-	a rdf:Property,	owl:ObjectProperty;
-	rdfs:comment "This property points to an instance of the definition of the morphology of the arrowhead."@en;
-	rdfs:label "ArrowHead - morphology"@en;
-	rdfs:domain ah:Arrowhead;
-	rdfs:range ah:Morphology.
+	a rdf:Property,	owl:ObjectProperty ;
+	rdfs:comment "This property points to an instance of the definition of the morphology of the arrowhead."@en ;
+	rdfs:label "ArrowHead - morphology"@en ;
+	rdfs:domain ah:Arrowhead ;
+	rdfs:range ah:Morphology .
 
 ah:hasChipping
-  a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "This Property points to an instance of the definition of the chipping of the arrowhead."@en;
-  rdfs:label "ArrowHead - has chipping"@en;
-  rdfs:domain ah:Arrowhead;
-  rdfs:range ah:Chipping.
+  a rdf:Property, owl:ObjectProperty ;
+  rdfs:comment "This Property points to an instance of the definition of the chipping of the arrowhead."@en ;
+  rdfs:label "ArrowHead - has chipping"@en ;
+  rdfs:domain ah:Arrowhead ;
+  rdfs:range ah:Chipping .
 
-ah:hasSpecifTypometry
-  a rdf:Property, owl:ObjectProperty;
-  rdfs:comment "This Property points to an instance of the definition of the specific Typometry of the arrowhead."@en;
-  rdfs:label "ArrowHead - has chipping"@en;
-  rdfs:domain ah:Arrowhead;
-  rdfs:range ah:SpecificTypometry.
+ah:hasBodyLength
+	a rdf:Property,	owl:DataProperty;
+        rdfs:subPropertyOf crm:E54_Dimension ;
+	rdfs:comment "Points to a class that gives the length of the body of the arrowhead."@en;
+	rdfs:label "ArrowHead - bodyLength"@en;
+        rdfs:domain ah:Arrowhead;
+	rdfs:range excav:TypometryValue .
+
+ah:hasBaseLength
+	a rdf:Property,	owl:DataProperty ;
+        rdfs:subPropertyOf crm:E54_Dimension ;
+	rdfs:comment "Points to a class that presents the length of the base of the arrowhead."@en ;
+	rdfs:label "ArrowHead - baseLength"@en ;
+        rdfs:domain ah:Arrowhead ;
+	rdfs:range excav:TypometryValue .
 
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
-
-#ah:bodyLength
-	#a rdf:Property,	owl:DataProperty;
-    #    rdfs:subPropertyOf crm:E54_Dimension ;
-	#rdfs:comment "This property points to an instance that presents the length of the body of the arrowhead."@en;
-	#rdfs:label "ArrowHead - bodyLength"@en;
-        #rdfs:domain ah:Arrowhead;
-	#rdfs:range excav:TypometryValue .
-
-#ah:baseLength
-	#a rdf:Property,	owl:DataProperty;
-        #rdfs:subPropertyOf crm:E54_Dimension ;
-	#rdfs:comment "This property points to an instance that presents the length of the base of the arrowhead."@en;
-	#rdfs:label "ArrowHead - baseLength"@en;
-        ##rdfs:domain ah:Arrowhead;
-	#rdfs:range excav:TypometryValue.
 
 ah:shape
 	a rdf:Property,	owl:DataProperty;
