@@ -15,9 +15,9 @@ http://purl.org/megalod/kos/
 | http://purl.org/megalod/kos/ah-chippingDelineation | Contínuo,Composto,Denticulado                                        | Continuous, Composite, Denticulated                                       ||
 | http://purl.org/megalod/kos/ah-chippingLocation    | Distal,Mediano,Proximal                                              | Distal, Median, Proximal                                                  ||
 | http://purl.org/megalod/kos/ah-chippingShape       | Retilínea, Convexa, Côncava, Sinuosa                                 | Straight, Convex, Concave, Sinuous                                        ||
-| http://purl.org/megalod/kos/MegaLOD-IndexElongation|                                                                       |                                                                          ||
-| http://purl.org/megalod/kos/MegaLOD-IndexThickness |                                                                       |                                                                          ||
-| http://purl.org/megalod/kos/MegaLOD-BCAC           |  BC, AC                                                               |         BC, AC                                                           ||
+| http://purl.org/megalod/kos/MegaLOD-IndexElongation| Alongado, Mediano, Curto                                             |  Elongated, Medium, Short                                                 | Allongé, Intermédiaire, Court|
+| http://purl.org/megalod/kos/MegaLOD-IndexThickness |  Abatido, Mediano, Espesso                                           |  Thin, Medium, Thick                                                      | Aminci, Moyen, Épais|
+| http://purl.org/megalod/kos/MegaLOD-BCAC           |  a.C., d.C.                                                               |         BC, AD                                                           | av. J.-C., ap. J.-C. |
 
 
 
