@@ -20,7 +20,7 @@
 
 <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Elongated> a skos:Concept ;
     skos:prefLabel "Elongated"@en ;
-    skos:prefLabel "Alondado"@pt ;
+    skos:prefLabel "Alongado"@pt ;
     skos:prefLabel "Allongé"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/MegaLOD-IndexElongation>;
     skos:topConceptOf <https://purl.org/megalod/kos/MegaLOD-IndexElongation>.
