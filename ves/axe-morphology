@@ -1,0 +1,41 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<https://purl.org/megalod/kos/axe-morphology> a skos:ConceptScheme, prov:Entity ;
+    skos:prefLabel "Arrowhead shape"@en;
+    skos:hasTopConcept <https://purl.org/megalod/kos/axe-morphology/triangular>,
+        <https://purl.org/megalod/kos/axe-morphology/rectangular>,
+        <https://purl.org/megalod/kos/axe-morphology/quadrangular> ,
+        <https://purl.org/megalod/kos/axe-morphology/trapezoidal> ,
+        <https://purl.org/megalod/kos/axe-morphology/oval> ;
+    dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
+    dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal)";
+    dc:date "2025-05-20"^^xsd:date ;
+    dc:title "Kos about axe morphology"@en.
+
+
+<https://purl.org/megalod/kos/axe-morphologye/triangular> a skos:Concept ;
+    skos:prefLabel "Triangular"@en ;
+    skos:prefLabel "Triangular"@pt ;
+    skos:prefLabel "Triangulaire"@fr ;
+    skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
+
+<https://purl.org/megalod/kos/axe-morphology/lozenge-shaped> a skos:Concept ;
+    skos:prefLabel "lozenge-shaped"@en ;
+    skos:prefLabel "Losangular"@pt ;
+    skos:prefLabel "Losangique"@fr ;
+    skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
+
+<https://purl.org/megalod/kos/axe-morphology/stemmed> a skos:Concept ;
+    skos:prefLabel "Stemmed"@en ;
+    skos:prefLabel "Pedunculado"@pt ;
+    skos:prefLabel "Pédonculée"@fr ;
+    skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
