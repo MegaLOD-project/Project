@@ -12,6 +12,7 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 | VES                                                | Valores (PT)                                                         | Values (EN)                                                               |   Values (FR)                                   |
 |----------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------------------------|
 | http://purl.org/megalod/kos/ah-shape               | Triangular,Losângica,Peduncolada                                     | Triangle, Lozenge-shaped, Stemmed                                         | Triangulaire, Losangique, Pédonculée |
+| http://purl.org/megalod/kos/ah-variant             | Abatida,Alteada,Espessa                                              | Thin, Medium,,Thick                                                        | |
 
 ## Axe
 
