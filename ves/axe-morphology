@@ -26,16 +26,30 @@
     skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
 
-<https://purl.org/megalod/kos/axe-morphology/lozenge-shaped> a skos:Concept ;
-    skos:prefLabel "lozenge-shaped"@en ;
-    skos:prefLabel "Losangular"@pt ;
-    skos:prefLabel "Losangique"@fr ;
+<https://purl.org/megalod/kos/axe-morphology/rectangular> a skos:Concept ;
+    skos:prefLabel "Rectangular"@en ;
+    skos:prefLabel "Retangular"@pt ;
+    skos:prefLabel "Rectangulaire"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
 
-<https://purl.org/megalod/kos/axe-morphology/stemmed> a skos:Concept ;
-    skos:prefLabel "Stemmed"@en ;
-    skos:prefLabel "Pedunculado"@pt ;
-    skos:prefLabel "Pédonculée"@fr ;
+<https://purl.org/megalod/kos/axe-morphology/quadrangular> a skos:Concept ;
+    skos:prefLabel "Quadrangular"@en ;
+    skos:prefLabel "Quadrangular"@pt ;
+    skos:prefLabel "Quadrangulaire"@fr ;
+    skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
+
+<https://purl.org/megalod/kos/axe-morphology/trapezoidal> a skos:Concept ;
+    skos:prefLabel "Trapezoidal"@en ;
+    skos:prefLabel "Trapezoidal"@pt ;
+    skos:prefLabel "Trapézoïdal"@fr ;
+    skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
+    skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
+
+<https://purl.org/megalod/kos/axe-morphology/oval> a skos:Concept ;
+    skos:prefLabel "Oval"@en ;
+    skos:prefLabel "Oval"@pt ;
+    skos:prefLabel "Ovale"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/axe-morphology> ;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-morphology>.
