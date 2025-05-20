@@ -9,6 +9,11 @@ This project aims to provide a framework of interoperability for the assets (tan
 
 The scope of this project has no limits since the datasets are openly available through SPARQL endpoints or APIs, meaning that any entity can (re)use the MegaLOD datasets in other software applications. To demonstrate the usefulness of the data and to make it browsable and accessible by the general public, we will create a website and a virtual museum app, where the sites are presented.
 
+#Contributions
+This project already has contributions from the following students:
+Marco Oliveira - Undergard project | Undergraduation in Information Siences | ISCAP] HTTP://
+Domingos Santos - Master Student | Master in Informatics Engineering and Computation
+
 # References
 
 [1] http://www.megalithicroutes.eu/en/megalithic-europe
