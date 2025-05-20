@@ -1,7 +1,7 @@
 # MegaLOD Project - Vocabulary Encoding Schemes
 The following table presents the Vocabulary Encoding Schemes to be used with the MegaLOD metadata schemes (http://purl.org/megalod/kos/)
 
-## MegaLOD
+## Global
 | VES                                                | Valores (PT)                                                         | Values (EN)                                                               |   Values (FR)                |
 |----------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------|
 | http://purl.org/megalod/kos/MegaLOD-IndexElongation| Alongado, Mediano, Curto                                             |  Elongated, Medium, Short                                                 | Allongé, Intermédiaire, Court|
