@@ -28,8 +28,7 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 |-----------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------|
 | http://purl.org/megalod/kos/axe-morphology          | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval             | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval                  |  Triangulaire, Retangulaire, Quadrangulaire, Trapézoïdal, Ovale |
 | http://purl.org/megalod/kos/axe-longitudinalSection | Convexo-rectilíneo, Biconvex, Flancos Paralelos                     |Convex-Rectilinear, Biconvex, Parallel flanks                              | Convexo-rectiligne, Biconvexe, Flancs parallèles|
-| http://purl.org/megalod/kos/axe-polished          | Glume, Flancos, Mesial, Proximal, Talão                               | Edge, Sides, Mesial, Proximal, Butt                                       | Tranchant, Flancs, Mésial, Proximal
-Talon |
+| http://purl.org/megalod/kos/axe-polished          | Glume, Flancos, Mesial, Proximal, Talão                               | Edge, Sides, Mesial, Proximal, Butt                                       | Tranchant, Flancs, Mésial, Proximal, Talon |
 
 
 
