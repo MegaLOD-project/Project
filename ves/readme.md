@@ -16,8 +16,8 @@ http://purl.org/megalod/kos/
 | http://purl.org/megalod/kos/MegaLOD-IndexElongation| Alongado, Mediano, Curto                                             |  Elongated, Medium, Short                                                 | Allongé, Intermédiaire, Court|
 | http://purl.org/megalod/kos/MegaLOD-IndexThickness |  Abatido, Mediano, Espesso                                           |  Thin, Medium, Thick                                                      | Aminci, Moyen, Épais|
 | http://purl.org/megalod/kos/MegaLOD-BCAD           |  a.C., d.C.                                                               |         BC, AD                                                           | av. J.-C., ap. J.-C. |
-| http://purl.org/megalod/kos/axe-morphology | Triangulaire, Retangulaire, Quadrangulaire, Trapézoïdal, Ovale | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval | [1] Triangular, Rectangular, Quadrangular, Trapezoidal, Oval
-| http://purl.org/megalod/kos/axe-morphology
+| http://purl.org/megalod/kos/axe-morphology | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval| Triangular, Rectangular, Quadrangular, Trapezoidal, Oval |  Triangulaire, Retangulaire, Quadrangulaire, Trapézoïdal, Ovale 
+| http://purl.org/megalod/kos/axe-crossSection | |Convex-Rectilinear, Biconvex, Parallel flanks | Convexo-rectilíneo, Biconvex, Flancos Paralelos|
 
 
 
