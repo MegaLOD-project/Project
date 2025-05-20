@@ -26,7 +26,8 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 | VES                                                | Valores (PT)                                                         | Values (EN)                                                               |   Values (FR)             |
 |----------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------|
 | http://purl.org/megalod/kos/axe-morphology | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval| Triangular, Rectangular, Quadrangular, Trapezoidal, Oval |  Triangulaire, Retangulaire, Quadrangulaire, Trapézoïdal, Ovale |
-| http://purl.org/megalod/kos/axe-longitudinalSection | |Convex-Rectilinear, Biconvex, Parallel flanks | Convexo-rectilíneo, Biconvex, Flancos Paralelos|
+| http://purl.org/megalod/kos/axe-longitudinalSection | Convexo-rectilíneo, Biconvex, Flancos Paralelos |Convex-Rectilinear, Biconvex, Parallel flanks | Convexo-rectiligne, Biconvexe, Flancs parallèles|
+| 
 
 
 
