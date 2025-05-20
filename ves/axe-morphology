@@ -19,7 +19,7 @@
     dc:title "Kos about axe morphology"@en.
 
 
-<https://purl.org/megalod/kos/axe-morphologye/triangular> a skos:Concept ;
+<https://purl.org/megalod/kos/axe-morphology/triangular> a skos:Concept ;
     skos:prefLabel "Triangular"@en ;
     skos:prefLabel "Triangular"@pt ;
     skos:prefLabel "Triangulaire"@fr ;
