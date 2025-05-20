@@ -14,7 +14,9 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 | http://purl.org/megalod/kos/ah-shape               | Triangular,Losângica,Peduncolada                                     | Triangle, Lozenge-shaped, Stemmed                                         | Triangulaire, Losangique, Pédonculée |
 | http://purl.org/megalod/kos/ah-variant             | Abatida,Alteada,Espessa                                              | Thin, Medium, Thick                                                       | |
 | http://purl.org/megalod/kos/ah-base                | Reta, Convexa, Côncava, Peduncolada, Triangular                      | Straight, Convex, Concave, Stemmed, Triangular                            | Droite, Convex, Concave, Pédonculée, Triangulaire |
-| http://purl.org/megalod/kos/ah-chippingMode        | Plano,Paralelo,Sub-Paralelo                     | Plane, Parallel, Sub-Parallel                                             | |
+| http://purl.org/megalod/kos/ah-chippingMode        | Plano,Paralelo,Sub-Paralelo                                          | Plane, Parallel, Sub-Parallel                                             | |
+| http://purl.org/megalod/kos/ah-chippingDirection   | Direta,Inversa,Bifacial                                              | Direct, Reverse, Bifacial                                                 | |
+| http://purl.org/megalod/kos/ah-chippingDelineation | Contínuo,Composto,Denticulado                                        | Continuous, Composite, Denticulated                                       | |
 
 ## Axe
 
@@ -22,6 +24,7 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 |----------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------|
 | http://purl.org/megalod/kos/axe-morphology | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval| Triangular, Rectangular, Quadrangular, Trapezoidal, Oval |  Triangulaire, Retangulaire, Quadrangulaire, Trapézoïdal, Ovale |
 | http://purl.org/megalod/kos/axe-longitudinalSection | |Convex-Rectilinear, Biconvex, Parallel flanks | Convexo-rectilíneo, Biconvex, Flancos Paralelos|
+
 
 
 
