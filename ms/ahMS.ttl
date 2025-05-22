@@ -66,7 +66,7 @@ ah:hasChipping
   rdfs:range ah:Chipping .
 
 ah:hasBodyLength
-	a rdf:Property,	owl:DataProperty;
+	a rdf:Property,	owl:ObjectPropertyProperty;
         rdfs:subPropertyOf crm:E54_Dimension ;
 	rdfs:comment "Points to a class that gives the length of the body of the arrowhead."@en;
 	rdfs:label "ArrowHead - bodyLength"@en;
@@ -74,7 +74,7 @@ ah:hasBodyLength
 	rdfs:range excav:TypometryValue .
 
 ah:hasBaseLength
-	a rdf:Property,	owl:DataProperty ;
+	a rdf:Property,	owl:ObjectProperty ;
         rdfs:subPropertyOf crm:E54_Dimension ;
 	rdfs:comment "Points to a class that presents the length of the base of the arrowhead."@en ;
 	rdfs:label "ArrowHead - baseLength"@en ;
