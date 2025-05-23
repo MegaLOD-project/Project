@@ -43,12 +43,6 @@ excav:Weight
 	rdfs:label "Weight"@en;
  	rdfs:subClassOf schema:QuantitativeValue .
 
-excav:Depth
-	a rdfs:Class;
-	rdfs:comment "Defines a value and unit associated with depth of the item when it was excavated."@en;
-	rdfs:label "Depth"@en;
- 	rdfs:subClassOf schema:QuantitativeValue .
-
 excav:TypometryValue
 	a rdfs:Class;
 	rdfs:comment "Defines a value and unit associated with values of thickness, height and width of the Item"@en;
@@ -205,10 +199,10 @@ excav:hasCoordinatesInSquare
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
-excav:bcac
+excav:bcad
     a rdf:Property,owl:DataProperty;
-    rdfs:comment "This property informs if the date in the bound of the timeline is before christ (bc) or After christ (ac). Use an URI of the term in the controlled vocabulary MegaLOD-BCAC"@en;
-    rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes ou depois de cristo. Usar o URI do termno correspondente (no vocabulário controlado MegaLOD-BCAC"@en;
+    rdfs:comment "This property informs if the date in the bounds of the timeline is before Christ (bc) or after Christ (AD). Use a URI of the term in the controlled vocabulary MegaLOD-BCAD"@en;
+    rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes ou depois de cristo. Usar o URI do termno correspondente (no vocabulário controlado MegaLOD-BCAD"@en;
     rdfs:label "Definition of the period in time ."@en;
     rdfs:label "Definição do periodo no tempo ."@en;
     rdfs:domain excav:Instant;
@@ -216,7 +210,7 @@ excav:bcac
 
 excav:elongationIndex
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The elongation index of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexElongation"@en;
+	rdfs:comment "The elongation index of the item. Use a URI of the term in the controlled vocabulary MegaLOD-IndexElongation"@en;
 	rdfs:comment "O índice the alongamento do Item. Usar o URI do termno correspondente no vocabulário controlado MegaLOD-IndexElongation"@en;
 	rdfs:label "Elongation Index."@en;
         rdfs:label "Índice de alongamento ."@en;
@@ -225,7 +219,7 @@ excav:elongationIndex
 
 excav:thicknessIndex
 	a rdf:Property,	owl:DataProperty;
-	rdfs:comment "The thickness index of the item. Use an URI of the term in the controlled vocabulary MegaLOD-IndexThicknessn"@en;
+	rdfs:comment "The thickness index of the item. Use a URI of the term in the controlled vocabulary MegaLOD-IndexThicknessn"@en;
 	rdfs:comment "O índice the Espessura do Item. Usar o URI do termno correspondente no vocabulário controlado MegaLOD-IndexThickness"@en;
 	rdfs:label "Thickness Index."@en;
         rdfs:label "Índice de Espessura ."@en;
