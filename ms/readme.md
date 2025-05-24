@@ -40,7 +40,7 @@ URI: https//purl.org/megalod/ms/excav/
 | Item found In a Context                 | foundInContext                   | EncounterEvent                | Context                               | |
 | Item found In a Excavation              | foundInExcavation                | EncounterEvent                | Excavation                            | |
 | Item found in the Coordinates (within the square) | hasCoordinatesInSquare | Item                          | Coordinates                           |   |        
-| Before or After Christ                  | bcad                             | Instant                       | xsd:anyURI                            | MegaLOD-BCAD |
+| Before or After Christ                  | bcac                             | Instant                       | xsd:anyURI                            | MegaLOD-BCAC |
 | Elongation Index of the Item            | elongationIndex                  | Item                          | xsd:anyURI                            |  MegaLOD-IndexElongation|
 | Thickness  Index of the Item            | thicknessIndex                   | Item                          | xsd:anyURI                            |  MegaLOD-IndexThickness|
 

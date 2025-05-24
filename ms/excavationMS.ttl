@@ -199,10 +199,10 @@ excav:hasCoordinatesInSquare
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
-excav:bcad
+excav:bcac
     a rdf:Property,owl:DataProperty;
-    rdfs:comment "This property informs if the date in the bounds of the timeline is before Christ (bc) or after Christ (AD). Use a URI of the term in the controlled vocabulary MegaLOD-BCAD"@en;
-    rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes ou depois de cristo. Usar o URI do termno correspondente (no vocabulário controlado MegaLOD-BCAD"@en;
+    rdfs:comment "This property informs if the date in the bounds of the timeline is before Christ (bc) or after Christ (AD). Use a URI of the term in the controlled vocabulary MegaLOD-BCAC"@en;
+    rdfs:comment "Esta propriedade diz se o ano definido na timeline é antes ou depois de cristo. Usar o URI do termno correspondente (no vocabulário controlado MegaLOD-BCAC"@en;
     rdfs:label "Definition of the period in time ."@en;
     rdfs:label "Definição do periodo no tempo ."@en;
     rdfs:domain excav:Instant;
