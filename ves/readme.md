@@ -6,7 +6,7 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 |----------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|------------------------------|
 | http://purl.org/megalod/kos/MegaLOD-IndexElongation| Alongado, Mediano, Curto                                             |  Elongated, Medium, Short                                                 | Allongé, Intermédiaire, Court|
 | http://purl.org/megalod/kos/MegaLOD-IndexThickness |  Abatido, Mediano, Espesso                                           |  Thin, Medium, Thick                                                      | Aminci, Moyen, Épais         |
-| http://purl.org/megalod/kos/MegaLOD-BCAC           |  a.C., d.C.                                                          |   BC, AD                                                                  | av. J.-C., ap. J.-C.         |
+| http://purl.org/megalod/kos/MegaLOD-BCAD           |  a.C., d.C.                                                          |   BC, AD                                                                  | av. J.-C., ap. J.-C.         |
 
 ## Arrowhead
 | VES                                                | Valores (PT)                                                         | Values (EN)                                                               |   Values (FR)                                   |
