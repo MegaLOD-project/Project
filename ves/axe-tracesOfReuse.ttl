@@ -5,27 +5,27 @@
 
 
 <https://purl.org/megalod/kos/axe-tracesOfReuse> a skos:ConceptScheme, prov:Entity ;
-    skos:prefLabel "Arrowhead base"@en;
+    skos:prefLabel "Axe TRaces of Reuse"@en;
     skos:hasTopConcept 
         <https://purl.org/megalod/kos/axe-tracesOfReuse/anvil>,
         <https://purl.org/megalod/kos/axe-tracesOfReuse/hammer>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
-    dc:date "2024-04-25"^^xsd:date ;
-    dc:title "A taxonomi in SKOS about the axe property traces of reuse"@en.
+    dc:date "2025-05-25"^^xsd:date ;
+    dc:title "A taxonomy in SKOS about the axe property traces of reuse"@en.
 
 
 <https://purl.org/megalod/kos/axe-tracesOfReuse/anvil> a skos:Concept ;
     skos:prefLabel "Anvil"@en ;
     skos:prefLabel "Bigorna"@pt ;
-    skos:notation "Enclume" ;
+    skos:notation "Enclume"@fr;
     skos:inScheme <https://purl.org/megalod/kos/axe-tracesOfReuse>;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-tracesOfReuse>.
 
-<https://purl.org/megalod/kos/ah-tracesOfReuse/hammer> a skos:Concept ;
+<https://purl.org/megalod/kos/axe-tracesOfReuse/hammer> a skos:Concept ;
     skos:prefLabel "Hammer"@en ;
     skos:prefLabel "Percurtor"@pt ;
-    skos:notation "Marteau" ;
+    skos:notation "Marteau"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/axe-tracesOfReuse> ;
 skos:topConceptOf <https://purl.org/megalod/kos/axe-tracesOfReuse>.
 
