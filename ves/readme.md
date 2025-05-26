@@ -27,8 +27,15 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 | VES                                                 | Valores (PT)                                                         | Values (EN)                                                               |   Values (FR)             |
 |-----------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------|
 | http://purl.org/megalod/kos/axe-morphology          | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval             | Triangular, Rectangular, Quadrangular, Trapezoidal, Oval                  |  Triangulaire, Retangulaire, Quadrangulaire, Trapézoïdal, Ovale |
-| http://purl.org/megalod/kos/axe-longitudinalSection | Convexo-rectilíneo, Biconvex, Flancos Paralelos                     |Convex-Rectilinear, Biconvex, Parallel flanks                              | Convexo-rectiligne, Biconvexe, Flancs parallèles|
-| http://purl.org/megalod/kos/axe-polished          | Glume, Flancos, Mesial, Proximal, Talão                               | Edge, Sides, Mesial, Proximal, Butt                                       | Tranchant, Flancs, Mésial, Proximal, Talon |
+| http://purl.org/megalod/kos/axe-longitudinalSection | Convexo-rectilíneo, Biconvex, Flancos Paralelos                      | Convex-Rectilinear, Biconvex, Parallel flanks                             | Convexo-rectiligne, Biconvexe, Flancs parallèles |
+| http://purl.org/megalod/kos/axe-polished            | Glume, Flancos, Mesial, Proximal, Talão                              | Edge, Sides, Mesial, Proximal, Butt                                       | Tranchant, Flancs, Mésial, Proximal, Talon |
+| http://purl.org/megalod/kos/axe-tracesOfReuse       |  Bigorna, Percutor                                                   | Anvil, Hammer                                                             | Enclume, Marteau   |
+| http://purl.org/megalod/kos/axe-edge                | Ligeiros, Intensos, Boleado, Lascado, Desbastado                     | Light, Intense, Rounded, Flaked, Roughened                                | Légers, Intenses, Arrondi, Éclaté, Ébauché |
+| http://purl.org/megalod/kos/axe-butt                | Truncated, Rectilinear, Rounded                                      | Truncado, Rectilíneo, Redondo                                             | Tronqué, Rectiligne, Rond |
+----------------------------------------------------------------------------------------------------
+
+
+ 
 
 
 
