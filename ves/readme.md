@@ -7,6 +7,7 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 | http://purl.org/megalod/kos/MegaLOD-IndexElongation| Alongado, Mediano, Curto                                             |  Elongated, Medium, Short                                                 | Allongé, Intermédiaire, Court|
 | http://purl.org/megalod/kos/MegaLOD-IndexThickness |  Abatido, Mediano, Espesso                                           |  Thin, Medium, Thick                                                      | Aminci, Moyen, Épais         |
 | http://purl.org/megalod/kos/MegaLOD-BCAD           |  a.C., d.C.                                                          |   BC, AD                                                                  | av. J.-C., ap. J.-C.         |
+----------------------------------------------------------------------------------------------------
 
 ## Arrowhead
 | VES                                                | Valores (PT)                                                         | Values (EN)                                                               |   Values (FR)                                   |
@@ -19,7 +20,7 @@ The following table presents the Vocabulary Encoding Schemes to be used with the
 | http://purl.org/megalod/kos/ah-chippingDelineation | Contínuo,Composto,Denticulado                                        | Continuous, Composite, Denticulated                                       | |
 | http://purl.org/megalod/kos/ah-chippingLocation    | Distal,Mediano,Proximal                                              | Distal, Median, Proximal                                                  | |
 | http://purl.org/megalod/kos/ah-chippingShape       | Retilínea, Convexa, Côncava, Sinuosa                                 | Straight, Convex, Concave, Sinuous                                        | |
-
+----------------------------------------------------------------------------------------------------
 
 
 ## Axe
