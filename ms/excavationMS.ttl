@@ -196,6 +196,13 @@ excav:hasCoordinatesInSquare
     rdfs:domain excav:Item;
     rdfs:range excav:Coordinates.
 
+excav:foundInLocation
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Item found in a Location."@en;
+    rdfs:label "Item found in a Location"@en;
+    rdfs:domain excav:Item;
+    rdfs:range excav:Location.
+
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
