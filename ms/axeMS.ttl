@@ -13,7 +13,7 @@
 
 # Metadata #
 
-<http://purl.org/megalod/ms/ah/> a voaf:Vocabulary, owl:Ontology;
+<http://purl.org/megalod/ms/axe/> a voaf:Vocabulary, owl:Ontology;
 
   voaf:classNumber 1 ;
   voaf:propertyNumber 6 ;
