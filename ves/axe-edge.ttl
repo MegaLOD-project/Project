@@ -25,28 +25,28 @@
     skos:inScheme <https://purl.org/megalod/kos/axe-edge>;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-edge>.
 
-<https://purl.org/megalod/kos/ah-edge/intense> a skos:Concept ;
+<https://purl.org/megalod/kos/axe-edge/intense> a skos:Concept ;
     skos:prefLabel "Intense"@en ;
     skos:prefLabel "Intensos"@pt ;
     skos:notation "Intenses"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/axe-edge> ;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-edge>.
 
-    <https://purl.org/megalod/kos/ah-edge/rounded> a skos:Concept ;
+    <https://purl.org/megalod/kos/axe-edge/rounded> a skos:Concept ;
     skos:prefLabel "Rounded"@en ;
     skos:prefLabel "Boleado"@pt ;
     skos:notation "Arrondi"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/axe-edge> ;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-edge>.
 
-    <https://purl.org/megalod/kos/ah-edge/flaked> a skos:Concept ;
+    <https://purl.org/megalod/kos/axe-edge/flaked> a skos:Concept ;
     skos:prefLabel "Flaked"@en ;
     skos:prefLabel "Lascado"@pt ;
     skos:notation "Éclaté"@fr ;
     skos:inScheme <https://purl.org/megalod/kos/axe-edge> ;
     skos:topConceptOf <https://purl.org/megalod/kos/axe-edge>.
 
-    <https://purl.org/megalod/kos/ah-edge/roughened> a skos:Concept ;
+    <https://purl.org/megalod/kos/axe-edge/roughened> a skos:Concept ;
     skos:prefLabel "Roughened"@en ;
     skos:prefLabel "Desbastado"@pt ;
     skos:notation "Ébauché"@fr ;
