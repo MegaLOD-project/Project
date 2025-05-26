@@ -1,5 +1,5 @@
 # MegaLOD Project Metadata Schemes
-These four metadata schemes were created to be used in the context of the MegaLOD Metadata Application Profile (see https://purl.org/megalod/map/)
+These four metadata schemes were created to be used in the context of the MegaLOD Metadata Application Profile (see https://purl.org/megalod/map)
 
 # Excavation Metadata Scheme
 URI: https//purl.org/megalod/ms/excav/
