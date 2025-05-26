@@ -103,7 +103,7 @@ URI: https//purl.org/megalod/ms/axe/
 | Edge                                                 | edge                           | Axe                              | xsd:anyURI       |  axe-edge                 |
 | Butt                                                 | butt                           | Axe                              | xsd:anyURI       |  axe-butt                 |
 | Traces of use                                        | tracesOfUse                    | Axe                              | xsd:anyURI       |  axe-polished             |
-| Traces of reuse                                      | tracesOfReu                    | Axe                              | xsd:anyURI       |  axe-tracesOfReuse        |
+| Traces of reuse                                      | tracesOfReuse                  | Axe                              | xsd:anyURI       |  axe-tracesOfReuse        |
 | Traces of fixation                                   | tracesOfFixation               | Axe                              | xsd:boolean      |           |
 | Repolishing after fracture                           | repolishingAfterFracture       | Axe                              | xsd:boolean      |           |
 
