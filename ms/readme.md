@@ -34,15 +34,16 @@ URI: https//purl.org/megalod/ms/excav/
 | Has context                             | hasContext                       | Excavation                    | Context                               | |
 | has Stratigraphic Unit                  | hasSVU                           | Context                       | StratigraphicVolumeUnit               | |
 | Has Square                              | hasSquare                        | Square                        | Excavation                            | |
-| hasTimeLine                             | hasTimeLine                      | StratigraphicVolumeUnit       | TimeLine                              | |
-| Item found in the GPSCoordinates        | foundInCoordinates               | Item                          | GPSCoordinates                        |   |                             
-| Item found In a StratigraphicVolumeUnit | foundInSVU                       | EncounterEvent                | StratigraphicVolumeUnit               | |
-| Item found In a Context                 | foundInContext                   | EncounterEvent                | Context                               | |
-| Item found In a Excavation              | foundInExcavation                | EncounterEvent                | Excavation                            | |
+| hasTimeLine                             | hasTimeLine                      | StratigraphicVolumeUnit       | TimeLine                              | |                 
+| Item found in a StratigraphicVolumeUnit | foundInSVU                       | EncounterEvent                | StratigraphicVolumeUnit               | |
+| Item found in a Context                 | foundInContext                   | EncounterEvent                | Context                               | |
+| Item found in a Excavation              | foundInExcavation                | EncounterEvent                | Excavation                            | |
+| Item found in the GPSCoordinates        | foundInCoordinates               | Item                          | GPSCoordinates                        |   |          
+| Item found in a Location                | foundInLocation                  | Item                          | Location                              | |
 | Item found in the Coordinates (within the square) | hasCoordinatesInSquare | Item                          | Coordinates                           |   |        
-| Before or After Christ                  | bcac                             | Instant                       | xsd:anyURI                            | MegaLOD-BCAC |
-| Elongation Index of the Item            | elongationIndex                  | Item                          | xsd:anyURI                            |  MegaLOD-IndexElongation|
-| Thickness  Index of the Item            | thicknessIndex                   | Item                          | xsd:anyURI                            |  MegaLOD-IndexThickness|
+| Elongation Index of the Item            | elongationIndex                  | Item                          | xsd:anyURI                            |  [MegaLOD-indexElongation](http://purl.org/megalod/kos/MegaLod-indexElomngation)|
+| Thickness  Index of the Item            | thicknessIndex                   | Item                          | xsd:anyURI                            |  [MegaLOD-indexThickness](http://purl.org/megalod/kos/MegaLod-indexThickness)|
+| Before or After Christ                  | bcac                             | Instant                       | xsd:anyURI                            | [MegaLOD-BCAD](http://purl.org/megalod/kos/MegaLOD-BCAD) |
 
 
      
