@@ -203,6 +203,14 @@ excav:foundInLocation
     rdfs:domain excav:Item;
     rdfs:range excav:Location.
 
+excav:wasEncounteredIn
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Links an Item to the Encounter Event in which it was found."@en;
+    rdfs:label "Item was encountered in Event"@en;
+    rdfs:domain excav:Item;
+    rdfs:range excav:EncounterEvent;
+    owl:equivalentProperty crmsci:O19_was_encountered_in .
+
 #>-----------------------------------------<#
 #>           Data Properties             <#
 #>-----------------------------------------<#
