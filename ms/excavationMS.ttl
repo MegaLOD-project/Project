@@ -55,6 +55,14 @@ excav:Item
 	rdfs:label "Item found in the Excavation"@en;
  	rdfs:subClassOf crm:E24_Physical_Man-Made_Thing .
 
+
+excav:foundInSquare
+    a rdf:Property, owl:ObjectProperty;
+    rdfs:comment "Points to the Square where the item was found."@en;
+    rdfs:label "The Item found in a Square"@en;
+    rdfs:domain excav:Item;
+    rdfs:range excav:Square.
+
 excav:Location
 	a rdfs:Class;
 	rdfs:comment "The Location of the Exacavation."@en;
