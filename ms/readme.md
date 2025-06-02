@@ -43,7 +43,7 @@ URI: https//purl.org/megalod/ms/excav/
 | Item found in the Coordinates (within the square) | hasCoordinatesInSquare | Item                          | Coordinates                           |   |        
 | Elongation Index of the Item            | elongationIndex                  | Item                          | xsd:anyURI                            |  [MegaLOD-indexElongation](http://purl.org/megalod/kos/MegaLod-indexElomngation)|
 | Thickness  Index of the Item            | thicknessIndex                   | Item                          | xsd:anyURI                            |  [MegaLOD-indexThickness](http://purl.org/megalod/kos/MegaLod-indexThickness)|
-| Before or After Christ                  | bcac                             | Instant                       | xsd:anyURI                            | [MegaLOD-BCAD](http://purl.org/megalod/kos/MegaLOD-BCAD) |
+| Before or After Christ                  | bcad                             | Instant                       | xsd:anyURI                            | [MegaLOD-BCAD](http://purl.org/megalod/kos/MegaLOD-BCAD) |
 
 
      
