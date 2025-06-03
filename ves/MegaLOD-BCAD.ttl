@@ -11,7 +11,7 @@
     skos:prefLabel "The era before or after christ"@en;
     skos:hasTopConcept 
         <https://purl.org/megalod/kos/MegaLOD-BCAD/BC>,
-        <https://purl.org/megalod/kos/MegaLOD-BCAD/AC>;
+        <https://purl.org/megalod/kos/MegaLOD-BCAD/AD>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
     dc:date "2025-05-13"^^xsd:date ;
