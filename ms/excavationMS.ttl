@@ -58,7 +58,7 @@ excav:Item
 
 excav:foundInSquare
     a rdf:Property, owl:ObjectProperty;
-    rdfs:comment "Points to the Square where the item was found."@en;
+    rdfs:comment "The Square where the item was found."@en;
     rdfs:label "The Item found in a Square"@en;
     rdfs:domain excav:Item;
     rdfs:range excav:Square.
