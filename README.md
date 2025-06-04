@@ -15,7 +15,7 @@ Mariana curado Malta |  Faculty of Engineering, University of Porto (mariana.mal
 
 João Muralha | Faculty of Social Sciences and Humanities, Nova University of Lisbon
 
-** This project has contributions from the following students: **
+**This project has contributions from the following students:**
 
 Marco Oliveira (2022-2023) - Undergraduate project | Undergraduate in Information Sciences | ISCAP, Polytechnic University of Porto] 
 
