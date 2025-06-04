@@ -11,17 +11,18 @@ The scope of this project has no limits since the datasets are openly available 
 
 # Contributions
 
-Mariana curado Malta |  Faculty of Engineering, University of Porto (mariana.malta at fe.up.pt)
+-- Mariana curado Malta |  Faculty of Engineering, University of Porto (mariana.malta at fe.up.pt)
 
-João Muralha | Faculty of Social Sciences and Humanities, Nova University of Lisbon
+-- João Muralha | Faculty of Social Sciences and Humanities, Nova University of Lisbon
 
 **This project has contributions from the following students:**
 
-Marco Oliveira (2022-2023) - Undergraduate project | Undergraduate in Information Sciences | ISCAP, Polytechnic University of Porto] 
+-- Marco Oliveira (2022-2023) - Undergraduate project | Undergraduate in Information Sciences | ISCAP, Polytechnic University of Porto] 
 
-Domingos Santos (2024-2025) - Master Student | Master in Informatics and Computing Engineering | Faculty of Engineering, University of Porto
+-- Américo Araújo (2022-2023) - Master Stundet | Master in Archaeology | Univerisity of Coimbra
 
-Américo Araújo (2022-2023) - Master Stundet | Master in Archaeology | Univerisity of Coimbra
+-- Domingos Santos (2024-2025) - Master Student | Master in Informatics and Computing Engineering | Faculty of Engineering, University of Porto
+
 
 # References
 
