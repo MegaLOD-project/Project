@@ -9,12 +9,12 @@ This project aims to provide a framework of interoperability for the assets (tan
 
 The scope of this project has no limits since the datasets are openly available through SPARQL endpoints or APIs, meaning that any entity can (re)use the MegaLOD datasets in other software applications. To demonstrate the usefulness of the data and to make it browsable and accessible by the general public, we will create a website and a virtual museum app, where the sites are presented.
 
-#Contributions
+# Contributions
 Mariana curado Malta |  Faculty of Engineering, University of Porto (mariana.malta at fe.up.pt)
 
 João Muralha | Faculty of Social Sciences and Humanities, Nova University of Lisbon
 
-This project has contributions from the following students:
+** This project has contributions from the following students: **
 
 Marco Oliveira (2022-2023) - Undergraduate project | Undergraduate in Information Sciences | ISCAP, Polytechnic University of Porto] 
 
