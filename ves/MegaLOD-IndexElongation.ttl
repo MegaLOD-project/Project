@@ -9,9 +9,9 @@
 <https://purl.org/megalod/kos/MegaLOD-IndexElongation> a skos:ConceptScheme, prov:Entity ;
     skos:prefLabel "The Elogation Index of the Item - used as controlled term in excav:elongationIndex"@en;
     skos:hasTopConcept 
-        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Elongated>,
-        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Medium>,
-        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/Short>;
+        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/elongated>,
+        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/medium>,
+        <https://purl.org/megalod/kos/MegaLOD-IndexElongation/short>;
     dc:creator "Mariana Curado Malta(INESC TEC, Faculdade de Engenharia, Universidade do Porto, Portugal)" ;
     dc:contributor "João Muralha (CHAM, Faculdade de Ciências Sociais e Humanas, Universidade Nova de Lisboa, Portugal) ";
     dc:date "2025-05-213"^^xsd:date ;
