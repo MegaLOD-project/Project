@@ -1176,3 +1176,1147 @@ Received form submission: Array
     [continuous_upload] => 1
     [submit] => Upload
 )
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 124
+    [integer] => 1244
+    [prompt_40] => 1244
+    [csrf_3] => ebea5c3acf6bdddd18a8f30e064d63e9-c9b526a6b1eb8936dac683e8295117ee
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-033","context_description":"note 3","context_type":""}],"svus":[{"svu_id":"SVU-033","svu_description":"note 2","svu_lower_year":"1222","svu_upper_year":"1234"}],"squares":[{"square_id":"A1-34","square_east_west":"1","square_north_south":"4","square_size":"4"}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"42","encounter_method":"","encounter_notes":"note 1"}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-033
+                    [context_description] => note 3
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-033
+                    [svu_description] => note 2
+                    [svu_lower_year] => 1222
+                    [svu_upper_year] => 1234
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1-34
+                    [square_east_west] => 1
+                    [square_north_south] => 4
+                    [square_size] => 4
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 42
+                    [encounter_method] => 
+                    [encounter_notes] => note 1
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 124
+    [integer] => 1244
+    [prompt_40] => 1244
+    [csrf_3] => ebea5c3acf6bdddd18a8f30e064d63e9-c9b526a6b1eb8936dac683e8295117ee
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-033","context_description":"note 3","context_type":""}],"svus":[{"svu_id":"SVU-033","svu_description":"note 2","svu_lower_year":"1222","svu_upper_year":"1234"}],"squares":[{"square_id":"A1-34","square_east_west":"1","square_north_south":"4","square_size":"4"}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"42","encounter_method":"","encounter_notes":"note 1"}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-033
+                    [context_description] => note 3
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-033
+                    [svu_description] => note 2
+                    [svu_lower_year] => 1222
+                    [svu_upper_year] => 1234
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1-34
+                    [square_east_west] => 1
+                    [square_north_south] => 4
+                    [square_size] => 4
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 42
+                    [encounter_method] => 
+                    [encounter_notes] => note 1
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 124
+    [integer] => 1244
+    [prompt_40] => 1244
+    [csrf_3] => ebea5c3acf6bdddd18a8f30e064d63e9-c9b526a6b1eb8936dac683e8295117ee
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-033","context_description":"note 3","context_type":""}],"svus":[{"svu_id":"SVU-033","svu_description":"note 2","svu_lower_year":"1222","svu_upper_year":"1234"}],"squares":[{"square_id":"A1-34","square_east_west":"1","square_north_south":"4","square_size":"4"}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"42","encounter_method":"","encounter_notes":"note 1"}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-033
+                    [context_description] => note 3
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-033
+                    [svu_description] => note 2
+                    [svu_lower_year] => 1222
+                    [svu_upper_year] => 1234
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1-34
+                    [square_east_west] => 1
+                    [square_north_south] => 4
+                    [square_size] => 4
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 42
+                    [encounter_method] => 
+                    [encounter_notes] => note 1
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 1244
+    [prompt_40] => 
+    [csrf_3] => d009715bd4f596f894a861462b71d16b-4d0abe5eb64e2d841711c23f7865b6d3
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"","context_type":""}],"svus":[{"svu_id":"SVU-001","svu_description":"","svu_lower_year":"","svu_upper_year":""}],"squares":[{"square_id":"A1","square_east_west":"","square_north_south":"","square_size":""}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"","encounter_method":"","encounter_notes":""}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => 
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-001
+                    [svu_description] => 
+                    [svu_lower_year] => 
+                    [svu_upper_year] => 
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1
+                    [square_east_west] => 
+                    [square_north_south] => 
+                    [square_size] => 
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 
+                    [encounter_method] => 
+                    [encounter_notes] => 
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 1244
+    [prompt_40] => 
+    [csrf_3] => 648b831e57f2eab9b9f53ed6b12e8298-d9703d60bbcc51f89b5623596725d854
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"","context_type":""}],"svus":[{"svu_id":"SVU-001","svu_description":"","svu_lower_year":"","svu_upper_year":""}],"squares":[{"square_id":"A1","square_east_west":"","square_north_south":"","square_size":""}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"","encounter_method":"","encounter_notes":""}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => 
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-001
+                    [svu_description] => 
+                    [svu_lower_year] => 
+                    [svu_upper_year] => 
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1
+                    [square_east_west] => 
+                    [square_north_south] => 
+                    [square_size] => 
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 
+                    [encounter_method] => 
+                    [encounter_notes] => 
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 1244
+    [prompt_40] => 
+    [csrf_3] => 3139e8df7aa141e9b3d481b443fd769c-3878cb00fa859e7f3d8185eb8af08f27
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"","context_type":""}],"svus":[{"svu_id":"SVU-001","svu_description":"","svu_lower_year":"","svu_upper_year":""}],"squares":[{"square_id":"A1","square_east_west":"","square_north_south":"","square_size":""}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"","encounter_method":"","encounter_notes":""}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => 
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-001
+                    [svu_description] => 
+                    [svu_lower_year] => 
+                    [svu_upper_year] => 
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1
+                    [square_east_west] => 
+                    [square_north_south] => 
+                    [square_size] => 
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 
+                    [encounter_method] => 
+                    [encounter_notes] => 
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 1244
+    [prompt_40] => 
+    [csrf_3] => 1ed20e476c936340ba18fce0bc0e1b4e-d6087c2a5757a4d4bef801a460a18549
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"","context_type":""}],"svus":[],"squares":[],"encounters":[],"relationships":[]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => 
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+        )
+
+    [squares] => Array
+        (
+        )
+
+    [encounters] => Array
+        (
+        )
+
+    [relationships] => Array
+        (
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 1244
+    [prompt_40] => 
+    [csrf_3] => 16539420433d276869bd8faab2a5e484-9f40a17d9a34dba846494e33e2004b8f
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"","context_type":""}],"svus":[],"squares":[],"encounters":[],"relationships":[]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => 
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+        )
+
+    [squares] => Array
+        (
+        )
+
+    [encounters] => Array
+        (
+        )
+
+    [relationships] => Array
+        (
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 1244
+    [prompt_40] => 
+    [csrf_3] => 7b8fe603a929da60ae0693b5951b6896-88d0d319d07b3cf4d525b9841cdf6134
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"","context_type":""}],"svus":[{"svu_id":"SVU-001","svu_description":"","svu_lower_year":"","svu_upper_year":""}],"squares":[{"square_id":"A1","square_east_west":"","square_north_south":"","square_size":""}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"","encounter_method":"","encounter_notes":""}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => 
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-001
+                    [svu_description] => 
+                    [svu_lower_year] => 
+                    [svu_upper_year] => 
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1
+                    [square_east_west] => 
+                    [square_north_south] => 
+                    [square_size] => 
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 
+                    [encounter_method] => 
+                    [encounter_notes] => 
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 23
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => TTT
+    [prompt_52] => Porto
+    [prompt_36] => https://www.feup.com
+    [prompt_37] => email
+    [prompt_38] => Tiago
+    [prompt_39] => 
+    [integer] => 1244
+    [prompt_40] => 
+    [csrf_3] => 43636cc98f96d117c01f2d6ab0196534-ebcf7cd98e41e74191768f01fba50fce
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"","context_type":""}],"svus":[{"svu_id":"SVU-001","svu_description":"teste","svu_lower_year":"22","svu_upper_year":"33"}],"squares":[{"square_id":"A1","square_east_west":"2","square_north_south":"3","square_size":"4"}],"encounters":[{"encounter_date":"2025-05-26","encounter_depth":"3","encounter_method":"","encounter_notes":"teste"}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => 
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-001
+                    [svu_description] => teste
+                    [svu_lower_year] => 22
+                    [svu_upper_year] => 33
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1
+                    [square_east_west] => 2
+                    [square_north_south] => 3
+                    [square_size] => 4
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-26
+                    [encounter_depth] => 3
+                    [encounter_method] => 
+                    [encounter_notes] => teste
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+)
+Entities data: Array
+(
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => 
+    [orcid] => 
+    [email] => 
+)
+Excavation form POST data: Array
+(
+)
+Entities data: Array
+(
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => 
+    [orcid] => 
+    [email] => 
+)
+Excavation form POST data: Array
+(
+)
+Entities data: Array
+(
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => 
+    [orcid] => 
+    [email] => 
+)
+Excavation form POST data: Array
+(
+)
+Entities data: Array
+(
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => 
+    [orcid] => 
+    [email] => 
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 34
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => P_Excav
+    [prompt_52] => Porto
+    [prompt_36] => https://www.hhh.com
+    [prompt_37] => teste@gmail.com
+    [prompt_38] => teste.
+    [prompt_39] => 1.345
+    [integer] => 5.432
+    [prompt_40] => 5.432
+    [csrf_3] => 8200d30e8a0bff12f3a429e1f116b9da-d5aecf7157546e4e51c2ecdef1b73fe3
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-011","context_description":"CTX description","context_type":""}],"svus":[{"svu_id":"SVU-011","svu_description":"svu description","svu_lower_year":"2000","svu_upper_year":"4000"}],"squares":[{"square_id":"A11","square_east_west":"34","square_north_south":"45","square_size":"5"},{"square_id":"A112","square_east_west":"23","square_north_south":"13","square_size":"4"}],"encounters":[{"encounter_date":"2025-05-27","encounter_depth":"23","encounter_method":"","encounter_notes":"ENCOUNTER description"}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-011
+                    [context_description] => CTX description
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-011
+                    [svu_description] => svu description
+                    [svu_lower_year] => 2000
+                    [svu_upper_year] => 4000
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A11
+                    [square_east_west] => 34
+                    [square_north_south] => 45
+                    [square_size] => 5
+                )
+
+            [1] => Array
+                (
+                    [square_id] => A112
+                    [square_east_west] => 23
+                    [square_north_south] => 13
+                    [square_size] => 4
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-27
+                    [encounter_depth] => 23
+                    [encounter_method] => 
+                    [encounter_notes] => ENCOUNTER description
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 34
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => P_Excav
+    [prompt_52] => Porto
+    [prompt_36] => https://www.hhh.com
+    [prompt_37] => teste@gmail.com
+    [prompt_38] => teste.
+    [prompt_39] => 1.45
+    [integer] => 5.43
+    [prompt_40] => 5.43
+    [csrf_3] => b27e324881184e3d522a400e9e565c37-5e4d1d97c14c8359a8180ba386f2bbc8
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-123","context_description":"ctx description","context_type":""}],"svus":[{"svu_id":"SVU-123","svu_description":"suv description","svu_lower_year":"300","svu_upper_year":"400"}],"squares":[{"square_id":"A123","square_east_west":"12.1","square_north_south":"45.3","square_size":"4.0"}],"encounters":[{"encounter_date":"2025-05-27","encounter_depth":"23","encounter_method":"","encounter_notes":"encounter description"}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-123
+                    [context_description] => ctx description
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-123
+                    [svu_description] => suv description
+                    [svu_lower_year] => 300
+                    [svu_upper_year] => 400
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A123
+                    [square_east_west] => 12.1
+                    [square_north_south] => 45.3
+                    [square_size] => 4.0
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-27
+                    [encounter_depth] => 23
+                    [encounter_method] => 
+                    [encounter_notes] => encounter description
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)
+Excavation form POST data: Array
+(
+    [upload_type] => excavation
+    [prompt_32] => 34
+    [prompt_34] => Paredes
+    [prompt_51] => Portugal
+    [prompt_35] => P_Excav
+    [prompt_52] => Porto
+    [prompt_36] => https://www.hhh.com
+    [prompt_37] => teste@gmail.com
+    [prompt_38] => teste.
+    [prompt_39] => 
+    [integer] => 5.43
+    [prompt_40] => 
+    [csrf_3] => 668cab0a99e56e4403d09c5356455154-8662f4780212ece69d5572542c151566
+    [existing_archaeologist] => 
+    [new_archaeologist_name] => Domingos Santos
+    [new_archaeologist_orcid] => 1234-4567-5432-1234
+    [new_archaeologist_email] => domingos@fe.up.pt
+    [entities_data] => {"contexts":[{"context_id":"CTX-001","context_description":"description 1","context_type":""}],"svus":[{"svu_id":"SVU-001","svu_description":"description 1","svu_lower_year":"344","svu_upper_year":"4000"}],"squares":[{"square_id":"A1","square_east_west":"12","square_north_south":"45","square_size":"5"}],"encounters":[{"encounter_date":"2025-05-27","encounter_depth":"34","encounter_method":"","encounter_notes":"description 1"}],"relationships":[{"context":0,"svu":0}]}
+)
+Entities data: Array
+(
+    [contexts] => Array
+        (
+            [0] => Array
+                (
+                    [context_id] => CTX-001
+                    [context_description] => description 1
+                    [context_type] => 
+                )
+
+        )
+
+    [svus] => Array
+        (
+            [0] => Array
+                (
+                    [svu_id] => SVU-001
+                    [svu_description] => description 1
+                    [svu_lower_year] => 344
+                    [svu_upper_year] => 4000
+                )
+
+        )
+
+    [squares] => Array
+        (
+            [0] => Array
+                (
+                    [square_id] => A1
+                    [square_east_west] => 12
+                    [square_north_south] => 45
+                    [square_size] => 5
+                )
+
+        )
+
+    [encounters] => Array
+        (
+            [0] => Array
+                (
+                    [encounter_date] => 2025-05-27
+                    [encounter_depth] => 34
+                    [encounter_method] => 
+                    [encounter_notes] => description 1
+                )
+
+        )
+
+    [relationships] => Array
+        (
+            [0] => Array
+                (
+                    [context] => 0
+                    [svu] => 0
+                )
+
+        )
+
+)
+Processed archaeologist data: Array
+(
+    [existing] => 
+    [name] => Domingos Santos
+    [orcid] => 1234-4567-5432-1234
+    [email] => domingos@fe.up.pt
+)

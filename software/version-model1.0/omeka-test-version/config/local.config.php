@@ -1,9 +1,10 @@
 <?php
 return [
     'logger' => [
-        'log' => false,
-        'priority' => \Laminas\Log\Logger::NOTICE,
+        'log' => true,
+        'priority' => \Laminas\Log\Logger::DEBUG,
     ],
+    'temp_dir' => '/var/folders/r4/xpf37pln7mldj5v40vhxqr3c0000gn/T',
     'http_client' => [
         'sslcapath' => null,
         'sslcafile' => null,
@@ -28,7 +29,7 @@ return [
         'configuration' => [
             'orm_default' => [                
                 'auto_generate_proxy_classes' => 1,
-                ],
+            ],
         ],
     ],
     'service_manager' => [
