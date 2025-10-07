@@ -1,91 +1,127 @@
-# Omeka S
+# MegaLOD Platform - Installation Guide
 
-Omeka S is a web publication system for universities, galleries, libraries, archives, and museums. It consists of a local network of independently curated exhibits sharing a collaboratively built pool of items, media, and their metadata.
+This guide details the complete installation of the MegaLOD platform for managing and visualizing archaeological data.
 
-See the [user manual](https://omeka.org/s/docs/user-manual) for more information.
+### Base Software
+- **Apache** 2.4+ (with AllowOverride "All" and mod_rewrite enabled)
+- **MySQL** 5.7.9+
+- **PHP** 7.4+ (latest stable version preferred)
+- **Node.js** and **npm**
+- **ImageMagick** 6.7.5+ (for thumbnail generation)
 
-## Installation
+---
 
-### Requirements
-* Linux
-* [Apache](https://www.apache.org/) (with [AllowOverride](https://httpd.apache.org/docs/2.4/mod/core.html#allowoverride) set to "All" and [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) enabled)
-* [MySQL](https://www.mysql.com/) 5.7.9+ (or [MariaDB](https://mariadb.org/) 10.2.6+)
-* [PHP](https://www.php.net/) 7.4+ (latest stable version preferred, with [PDO](http://php.net/manual/en/intro.pdo.php), [pdo_mysql](http://php.net/manual/en/ref.pdo-mysql.php), and [xml](http://php.net/manual/en/intro.xml.php) extensions installed)
+# 🛠️ How to Install XAMPP and MySQL
 
-### Generating thumbnails
-* The default library for generating thumbnails is [ImageMagick](https://imagemagick.org/index.php), at least version 6.7.5. Older versions will not correctly produce thumbnails. For alternative thumbnail options, see the [user manual](https://omeka.org/s/docs/user-manual/configuration/#thumbnails).
+XAMPP is an all-in-one package that includes the **Apache** web server and **MariaDB** (a variant of MySQL). By installing XAMPP, you install the database server you need.
 
-### Installing from GitHub
+---
 
-1. Make sure [Node.js](https://nodejs.org/) and [npm](https://nodejs.org/) are installed
-1. Clone this repository in your Apache web directory:
-   * `$ git clone https://github.com/omeka/omeka-s.git`
-1. Change into the Omeka S directory:
-   * `$ cd omeka-s`
-1. Perform first-time setup:
-   * `$ npm install`
-   * `$ npx gulp init`
-1. Open `config/database.ini` and add your MySQL username, password, database name, and host name. The user and database must be created before this step.
-1. Make sure the `files/` directory is writable by Apache.
-1. In your web browser, navigate to the omeka-s directory, where you can complete installation.
+## 1. Download XAMPP
 
-### Installing from released zip file
+1.  Navigate to the official [Apache Friends website](https://www.apachefriends.org/download.html).
+2.  Download the **XAMPP installer** for your operating system (**Windows**, **Linux**, or **OS X**).
 
-1. Download the latest release from the [release page](https://github.com/omeka/omeka-s/releases) (download the first asset listed)
-1. Open `config/database.ini` and add your MySQL username, password, database name, and host name. The user and database must be created before this step.
-1. Make sure the `files/` directory is writable by Apache.
-1. In your web browser, navigate to the omeka-s directory, where you can complete installation.
+---
 
-You can find Omeka-specific code under `application/`.
+## 2. Run the Installer
 
-## Updating
+1.  **Run the downloaded file** (e.g., `xampp-windows-x64-*.exe`).
+2.  You may see a **UAC warning**; click **OK** or **Yes** to continue.
+3.  On the **Select Components** screen, ensure that the **MySQL** component is **checked**.
+4.  Choose your installation folder. The default is usually `C:\xampp`.
+5.  Click **Next** through the remaining steps and then **Install**.
+6.  Once installation is complete, check the box to **Start the Control Panel now** and click **Finish**.
 
-*Make a backup copy of your entire site and its database!*
+---
 
-### Updating from GitHub
+## 3. Start the MySQL Service
 
-1. `git pull` as usual. Use the `master` branch for the latest releases.
-2. From the Omeka S root directory, run `npx gulp deps` to make sure dependencies are up to date.
-3. Compare changes in `/config/local.config.php` and `/config/local.config.php.dist`. Some default configurations might have changed, so you might need to reconcile changes to the distributed configuration with your local configuration (e.g., a path to PHP specific to your server, dev mode settings, etc.)
-4. In your web browser, go to your site and run any migrations that are needed.
+1.  The **XAMPP Control Panel** will open.
+2.  Locate the **Apache** module and click the **Start** button next to it.
+3.  Locate the **MySQL** module and click the **Start** button next to it.
+4.  The status text for both should turn **green**, indicating the web server and database server are running.
 
-### Updating from released zip file
-1. Download the latest release from the [release page](https://github.com/omeka/omeka-s/releases)
-2. Make a copy of your `/config` directory. You will need to restore your `local.config.php` and `database.ini` files from that copy.
-3. Make a copy of your `/modules` and `/themes` directories.
-4. Make a copy of your `/files` directory.
-5. Remove all Omeka S files, and replace them with the files from the updated zip file.
-6. Replace your original `/config/local.config.php` file, and the `/modules`, `/themes`, and `/files` directories that you copied.
-7. In your web browser, go to your site and run any migrations that are needed.
+---
 
-## Creating a zipped release
+## 4. Access phpMyAdmin
 
-Run `npx gulp zip` to create a zipped version of Omeka S and store it in `/build`. Use the `--no-dev` flag to omit Composer dev dependencies for a smaller package suitable for end-users. Official releases follow this same process from a new, clean checkout.
+You can manage your MySQL databases through the web interface **phpMyAdmin**, which is included with XAMPP.
 
-## Libraries
+1.  In the XAMPP Control Panel, click the **Admin** button next to the **MySQL** module.
+2.  Your default web browser will open to the address `http://localhost/phpmyadmin/`.
+3.  You can now create and manage your MySQL databases using this interface.
 
-Omeka uses the following libraries, among others:
+# How to Install Omeka S
 
-* [Laminas](https://getlaminas.org/)
-* [Doctrine 2](http://www.doctrine-project.org/)
-* [EasyRdf](http://www.easyrdf.org/)
-* [PHPUnit](https://phpunit.de/)
-* [jQuery](http://jquery.com/)
+To install Omeka S, now that you have the database defined, clone this repository and place the folder omeka-test-version (rename to omeka-s) in the "xampp/htdocs" directory. Then check the main folder of this project for the official installation guide for Omeka S and how to connect the app to the database. Do not forget to install all omeka-s modules available inside the source code.
 
-## Development Standards
+# 🐘 GraphDB Installation Guide
 
-Omeka development adheres to the [Laminas Coding Style Guide](https://docs.laminas.dev/laminas-coding-standard/v2/coding-style-guide/) and uses the [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model and the [Semantic Versioning 2.0.0](https:/semver.org/spec/v2.0.0.html) version scheme.
+**GraphDB** is a high-performance semantic graph database (triplestore). For local development, the simplest method is to use its **standalone distribution**, which includes an embedded web server (Jetty) and does not require manual configuration with XAMPP's Tomcat.
 
-See the [developer documentation](https://omeka.org/s/docs/developer/) for more information.
+---
 
-# Copyright
+## 1. Prerequisites (Install Java)
 
-Omeka is Copyright © 2015-present Corporation for Digital Scholarship, Vienna, Virginia, USA http://digitalscholar.org
+GraphDB is a Java application and requires a **Java Runtime Environment (JRE)** or **Java Development Kit (JDK)** to run.
 
-The Corporation for Digital Scholarship distributes the Omeka source code under the GNU General Public License, version 3 (GPLv3). The full text of this license is given in the license file.
+1.  **Check Java Version:** Open your terminal or command line and run:
+    ```bash
+    java -version
+    ```
+2.  **Install Java:** If Java is not installed, download and install the latest stable **Java JDK** (version 8 or newer is usually sufficient) from Oracle or Adoptium.
 
-The Omeka name is a registered trademark of the Corporation for Digital Scholarship.
+---
 
-Third-party copyright in this distribution is noted where applicable.
+## 2. Download and Extract GraphDB
 
-All rights not expressly granted are reserved.
+1.  **Download:** Visit the official Ontotext GraphDB download page (search for "GraphDB Free download").
+2.  **Extract:** Download the **GraphDB Free** ZIP file and extract its contents to a simple location on your machine, such as:
+    * **Windows:** `C:\GraphDB`
+    * **Linux/macOS:** `/Users/YourName/GraphDB`
+
+---
+
+## 3. Run the GraphDB Server
+
+The server is started by opening the graphdb app.
+
+---
+
+## 4. Access the GraphDB Workbench
+
+The Workbench is the web-based user interface for managing your database.
+
+1.  **Open in Browser:** Open your web browser and navigate to:
+    ```
+    http://localhost:7200
+    ```
+2.  **Create a Repository:**
+    * In the Workbench, go to **Setup** > **Repositories**.
+    * Click the **Create new repository** button.
+    * Choose a repository type (e.g., **OWL-Horst** is common for inferencing).
+    * Provide a unique **Repository ID** (e.g., `omeka_repo`).
+    * Click **Create**.
+
+---
+
+## 5. Connecting GraphDB to Omeka S
+
+Since the project involves integrating Omeka S with GraphDB (as mentioned in your uploaded files with the `AddTriplestore` module), the connection is finalized within Omeka S.
+
+1.  **Install Module:** Ensure your Omeka S installation has the necessary module (like the custom `AddTriplestore` module) enabled.
+2.  **Configure in Omeka S Admin:** Within the Omeka S administrative dashboard, navigate to the module's configuration page.
+3.  **Enter Connection Details:** You will input the following parameters, which connect Omeka S to your running GraphDB instance:
+
+| Parameter | Value |
+| :--- | :--- |
+| **GraphDB Server URL** | `http://localhost:7200` |
+| **Repository ID** | `omeka_repo` | (Or whatever ID you chose in Step 4) |
+| **User/Password** | *Typically left empty for local setup* | (Unless you secured your GraphDB instance) |
+
+
+# Final steps
+
+Finally, after everything running, add the vocabularies to your omeka-s interface in the dashboard and configure all the permissions and change any local variables in the code, specially the key to omeka.
+
